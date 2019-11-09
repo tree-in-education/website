@@ -19,7 +19,7 @@ body, body * {
     grid-template-areas:
         "top top"
         "menu menu"
-        "left right"
+        "left main"
         "bottom bottom";
 }
 
@@ -74,7 +74,7 @@ section {
     padding: 5px;
 }
 main {
-    grid-area: right;
+    grid-area: main;
 }
 
 @media (max-width: 900px) {
@@ -83,7 +83,7 @@ main {
         grid-template-rows: 10vh auto 8vh;
         grid-template-areas:
             "top"
-            "right"
+            "main"
             "bottom";
         margin: 0px;
         grid-row-gap: 0px;
