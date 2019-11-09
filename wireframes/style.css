@@ -75,10 +75,9 @@ section {
 }
 main {
     grid-area: right;
-    /* align-items: flex-start; */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: 10vh auto 8vh;
