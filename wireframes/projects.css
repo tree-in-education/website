@@ -30,6 +30,7 @@ main {
     height: 150px;
     justify-content: center;
     align-items: center;
+    background: white;
 }
 
 @media (max-width: 900px) {
@@ -39,5 +40,6 @@ main {
     }
     .projects section {
         width: 100%;
+        height: 200px;
     }
 }

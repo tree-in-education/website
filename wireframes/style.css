@@ -101,19 +101,18 @@ main {
         grid-row-gap: 0px;
         grid-column-gap: 0px;
     }
-    aside, .desktop, nav { display: none; }
+    aside, nav { display: none; }
     footer, header { border: none; }
     header h1 {
         font-size: 1.3em;
     }
-    nav.mobile {
-        display: flex;
-    }
+    .desktop { display: none; }
+    .mobile { display: flex; }
     nav ul {
         flex-direction: column;
         width: 100%;
-        padding: 0;
-        margin: 0;
+        padding: 0px;
+        margin: 0px;
     }
     nav ul li {
         padding: 0px;
@@ -121,9 +120,6 @@ main {
     nav ul li a {
         display: flex;
         padding: 10px 18px;
-    }
-    .mobile {
-        display: flex;
     }
     header {
         align-items: center;
