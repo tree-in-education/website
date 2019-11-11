@@ -82,13 +82,22 @@ main {
 
 .logo {
     padding: 5px 8px;
+    /* margin-right: auto; */
+    font-weight: bold;
+    border: solid 2px #777;
+    background: #EEE;
+    width: 70px;
+    height: 70px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 35px;
 }
 
 .fa-search {
-    min-width: 30px;
+    min-width: 20px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: 10vh auto auto 8vh;
