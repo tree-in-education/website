@@ -114,9 +114,3 @@ const Tree = (id, opts) => {
     init();
 
 };
-const tree2 = Tree('logo', {
-    lineWidth: 2,
-    animate: true,
-    speed: 10,
-    delay: 1000
-});
