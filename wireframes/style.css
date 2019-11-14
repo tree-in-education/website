@@ -35,6 +35,10 @@ aside, main {
 }
 header {
    grid-area: top;
+   align-items: flex-end;
+}
+header h1 {
+    margin-bottom: 0px;
 }
 nav {
    grid-area: menu;
@@ -82,15 +86,15 @@ main {
 
 .logo {
     /* margin-right: auto; */
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     font-weight: bold;
     border: dashed 1px #CCC;
-    color: #444;
-    width: 70px;
-    height: 70px;
     line-height: 70px;
     text-align: center;
     border-radius: 35px;
+    color: #444; */
+    width: 170px;
+    height: 100px;
 }
 
 .fa-search {
