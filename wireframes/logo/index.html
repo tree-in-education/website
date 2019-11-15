@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TREE Lab: Logo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Logo Demo</h1>
+            <canvas id="logo" class="logo desktop"></canvas>
+        </div>
+        <script type="text/javascript" src="tree.js"></script>
+        <script>
+            const logo = Tree('logo', {
+                lineWidth: 1.5,
+                branchingDepth: 10,
+                animate: true,
+                speed: 2,
+                delay: 200
+            });
+        </script>
+    </body>
+</html>
