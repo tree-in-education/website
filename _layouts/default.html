@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="/assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         {% if page.extra_stylesheet %}
-        <link rel="stylesheet" href="/assets/css/{{ page.extra_stylesheet }}">
+        <link rel="stylesheet" href="assets/css/{{ page.extra_stylesheet }}">
         {% endif %}
     </head>
     <body>
@@ -20,8 +20,8 @@
             </main>
             {% include footer.html %}
         </div>
-        <script type="text/javascript" src="/assets/js/main.js"></script>
-        <script type="text/javascript" src="/assets/js/tree.js"></script>
+        <script type="text/javascript" src="assets/js/main.js"></script>
+        <script type="text/javascript" src="assets/js/tree.js"></script>
         <script>
             let animate = false;
             {% if page.animate %}
