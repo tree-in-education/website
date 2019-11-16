@@ -22,5 +22,18 @@
         </div>
         <script type="text/javascript" src="/assets/js/main.js"></script>
         <script type="text/javascript" src="/assets/js/tree.js"></script>
+        <script>
+            let animate = false;
+            {% if page.animate %}
+                animate = true;
+            {% endif %}
+            const logo = Tree('logo', {
+                lineWidth: 0.5,
+                fontSize: '20px',
+                animate: animate,
+                speed: 2,
+                delay: 200
+            });
+        </script>
     </body>
 </html>
