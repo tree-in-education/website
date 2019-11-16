@@ -56,9 +56,10 @@ nav ul li {
 }
 nav ul li a {
     padding: 5px 8px;
+    border: solid 1px transparent;
 }
 nav ul li a.active {
-    background: rgba(124, 143, 19, 0.3);
+    border: dotted 1px #999;
 }
 nav ul li a, nav ul li a:visited, nav ul li:active {
     text-decoration: none;
