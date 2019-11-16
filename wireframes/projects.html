@@ -12,6 +12,9 @@
         <div class="container">
             <!-- banner -->
             <header>
+                <a href="logo/index.html">
+                    <canvas id="logo" class="logo desktop"></canvas>
+                </a>
                 <h1 class="desktop">Technology, Race, Ethics, and Equity in Education Lab</h1>
                 <a class="menu-toggle mobile" href="#">
                     <i class="fas fa-bars"></i>
@@ -21,7 +24,6 @@
 
             <!-- navigation -->
             <nav>
-                <span class="logo desktop">Logo</span>
                 <ul>
                     <li><a href="index.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
@@ -69,5 +71,13 @@
             </footer>
         </div>
         <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="logo/tree.js"></script>
+        <script>
+            const logo = Tree('logo', {
+                lineWidth: 0.5,
+                fontSize: '20px',
+                animate: false
+            });
+        </script>
     </body>
 </html>
