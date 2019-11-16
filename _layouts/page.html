@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="small-container">
+    <h2>Fresh, homemade baked goods</h2>
+    <p class="sub-text">Bakery<strong>Store</strong> serves the freshest baked goods in San Francisco.</p>
+  </div>
+</section>
+{{ content }}
