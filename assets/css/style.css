@@ -108,7 +108,7 @@ main {
     .desktop { display: none; }
     .mobile { display: flex; }
 
-    nav { display: none; }
+    aside, nav { display: none; }
     footer, header { border: none; }
     header, nav {
         position: fixed;
