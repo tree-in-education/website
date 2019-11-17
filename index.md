@@ -4,6 +4,8 @@
 
 layout: landing
 animate: true
+twitter: |
+    <a class="twitter-timeline" href="https://twitter.com/sepehrvakil?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
 <h2>TREE Lab: Big Picture</h2>

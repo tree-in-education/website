@@ -73,20 +73,29 @@ footer {
 }
 
 section {
-    display: flex;
+    /* display: flex; */
     border: dotted 1px #118AB2;
-    margin: 30px 30px 0px 30px;
+    margin: 20px 20px 0px 20px;
     flex-direction: column;
     padding: 5px;
 }
 main {
     grid-area: main;
 }
+/* main.carousel {
+    height: 65vh;
+} */
 
 .logo {
     width: 170px;
     height: 100px;
 }
+.twitter {
+    min-height: 60vh;
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
 
 .fa-search {
     min-width: 20px;
