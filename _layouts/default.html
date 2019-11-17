@@ -24,13 +24,18 @@
         <script type="text/javascript" src="{{site.baseurl}}/assets/js/tree.js"></script>
         <script>
             let animate = false;
+            let isInteractive = false;
             {% if page.animate %}
                 animate = true;
+            {% endif %}
+            {% if page.isInteractive %}
+                isInteractive = true;
             {% endif %}
             const logo = Tree('logo', {
                 lineWidth: 0.5,
                 fontSize: '20px',
                 animate: animate,
+                isInteractive: isInteractive,
                 speed: 2,
                 delay: 200
             });

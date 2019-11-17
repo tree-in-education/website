@@ -4,6 +4,11 @@ const Tree = (id, opts) => {
     opts = opts || {};
     const canvas = document.getElementById(id);
     const ctx = canvas.getContext("2d");
+
+    let isInteractive = true;
+    if (opts.isInteractive !== undefined) {
+        isInteractive = opts.isInteractive;
+    }
     let animationY = canvas.height;
     let branchLengthRatio = 0.873; //0.775;
     let branchingDepth = opts.branchingDepth || 10;
@@ -98,7 +103,9 @@ const Tree = (id, opts) => {
     }
     const init = () => {
         // attach event handlers:
-        canvas.addEventListener("mousemove", updateTreeOnMousemove);
+        if (isInteractive) {
+            canvas.addEventListener("mousemove", updateTreeOnMousemove);
+        }
 
         // init animation if requested:
         if (opts.animate) {
