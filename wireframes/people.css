@@ -14,7 +14,7 @@ main {
     padding-right: 10vw;
 }
 
-.projects {
+.people {
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -23,7 +23,7 @@ main {
     border: none;
     margin-bottom: 40px;
 }
-.projects section {
+.people section {
     border: dotted 1px #CCC;
     width: 25%;
     margin: 0px;
@@ -32,12 +32,53 @@ main {
     align-items: center;
     background: white;
 }
+/* BEGIN how hover effect on grid can be created */
+.people-list {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.people-name {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.people-list:hover .image {
+  opacity: 0.3;
+}
+
+.people-list:hover .people-name {
+  opacity: 1;
+}
+
+.text {
+  background-color: #8FB339;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+/* END how hover effect on grid can be created */
 
 @media (max-width: 800px) {
     main {
         padding: 20px;
     }
-    .projects section {
+    .people section {
         width: 100%;
         height: 200px;
     }
