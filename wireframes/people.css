@@ -46,23 +46,26 @@ main {
   transition: .5s ease;
   backface-visibility: hidden;
 }
-
+.card {
+    background-size: cover !important;
+    background-position: center !important;
+}
 .people-name {
   transition: .5s ease;
   opacity: 0;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
   text-align: center;
 }
 
-.people-list:hover .image {
+.card:hover .image {
   opacity: 0.3;
 }
 
-.people-list:hover .people-name {
+.card:hover .people-name {
   opacity: 1;
 }
 
