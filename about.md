@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
-permalink: /about/
+title: How We Work
+permalink: /how-we-work/
 ---
 
-Here is some stuff for the About Page
+Here is some stuff for the How We Work Page
