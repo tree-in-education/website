@@ -1,14 +1,15 @@
 ---
 layout: default
+extra_stylesheet: people.css
 ---
 <article class="person">
     <h2>{{name}}</h2>
-    <!-- {% if page.filename %}
-    <img src="{{site.baseurl}}/{{ page.filename }}"
-        alt="Photo of a {{ page.name }}" style="width: 200px;"> -->
     {{ page.filename }}
-  {% endif %}
+    {{page.role}}<br>
+    {{page.interests}}
+      <img src = "{{site.baseurl}}/{{ page.filename }}" />
 
   <div>{{ content }}</div>
 
+kjnckjcxjkcxjkckjcx
 </article>
