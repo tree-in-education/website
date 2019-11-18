@@ -7,11 +7,8 @@
         "bottom";
 }
 main {
-    flex-direction: column;
     justify-content: center;
     align-items: stretch;
-    padding-left: 10vw;
-    padding-right: 10vw;
 }
 
 .projects, .people {

@@ -31,9 +31,12 @@ header, nav, footer {
     justify-content: center;
     align-items: center;
 }
+
 main {
     min-height: 65vh;
     flex-direction: column;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 header {
    grid-area: top;
