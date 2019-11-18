@@ -33,6 +33,16 @@ main {
     background: white;
 }
 
+.projects section a {
+    display: flex;
+    align-self: flex-end;
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
 @media (max-width: 800px) {
     main {
         padding: 20px;

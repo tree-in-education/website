@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="project">
+
+  {% if page.filename %}
+    <img src="{{site.baseurl}}/{{ page.filename }}"
+        alt="Photo of a {{ page.title | downcase }}" style="width: 200px;">
+  {% endif %}
+
+  <div>{{ content }}</div>
+
+</article>
