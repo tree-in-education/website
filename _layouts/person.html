@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="person">
+    <h2>{{name}}</h2>
+    <!-- {% if page.filename %}
+    <img src="{{site.baseurl}}/{{ page.filename }}"
+        alt="Photo of a {{ page.name }}" style="width: 200px;"> -->
+    {{ page.filename }}
+  {% endif %}
+
+  <div>{{ content }}</div>
+
+</article>

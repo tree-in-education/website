@@ -14,7 +14,7 @@ main {
     padding-right: 10vw;
 }
 
-.projects {
+.projects, .people {
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
@@ -23,23 +23,21 @@ main {
     border: none;
     margin-bottom: 40px;
 }
-.projects section {
+.projects section, .people section {
+    display: flex;
     border: dotted 1px #CCC;
-    width: 25%;
+    width: 33.3%;
     margin: 0px;
-    height: 150px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     background: white;
+    background-position: center;
+    background-size: cover;
 }
 
-.projects section a {
-    display: flex;
-    align-self: flex-end;
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    color: white;
+.projects section a, .people section a {
+    color: #444;
     text-align: center;
 }
 

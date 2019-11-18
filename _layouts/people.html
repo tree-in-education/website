@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{{content}}
+
+<section class="people">
+    {% for person in site.people %}
+    <!-- <section style="background-image: url('{{site.baseurl}}/{{ person.filename }}');">
+        <a href="{{site.baseurl}}/{{person.url}}">{{ person.name }}</a>
+    </section> -->
+    <section>
+        <a href="{{site.baseurl}}/{{person.url}}">{{ person.name }}</a><br>
+        {{ person.filename }}
+    </section>
+    {% endfor %}
+</section>
