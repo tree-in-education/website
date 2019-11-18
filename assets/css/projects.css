@@ -6,10 +6,6 @@
         "main"
         "bottom";
 }
-main {
-    justify-content: center;
-    align-items: stretch;
-}
 
 .projects, .people {
     display: flex;
@@ -42,7 +38,7 @@ main {
     main {
         padding: 20px;
     }
-    .projects section {
+    .projects section, .people section {
         width: 100%;
         height: 200px;
     }
