@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+        {% if page.extra_stylesheet %}
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ page.extra_stylesheet }}">
+        {% endif %}
+    </head>
+    <body>
+        <div class="container">
+            {% include header.html %}
+            {% include navigation.html %}
+            <main>
+                {% if page.layout == 'person' %}
+                    <h1><a href="../people/">People</a> > {{ page.title }}</h1>
+                {% elsif page.layout == 'project' %}
+                    <h1><a href="../projects/">Projects</a> > {{ page.title }}</h1>
+                {% else %}
+                    <h1>{{ page.title }}</h1>
+                {% endif %}
+
+                {{ content }}
+            </main>
+            {% include footer.html %}
+        </div>
+        <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+        <script type="text/javascript" src="{{site.baseurl}}/assets/js/tree.js"></script>
+        <script>
+            let animate = false;
+            let isInteractive = false;
+            {% if page.animate %}
+                animate = true;
+            {% endif %}
+            {% if page.isInteractive %}
+                isInteractive = true;
+            {% endif %}
+            const logo = Tree('logo', {
+                lineWidth: 0.5,
+                fontSize: '20px',
+                animate: animate,
+                isInteractive: isInteractive,
+                speed: 2,
+                delay: 200
+            });
+        </script>
+    </body>
+</html>
