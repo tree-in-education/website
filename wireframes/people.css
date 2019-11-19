@@ -27,10 +27,23 @@ main {
     border: dotted 1px #CCC;
     width: 25%;
     margin: 0px;
-    height: 150px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     background: white;
+    padding: 0px;
+}
+
+.people-name {
+    transition: .5s ease;
+    opacity: 1;
+    text-align: center;
+    /* align-self: flex-start; */
+    /* justify-self: flex-start; */
+    display: flex;
+    /* align-items: normal; */
+    height: 100%;
+    width: 100%;
 }
 /* BEGIN how hover effect on grid can be created */
 .people-list {
@@ -59,6 +72,9 @@ main {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%); */
   text-align: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
 }
 
 .card:hover .image {
@@ -70,10 +86,13 @@ main {
 }
 
 .text {
-  background-color: #8FB339;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
+    background-color: #8FB339;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
 }
 /* END how hover effect on grid can be created */
 
