@@ -6,6 +6,7 @@
         <title>TREE Lab</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
@@ -27,9 +28,9 @@
                     <li><a href="index.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
                     <li><a href="people.html">People</a></li>
-                    <li><a href="#">How We Work</a></li>
-                    <li><a href="#">Community Partners</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="how_we_work.html">How We Work</a></li>
+                    <li><a href="community_partners.html">Community Partners</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <li><a href="tree-website-mockup.pdf" target="_blank">Wire Frames</a></li>
                     <li class="desktop">
                         <a href="#"><i class="fas fa-search"></i></a>
@@ -53,33 +54,46 @@
                     </p>
                 </section>
                 <section>
-                    <h2>Twitter</h2>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
+                    <a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/tolloquialism?ref_src=twsrc%5Etfw">Tweets by tolloquialism</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </section>
             </aside>
 
             <!-- main panel -->
             <main>
-                <p>This is a photo carousel</p>
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="slideshow_images/flower1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="slideshow_images/flower2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="slideshow_images/flower3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
             </main>
 
             <!-- footer -->
@@ -89,6 +103,7 @@
         </div>
         <script type="text/javascript" src="main.js"></script>
         <script type="text/javascript" src="logo/tree.js"></script>
+        <script type="text/javascript" src="slideshow.js"></script>
         <script>
             const logo = Tree('logo', {
                 lineWidth: 0.5,
