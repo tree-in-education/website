@@ -7,6 +7,18 @@ p {
   padding-top: -10px;
 }
 
+.bigPicture {
+  border:3px solid;
+  margin: 5px;
+}
+
+.bigPictureDetails{
+  margin: 4px;
+}
+
+h2 {
+  text-align: center;
+}
 
 
 /*This is for the Slideshow Carousel */
@@ -15,8 +27,10 @@ p {
 /* Slideshow container */
 .slideshow-container {
 
-  max-width: 1000px;
-  position: relative;
+  max-width: 900px;
+  position: absolute;
+  top: 280px;
+
   margin: auto;
 }
 
