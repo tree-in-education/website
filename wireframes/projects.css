@@ -33,6 +33,11 @@ main {
     background: white;
 }
 
+.card {
+  background-size: cover !important;
+  background-position: center !important;
+}
+
 @media (max-width: 800px) {
     main {
         padding: 20px;

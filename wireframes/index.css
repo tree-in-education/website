@@ -1,8 +1,20 @@
+p {
+  margin-top: -10px;
+  margin-bottom: 1px;
+}
+
+.twitter-timeline{
+  padding-top: -10px;
+}
+
+
+
 /*This is for the Slideshow Carousel */
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
+
   max-width: 1000px;
   position: relative;
   margin: auto;

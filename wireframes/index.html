@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Handlee|Inria+Serif|Montserrat+Alternates|Nanum+Gothic+Coding|Neucha|Open+Sans|Playfair+Display|Ubuntu&display=swap&effect=putting-green" rel="stylesheet">
         <title>TREE Lab</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="style.css">
@@ -23,7 +24,7 @@
             </header>
 
             <!-- navigation -->
-            <nav>
+            <nav class="bigBar">
                 <ul>
                     <li><a href="index.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
@@ -32,8 +33,10 @@
                     <li><a href="community_partners.html">Community Partners</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="tree-website-mockup.pdf" target="_blank">Wire Frames</a></li>
-                    <li class="desktop">
-                        <a href="#"><i class="fas fa-search"></i></a>
+                    <li><form id="content">
+                      <input type="text" name="input" class="input" id="search-input">
+                      <button type="reset" class="search" id="search-btn"><a href="#"><i class="fas fa-search"></i></a></button>
+                    </form>
                     </li>
                 </ul>
             </nav>
@@ -42,16 +45,14 @@
             <aside>
                 <section>
                     <h2>TREE Lab: Big Picture</h2>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
+                    <p>The Technology, Race, Ethics, and Equity (TREE) Lab aims to research the intersections between technology, race, and ethics. We create learning experiences through demonstrations of how technology affects marginalized populations for students from under-served communities. Our work with technological innovations includes:</p>
+                    <ol type = "1">
+                      <li>designing interdisciplinary activities with teachers and learners</li>
+                      <li>creating accessible interfaces that broaden participation in technology and understanding its effects through meaningful learning experience</li>
+                      <li>facilitating discussions with learners and faculty about the intersections of technology and ethics</li>
+                      <li>innovating tools to build an equitable and ethical Computer Science education</li>
+                    </ol>
+                    <p>We position our work as inclusive, in that we endeavor to address historic and contemporary disparities in inclusivity and social, racial and economic inequity. Furthermore, we work with teachers, students, community organizations and parents, in hope of supporting the development of interdisciplinary learning oppotunities through a variety of mediums.</p>
                 </section>
                 <section>
                     <a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/tolloquialism?ref_src=twsrc%5Etfw">Tweets by tolloquialism</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -65,21 +66,27 @@
 
               <!-- Full-width images with number and caption text -->
               <div class="mySlides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="slideshow_images/flower1.jpg" style="width:100%">
+                <div class="numbertext">1 / 4</div>
+                <img src="slideshow_images/stock_1.jpg" style="width:100%">
                 <div class="text">Caption Text</div>
               </div>
 
               <div class="mySlides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="slideshow_images/flower2.jpg" style="width:100%">
+                <div class="numbertext">2 / 4</div>
+                <img src="slideshow_images/stock_2.jpg" style="width:100%">
                 <div class="text">Caption Two</div>
               </div>
 
               <div class="mySlides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="slideshow_images/flower3.jpg" style="width:100%">
+                <div class="numbertext">3 / 4</div>
+                <img src="slideshow_images/stock_3.jpg" style="width:100%">
                 <div class="text">Caption Three</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="slideshow_images/stock_4.jpg" style="width:100%">
+                <div class="text">Caption Four</div>
               </div>
 
               <!-- Next and previous buttons -->
@@ -93,6 +100,7 @@
               <span class="dot" onclick="currentSlide(1)"></span>
               <span class="dot" onclick="currentSlide(2)"></span>
               <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
               </div>
             </main>
 

@@ -1,7 +1,80 @@
 body {
    margin: 0;
-   font-family: Arial;
+   background-color: #C1D593;
+   /* font-family: 'Inria Serif', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Nanum Gothic Coding', monospace;
+    /* font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Handlee', cursive;
+    font-family: 'Neucha', cursive; */
 }
+
+/* CREATES BUTTON EFFECT */
+/**
+ * Reset button styles.
+ * It takes a bit of work to achieve a neutral look.
+ */
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+  cursor: pointer;
+  /* default for <button>, but useful for <a> */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 1px transparent;
+  border-radius: 4px;
+
+  /* size comes from text & padding (no width/height) */
+  padding: 0.5em 1em;
+
+  /* make sure colors have enough contrast! */
+  color: #ffffff;
+  background-color: #E1BC29;
+  /* ... */
+  /* all browsers: remove the default outline since
+      we are rolling our own focus styles */
+  outline: none;
+}
+
+/* old-school "down" effect on clic + color tweak */
+button:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+/* inverse colors on mouse-over */
+button:hover {
+  color: #E1BC29;
+  border-color: currentColor;
+  background-color: white;
+}
+
+/* inverse colors on mouse-over and focus */
+button:hover,
+button:focus {
+  color: #E1BC29;
+  border-color: currentColor;
+  background-color: white;
+}
+
+/* Firefox: removes the inner border shown on focus */
+button::-moz-focus-inner {
+  border: none;
+}
+END OF BUTTON EFFECT
+
 body, body * {
    box-sizing: border-box;
 }
@@ -27,7 +100,7 @@ header, nav, footer, aside, main {
    display: flex;
    justify-content: center;
    align-items: center;
-   border: dotted 1px #CCC;
+   /* border: dotted 1px #CCC; */
 }
 
 aside, main {
@@ -75,13 +148,17 @@ aside {
 
 section {
     display: flex;
-    border: dotted 1px #118AB2;
+    /* border: dotted 1px #118AB2; */
     margin: 30px 30px 0px 30px;
     flex-direction: column;
     padding: 5px;
 }
 main {
     grid-area: main;
+}
+
+.bigBar {
+    border:1px solid;
 }
 
 .logo {

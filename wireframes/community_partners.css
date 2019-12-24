@@ -27,7 +27,7 @@ margin-bottom: 40px;
 border: dotted 1px #CCC;
 width: 25%;
 margin: 0px;
-height: 150px;
+height: 250px;
 justify-content: center;
 align-items: center;
 background: white;
@@ -35,7 +35,7 @@ background: white;
 /* BEGIN how hover effect on grid can be created */
 .comm_org-list {
 position: relative;
-width: 50%;
+width: 100%;
 }
 
 .image {
@@ -61,8 +61,8 @@ transform: translate(-50%, -50%);
 text-align: center;
 }
 
-.card:hover .image {
-opacity: 0.3;
+.card:hover {
+background-image-opacity: 0.1;
 }
 
 .card:hover .comm_org-name {
@@ -74,6 +74,7 @@ background-color: #8FB339;
 color: white;
 font-size: 16px;
 padding: 16px 32px;
+display: inline-flex;
 }
 /* END how hover effect on grid can be created */
 

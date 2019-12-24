@@ -1,0 +1,22 @@
+.bigTitle{
+  position: absolute;
+  top: 240px;
+  left:80px;
+}
+
+.slideshow-container{
+  position: relative;
+  top: 20px;
+}
+
+.projectDetails{
+  position: absolute;
+  top:300px;
+  left: 44px;
+}
+
+.projectDescription{
+  position: absolute;
+  bottom: -180px;
+  bottom-padding: 40px;
+}

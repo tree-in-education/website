@@ -15,7 +15,10 @@ main {
 }
 
 img{
-  width: 100px;
-  height: 100px;
+  width: 180px;
   object-fit: scale-down;
+}
+
+button{
+  display: inline;
 }
