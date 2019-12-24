@@ -1,0 +1,29 @@
+.bigTitle{
+  position: absolute;
+  top: 240px;
+  left:80px;
+}
+
+.media_partnerships{
+  position: absolute;
+  top: 260px;
+  left: 58px;
+}
+
+.creative_organizations{
+  position: absolute;
+  top: 360px;
+  left: 58px;
+}
+
+.advocacy_organizations{
+  position: absolute;
+  top: 460px;
+  left: 58px;
+}
+
+.corporate_organizations{
+  position: absolute;
+  top: 560px;
+  left: 58px;
+}

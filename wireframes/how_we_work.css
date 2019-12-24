@@ -1,0 +1,17 @@
+.bigTitle{
+  position: absolute;
+  top: 240px;
+  left:80px;
+}
+
+.method_details{
+  position: absolute;
+  top: 260px;
+  left: 58px;
+}
+
+.apply_how_we_work{
+  position: absolute;
+  top: 460px;
+  left: 58px;
+}

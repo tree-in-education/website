@@ -7,19 +7,16 @@
         <title>TREE Lab</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="individual_project.css">
     </head>
     <body>
         <div class="container">
             <!-- banner -->
             <header>
-                <a href="/">
+                <a href="logo/index.html">
                     <canvas id="logo" class="logo desktop"></canvas>
                 </a>
                 <h1 class="desktop">Technology, Race, Ethics, and Equity in Education Lab</h1>
-                <a class="mobile" href="#">
-                    <i class="menu-toggle fas fa-bars"></i>
-                </a>
                 <h1 class="mobile">TREE Lab</h1>
             </header>
 
@@ -36,57 +33,27 @@
                     <li><form id="content">
                       <input type="text" name="input" class="input" id="search-input">
                       <button type="reset" class="search" id="search-btn"><a href="#"><i class="fas fa-search"></i></a></button>
-                    </form>
-                    </li>
+                    </form></li>
                 </ul>
             </nav>
 
-            <!-- left panel -->
-            <aside>
-                <section>
-                    <h2>TREE Lab: Big Picture</h2>
-                    <p>The Technology, Race, Ethics, and Equity (TREE) Lab aims to research the intersections between technology, race, and ethics. We create learning experiences through demonstrations of how technology affects marginalized populations for students from under-served communities. Our work with technological innovations includes:</p>
-                    <ol type = "1">
-                      <li>designing interdisciplinary activities with teachers and learners</li>
-                      <li>creating accessible interfaces that broaden participation in technology and understanding its effects through meaningful learning experience</li>
-                      <li>facilitating discussions with learners and faculty about the intersections of technology and ethics</li>
-                      <li>innovating tools to build an equitable and ethical Computer Science education</li>
-                    </ol>
-                    <p>We position our work as inclusive, in that we endeavor to address historic and contemporary disparities in inclusivity and social, racial and economic inequity. Furthermore, we work with teachers, students, community organizations and parents, in hope of supporting the development of interdisciplinary learning oppotunities through a variety of mediums.</p>
-                </section>
-                <section>
-                    <a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/tolloquialism?ref_src=twsrc%5Etfw">Tweets by tolloquialism</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </section>
-            </aside>
-
             <!-- main panel -->
             <main>
+              <h2 class="bigTitle">Facial Surveillance</h2>
               <!-- Slideshow container -->
               <div class="slideshow-container">
 
               <!-- Full-width images with number and caption text -->
               <div class="mySlides fade">
-                <div class="numbertext">1 / 4</div>
+                <div class="numbertext">1 / 2</div>
                 <img src="slideshow_images/stock_1.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
+                <div class="text">Caption One</div>
               </div>
 
               <div class="mySlides fade">
-                <div class="numbertext">2 / 4</div>
+                <div class="numbertext">2 / 2</div>
                 <img src="slideshow_images/stock_2.jpg" style="width:100%">
                 <div class="text">Caption Two</div>
-              </div>
-
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 4</div>
-                <img src="slideshow_images/stock_3.jpg" style="width:100%">
-                <div class="text">Caption Three</div>
-              </div>
-
-              <div class="mySlides fade">
-                <div class="numbertext">4 / 4</div>
-                <img src="slideshow_images/stock_4.jpg" style="width:100%">
-                <div class="text">Caption Four</div>
               </div>
 
               <!-- Next and previous buttons -->
@@ -99,9 +66,19 @@
               <div style="text-align:center">
               <span class="dot" onclick="currentSlide(1)"></span>
               <span class="dot" onclick="currentSlide(2)"></span>
-              <span class="dot" onclick="currentSlide(3)"></span>
-              <span class="dot" onclick="currentSlide(4)"></span>
               </div>
+
+              <section class="projectDetails">
+                <p><b>Date</b> 18 January 2020</p>
+                <p>
+                  <b>People</b>
+                  <br>Rhea
+                  <br>Thomas
+                </p>
+            </section>
+              <section class= "projectDescription">
+                <p>Description of Project</p>
+              </section>
             </main>
 
             <!-- footer -->
@@ -110,15 +87,13 @@
             </footer>
         </div>
         <script type="text/javascript" src="main.js"></script>
-        <script type="text/javascript" src="logo/tree.js"></script>
         <script type="text/javascript" src="slideshow.js"></script>
+        <script type="text/javascript" src="logo/tree.js"></script>
         <script>
             const logo = Tree('logo', {
                 lineWidth: 0.5,
                 fontSize: '20px',
-                animate: true,
-                speed: 2,
-                delay: 200
+                animate: false
             });
         </script>
     </body>

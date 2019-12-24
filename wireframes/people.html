@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Handlee|Inria+Serif|Montserrat+Alternates|Nanum+Gothic+Coding|Neucha|Open+Sans|Playfair+Display|Ubuntu&display=swap&effect=putting-green" rel="stylesheet">
+        <title>TREE Lab</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="people.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- banner -->
+            <header>
+              <a href="logo/index.html">
+                  <canvas id="logo" class="logo desktop"></canvas>
+              </a>
+                <h1 class="desktop">Technology, Race, Ethics, and Equity in Education Lab</h1>
+                <a class="menu-toggle mobile" href="#">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <h1 class="mobile">TREE Lab</h1>
+            </header>
+
+            <!-- navigation -->
+            <nav class="bigBar">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="people.html">People</a></li>
+                    <li><a href="how_we_work.html">How We Work</a></li>
+                    <li><a href="community_partners.html">Community Partners</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tree-website-mockup.pdf" target="_blank">Wire Frames</a></li>
+                    <li><form id="content">
+                      <input type="text" name="input" class="input" id="search-input">
+                      <button type="reset" class="search" id="search-btn"><a href="#"><i class="fas fa-search"></i></a></button>
+                    </form></li>
+                </ul>
+            </nav>
+
+            <!-- main panel -->
+            <main>
+                <h1>People</h1>
+                  <section class="people">
+                      <section class="card" style="background-image: url('people_images/beyonce_headshot.jpg')" onclick="window.location.href='individual_person.html'">
+                        <!-- <img src="beyonce_headshot.jpg" alt="Test1" class="image" style="width:100%"> -->
+                        <div class = "people-name">
+                          <div class = "text">Beyonce Knowles</div>
+                      </section>
+                      <section class="card" style="background-image: url('people_images/lupita_headshot.jpg')">
+                        <!-- <img src="lupita_headshot.jpg" alt="Test2" class="image" style="width:100%"> -->
+                        <div class = "people-name">
+                          <div class = "text">Lupita Nyong'o</div>
+                      </section>
+                      <section class="card" style="background-image: url('people_images/rihanna_headshot.jpg')">
+                        <!-- <img src="rihanna_headshot.jpg" alt="Test3" class="image" style="width:100%"> -->
+                        <div class = "people-name">
+                          <div class = "text">Rihanna Fenty</div>
+                      </section>
+                      <section class="card" style="background-image: url('people_images/megan_headshot.jpeg')">
+                        <!-- <img src="megan_headshot.jpeg" alt="Test4" class="image" style="width:100%"> -->
+                        <div class = "people-name">
+                          <div class = "text">Megan Thee Stallion</div>
+                      </section>
+                      <section>5</section>
+                      <section>6</section>
+                      <section>7</section>
+                      <section>8</section>
+                      <section>9</section>
+                      <section>10</section>
+                      <section>11</section>
+                      <section>12</section>
+                      <section>13</section>
+                      <section>14</section>
+                      <section>15</section>
+                      <section>16</section>
+                  </section>
+            </main>
+
+            <!-- footer -->
+            <footer>
+                <p>My footer</p>
+            </footer>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="logo/tree.js"></script>
+        <script>
+            const logo = Tree('logo', {
+                lineWidth: 0.5,
+                fontSize: '20px',
+                animate: true,
+                speed: 2,
+                delay: 200
+            });
+        </script>
+    </body>
+</html>
