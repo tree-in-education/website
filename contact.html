@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Handlee|Inria+Serif|Montserrat+Alternates|Nanum+Gothic+Coding|Neucha|Open+Sans|Playfair+Display|Ubuntu&display=swap&effect=putting-green" rel="stylesheet">
+        <title>TREE Lab</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- banner -->
+            <header>
+                <a href="logo/index.html">
+                    <canvas id="logo" class="logo desktop"></canvas>
+                </a>
+                <h1 class="desktop">Technology, Race, Ethics, and Equity in Education Lab</h1>
+                <a class="menu-toggle mobile" href="#">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <h1 class="mobile">TREE Lab</h1>
+            </header>
+
+            <!-- navigation -->
+            <nav class="bigBar">
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="people.html">People</a></li>
+                    <li><a href="how_we_work.html">How We Work</a></li>
+                    <li><a href="community_partners.html">Community Partners</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="tree-website-mockup.pdf" target="_blank">Wire Frames</a></li>
+                    <li><form id="content">
+                      <input type="text" name="input" class="input" id="search-input">
+                      <button type="reset" class="search" id="search-btn"><a href="#"><i class="fas fa-search"></i></a></button>
+                    </form></li>
+                </ul>
+            </nav>
+
+            <!-- main panel -->
+            <main>
+              <h1 class="bigTitle">We'd love to hear from you!</h1>
+              <table style = "width:100%">
+              <th>
+                <section class="twitter_contact">
+                  <section class="icon"> <img src= "contact_images/Twitter_Logo_Blue.png" alt="twitter_icon"> </section>
+                  <h2>Want to stay updated about the TREE Lab?</h2>
+                  <p>Stay in touch! Keep up with all TREE Lab's news.</p>
+                  <button onclick="window.location.href='https://twitter.com/tolloquialism'">FOLLOW</button>
+                </section>
+              </th>
+              <th>
+                <section class="apply_contact">
+                  <section class="icon"> <img src= "contact_images/application.png" alt="apply_icon"> </section>
+                  <h2>Interested in working with us?</h2>
+                  <p>Apply! Tell us how you want to make an impact in technology and ethics. All majors can apply.</p>
+                  <button onclick="window.location.href='https://forms.gle/dLXYiLxsNJhKCJZX9'">APPLY</button>
+                </section>
+              </th>
+              <th>
+                <section class="collab_contact">
+                  <section class="icon"> <img src= "contact_images/interview_bw.png" alt="collab_icon"> </section>
+                  <h2>Want to collaborate with TREE Lab?</h2>
+                  <p>Learn more about the collaborations we have done in the past and how we work with partnering organizations.</p>
+                  <button onclick="window.location.href='collaborate.html'">COLLABORATE</button>
+                </section>
+              </th>
+              <th>
+                <section class="etc_contact">
+                  <section class="icon"> <img src="contact_images/envelope.png" alt="email_icon"> </section>
+                  <h2>Additional questions?</h2>
+                  <p>Please reach out! Expect a response in 2-3 business days.</p>
+                  <button onclick="window.location.href='mailto:sepehr.vakil@northwestern.edu'">EMAIL</button>
+                </section>
+              </th>
+            </table>
+            </main>
+
+            <!-- footer -->
+            <footer>
+                <p>My footer</p>
+            </footer>
+        </div>
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="logo/tree.js"></script>
+        <script>
+            const logo = Tree('logo', {
+                lineWidth: 0.5,
+                fontSize: '20px',
+                animate: false
+            });
+        </script>
+    </body>
+</html>
