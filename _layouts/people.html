@@ -5,20 +5,12 @@ layout: default
 
 <section class="people">
     {% for person in site.people %}
-    <!-- <section style="background-image: url('{{site.baseurl}}/{{ person.filename }}');">
-        <a href="{{site.baseurl}}/{{person.url}}">{{ person.name }}</a>
-    </section> -->
-    <!-- <section>
-        <a href="{{site.baseurl}}{{person.url}}">{{ person.name }}</a><br>
-        <img src = "{{site.baseurl}}/{{ person.filename }}" />
-    </section> -->
-
     <section class="card" style="background-image: url('{{site.baseurl}}/{{ person.filename }}')">
         <!-- <img src="rihanna_headshot.jpg" alt="Test3" class="image" style="width:100%"> -->
         <div class="people-name">
           <div class="text">{{ person.name }}</div>
 
-          
+
       </section>
     {% endfor %}
 </section>

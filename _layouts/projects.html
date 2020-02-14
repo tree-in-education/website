@@ -5,10 +5,6 @@ layout: default
 
 <section class="projects">
     {% for project in site.projects %}
-    <!-- <section style="background-image: url('{{site.baseurl}}/{{ project.filename }}');">
-        <a href="{{site.baseurl}}/{{project.url}}">{{ project.title }}</a><br>
-        {{ project.filename }}
-    </section> -->
     <section>
         <a href="{{site.baseurl}}{{project.url}}">{{ project.title }}</a><br>
         {{ project.filename }}
