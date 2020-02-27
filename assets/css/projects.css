@@ -1,11 +1,10 @@
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background:url("background.jpg");
-  overflow: hidden;
+.projects {
+    width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .card {
   display: grid;
@@ -33,6 +32,8 @@ body {
   /* border-top-left-radius: 15px;
   border-top-right-radius: 15px; */
   background-size: cover;
+  /* width: 100px;*/
+  height: 250px; 
 }
 
 .card-text {
