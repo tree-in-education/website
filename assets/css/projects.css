@@ -1,50 +1,65 @@
-.container {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-        "top"
-        "menu"
-        "main"
-        "bottom";
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:url("background.jpg");
+  overflow: hidden;
+}
+.card {
+  display: grid;
+  max-width: 30%;
+  /* grid-template-columns: 300px;
+  grid-template-rows: 280px 120px; */
+  grid-template-areas: "image" "text";
+
+  /* to round the corners */
+  /* border-radius: 18px; */
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  font-family: roboto;
+  text-align: center;
+
+
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin:30px;
+}
+.card-image {
+  grid-area: image;
+  /* background: url("img1.jpg"); */
+  /* to round the corners */
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+  background-size: cover;
 }
 
-.projects, .people {
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap;
-    padding: 0px;
-    margin: 0px;
-    border: none;
-    margin-bottom: 40px;
-}
-.projects section, .people section {
-    display: flex;
-    border: dotted 1px #CCC;
-    width: 33.3%;
-    margin: 0px;
-    height: 250px;
-    justify-content: center;
-    align-items: center;
-    background: white;
-    background-position: center;
-    background-size: cover;
+.card-text {
+  grid-area: text;
+  margin: 25px;
 }
 
-.projects section a, .people section a {
-    color: #444;
-    text-align: center;
+.card-text p {
+  color: grey;
+  font-size:15px;
+  font-weight: 300;
+}
+.card-text h2 {
+  margin-top:0px;
+  font-size:28px;
 }
 
-.people img {
-  width: 200px;
-  
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
 }
 
-@media (max-width: 800px) {
-    main {
-        padding: 20px;
-    }
-    .projects section, .people section {
-        width: 100%;
-        height: 200px;
-    }
-}
+.block-20 {
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 350px;
+  position: relative;
+  display: block; }
