@@ -4,28 +4,50 @@ layout: default
 {{content}}
 <section class="projects">
   {% for project in site.projects %}
-  
+
     <div class="card">
       <div class="card-image" style="background-image: url('{{site.baseurl}}/{{ project.filename }}');"> </div>
       <div class="card-text">
-        <div class="card-date">{{ project.date }}</div>
+        <div class="card-date">{{ project.date | date: "%B %-d, %Y"  }}</div>
         <div class="card-people">{{ project.people }}</div>
-        <a href="{{site.baseurl}}{{project.url}}"><h2>{{ project.title }}</h2></a>
-        <p>{{ project.description }}</p>
+        <a href="{{site.baseurl}}{{project.url}}"><h3>{{ project.title }}</h3></a>
+        <!-- <p>{{ project.description }}</p> -->
       </div>
     </div>
   {% endfor %}
 </section>
 
-<!-- <section class="projects">
-    {% for project in site.projects %}
-    <!-- <section style="background-image: url('{{site.baseurl}}/{{ project.filename }}');">
-        <a href="{{site.baseurl}}/{{project.url}}">{{ project.title }}</a><br>
-        {{ project.filename }}
-    </section> -->
-    <!-- <section>
-        <a href="{{site.baseurl}}{{project.url}}">{{ project.title }}</a><br>
-        {{ project.filename }}
-    </section>
-    {% endfor %}
-</section> --> -->
+<!-- not really sure how to template page numbers and limit to 6 or 9 cards a page-->
+<!-- <script>
+  var i;
+  var max-card-amount = 6;
+  for (i=0; i < max-card-amount.length; i++) {
+
+  }
+</script> -->
+
+<section class="page-arrows">
+  <ul class="text-center">
+    <li>
+      <a href="#">&lt;</a>
+    </li>
+    <li class="active">
+      <span>1</span>
+    </li>
+    <li>
+      <a href='#'>2</a>
+    </li>
+    <li>
+      <a href='#'>3</a>
+    </li>
+    <li>
+      <a href='#'>4</a>
+    </li>
+    <li>
+      <a href='#'>5</a>
+    </li>
+    <li>
+      <a href="#">&gt;</a>
+    </li>
+  </ul>
+</section>

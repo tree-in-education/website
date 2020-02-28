@@ -1,6 +1,7 @@
 body {
    margin: 0;
-   font-family: Arial;
+   font-family: work sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    background: #f8faff!important;
 }
 body, body * {
    box-sizing: border-box;
@@ -27,7 +28,7 @@ header, nav, footer, main {
    display: flex;
    border: dotted 1px #CCC;
 }
-header, nav, footer {
+header, nav{
     justify-content: center;
     align-items: center;
 }
@@ -110,9 +111,12 @@ main {
     overflow-y: auto;
 }
 
-
 .fa-search {
     min-width: 20px;
+}
+
+a {
+  text-decoration: none;
 }
 
 @media (max-width: 800px) {

@@ -1,66 +1,95 @@
 .projects {
-    width: 90vw;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
+  /* width: 90vw; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: work sans,Arial,sans-serif;
 }
 .card {
   display: grid;
-  max-width: 30%;
+  width: 30%;
   /* grid-template-columns: 300px;
   grid-template-rows: 280px 120px; */
   grid-template-areas: "image" "text";
-
+  position: relative;
+  margin: 15px;
   /* to round the corners */
   /* border-radius: 18px; */
   background: white;
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-  font-family: roboto;
-  text-align: center;
-
-
-  transition: 0.5s ease;
-  cursor: pointer;
-  margin:30px;
+  box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
+  border: 1px solid #f7f7f7;
 }
 .card-image {
   grid-area: image;
-  /* background: url("img1.jpg"); */
   /* to round the corners */
   /* border-top-left-radius: 15px;
   border-top-right-radius: 15px; */
   background-size: cover;
-  /* width: 100px;*/
-  height: 250px; 
+  height: 250px;
 }
 
+.card-date{
+  float: left;
+  font-size: 15px;
+}
+/* if we do a project description */
 .card-text {
   grid-area: text;
-  margin: 25px;
+  color: #8b8b92;
+  padding: 1.5rem;
 }
 
-.card-text p {
-  color: grey;
-  font-size:15px;
-  font-weight: 300;
-}
-.card-text h2 {
-  margin-top:0px;
-  font-size:28px;
+.card-text h3 {
+  color: #404044;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height:1.5;
 }
 
-.card:hover {
-  transform: scale(1.15);
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+.card-text h3:hover{
+  color: #87C38F;
 }
 
-.block-20 {
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 350px;
-  position: relative;
-  display: block; }
+.page-arrows ul li{
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.page-arrows ul li a, .page-arrows ul li span {
+  color: #280000;
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 18px;
+  /* to make the arrow buttons perfect circles */
+  /* border-radius: 50%; */
+  border: 1px solid #38A700;
+}
+
+.page-arrows ul li.active a, .page-arrows ul li.active span {
+    background: #92CF73;
+    color: #280000;
+    border: none;
+}
+
+.text-center {
+  text-align: center!important;
+}
