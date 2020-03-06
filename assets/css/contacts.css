@@ -1,0 +1,70 @@
+.projects {
+  /* width: 90vw; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: work sans,Arial,sans-serif;
+}
+.card {
+  display: grid;
+  width: 30%;
+  /* grid-template-columns: 300px;
+  grid-template-rows: 280px 120px; */
+  grid-template-areas: "image" "text";
+  position: relative;
+  margin: 15px;
+  /* to round the corners */
+  /* border-radius: 18px; */
+  background: white;
+  box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
+  border: 1px solid #f7f7f7;
+}
+.card-image {
+  grid-area: image;
+  /* to round the corners */
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+  background-size: cover;
+  height: 250px;
+}
+
+.card-date{
+  float: left;
+  font-size: 15px;
+}
+/* if we do a project description */
+.card-text {
+  grid-area: text;
+  color: #8b8b92;
+  padding: 1.5rem;
+}
+
+.card-text h3 {
+  color: #404044;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height:1.5;
+}
+
+.card-text h3:hover{
+  color: #87C38F;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.text-center {
+  text-align: center!important;
+}
