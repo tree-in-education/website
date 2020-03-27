@@ -7,7 +7,6 @@ permalink: /contact/
 <div class="banner-text">
   <span class="letter">Feel Free to Branch Out</span>
 </div>
-<!-- <h2 class="text-center">Feel free to branch out!</h2> -->
   <main class="contact-info">
   <div class="card">
     <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/Twitter_bw.png');"> </div>
