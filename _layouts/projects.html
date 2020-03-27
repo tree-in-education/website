@@ -2,13 +2,50 @@
 layout: default
 ---
 {{content}}
-
 <section class="projects">
-    {% for project in site.projects %}
+
+  {% for project in site.projects %}
+
+    <div class="card">
+      <div class="card-image" style="background-image: url('{{site.baseurl}}/{{ project.filename }}');"> </div>
+      <div class="card-text">
+        <div class="card-date">{{ project.date | date: "%B %-d, %Y"  }}</div>
+        <div class="card-people">{{ project.people }}</div>
+        <a href="{{site.baseurl}}{{project.url}}"><h3>{{ project.title }}</h3></a>
+      </div>
+    </div>
+  {% endfor %}
+</section>
+
+<section class="page-arrows">
+  <ul class="text-center">
+    <li>
+      <a href="#">&lt;</a>
+    </li>
+    <li class="active">
+      <span>1</span>
+    </li>
+    <li>
+      <a href='#'>2</a>
+    </li>
+    <li>
+      <a href='#'>3</a>
+    </li>
+    <li>
+      <a href='#'>4</a>
+    </li>
+    <li>
+      <a href='#'>5</a>
+    </li>
+    <li>
+      <a href="#">&gt;</a>
+    </li>
+  </ul>
+<!--     {% for project in site.projects %}
     <section>
         <a href="{{site.baseurl}}{{project.url}}">{{ project.title }}</a><br>
         {{ project.filename }}
         {{ project.icon}}
     </section>
-    {% endfor %}
+    {% endfor %} -->
 </section>

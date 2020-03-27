@@ -1,0 +1,48 @@
+body {
+  margin:0;
+}
+
+.footer-container{
+  padding-top: 100px;
+  color: #fff;
+}
+
+.row{
+  padding: 5em 0em 5em;
+  margin:0;
+  min-width: 100%;
+  background-color:#38A700;
+}
+
+.col-md {
+  display: inline-grid;
+  width: 30%;
+  grid-template-columns: "a a a";
+  padding-left: 5rem;
+}
+
+.quick-links {
+  margin-left: -2.4rem !important;
+}
+
+ul{
+  list-style: none;
+  line-height: 3rem;
+}
+
+a {
+  color: #fff;
+}
+
+ul a:hover{
+  color: #87C38F;
+}
+
+.footer-summary {
+  line-height: 2rem;
+}
+
+.copyright-details {
+  padding-top: 5px;
+  text-align: center;
+}

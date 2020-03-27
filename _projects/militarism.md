@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Twint
-filename: assets/images/green.jpg
+title: Militarism
+filename: assets/images/img2.jpg
 date: Feb 12, 2020
 ---
 
