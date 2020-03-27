@@ -22,7 +22,7 @@ permalink: /how-we-work/
     <div class="card">
       <p><b>Curious about collaboration<br>as a community partner?</b></p>
       <div>
-        <button onclick="window.location.href='{{site.baseurl}}/collaborate.html'">COLLABORATE</button>
+        <button onclick="window.location.href='{{site.baseurl}}/collaborate/'">COLLABORATE</button>
       </div>
     </div>
   </div>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Community Partners
+permalink: /partners/
 ---
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/community_partners.css">
 <main>
@@ -15,7 +16,25 @@ title: Community Partners
       <div class="card">
         <div class="card-image" style="background-image: url('assets/images/community_partners_images/naacp.png')" onclick="window.location.href='https://www.naacp.org/about-us/'"></div>
         <div class = "comm_org-name">
+          <div class = "card-text"><h5>Animal Welfare</h5></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image" style="background-image: url('assets/images/community_partners_images/naacp.png')" onclick="window.location.href='https://www.naacp.org/about-us/'"></div>
+        <div class = "comm_org-name">
+          <div class = "card-text"><h5>Google.org</h5></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image" style="background-image: url('assets/images/community_partners_images/naacp.png')" onclick="window.location.href='https://www.naacp.org/about-us/'"></div>
+        <div class = "comm_org-name">
           <div class = "card-text"><h5>National Association for the Advancement of Colored People</h5></div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-image" style="background-image: url('assets/images/community_partners_images/naacp.png')" onclick="window.location.href='https://www.naacp.org/about-us/'"></div>
+        <div class = "comm_org-name">
+          <div class = "card-text"><h5>Chicago Mayor Lightfoot's Office</h5></div>
         </div>
       </div>
       <div class="card">
@@ -28,7 +47,7 @@ title: Community Partners
     <div class="collab-card">
       <p><b>We are looking to partner with new organizations. Learn more about the collaborations we have done in the past and how we work with partnering organizations.</b></p>
       <div class="align-center">
-        <button onclick="window.location.href='{{site.baseurl}}/collaborate.html'">COLLABORATE</button>
+        <button onclick="window.location.href='{{site.baseurl}}/collaborate/'">COLLABORATE</button>
       </div>
     </div>
 </main>

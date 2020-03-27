@@ -29,7 +29,7 @@ permalink: /contact/
     <div class="card-text">
       <h3>Want to collaborate with TREE Lab?</h3>
       <p>Learn more about the collaborations we have done in the past and how we work with partnering organizations.</p>
-      <button onclick="window.location.href='{{site.baseurl}}/collaborate.html'">COLLABORATE</button>
+      <button onclick="window.location.href='{{site.baseurl}}/collaborate/'">COLLABORATE</button>
     </div>
   </div>
   <div class="card">
