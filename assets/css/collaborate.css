@@ -1,10 +1,11 @@
 .card {
   display: grid;
-  width: 50%;
   grid-template-areas: "text";
   text-align: center;
   position: relative;
-  padding: 1rem;
+  padding: 0.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
   margin: 1rem;
   background: white;
   box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
@@ -12,5 +13,5 @@
 }
 
 .bottom-buttons {
-  display: inline-flex;
+  align-self: center;
 }

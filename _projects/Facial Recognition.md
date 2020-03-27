@@ -11,10 +11,6 @@ images:
   - caption: "Caption 2"
     url: "red.jpg"
 
-people:
-  - Rhea
-  - Thomas
-  - Titobi
 ---
 
 Here is some stuff for the Facial Recognition Technologies page.

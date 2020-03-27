@@ -7,7 +7,6 @@ permalink: /contact/
 <div class="banner-text">
   <span class="letter">Feel Free to Branch Out</span>
 </div>
-<!-- <h2 class="text-center">Feel free to branch out!</h2> -->
   <main class="contact-info">
   <div class="card">
     <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/Twitter_bw.png');"> </div>
@@ -30,7 +29,7 @@ permalink: /contact/
     <div class="card-text">
       <h3>Want to collaborate with TREE Lab?</h3>
       <p>Learn more about the collaborations we have done in the past and how we work with partnering organizations.</p>
-      <button onclick="window.location.href='{{site.baseurl}}/collaborate.html'">COLLABORATE</button>
+      <button onclick="window.location.href='{{site.baseurl}}/collaborate/'">COLLABORATE</button>
     </div>
   </div>
   <div class="card">

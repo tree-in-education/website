@@ -1,84 +1,100 @@
-.container{
-grid-template-columns: 1fr;
-grid-template-areas:
-    "top"
-    "menu"
-    "main"
-    "bottom";
+.comm-org-list {
+  /* width: 90vw; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
 }
-main {
-flex-direction: column;
-justify-content: center;
-align-items: stretch;
-padding-left: 10vw;
-padding-right: 10vw;
-}
-
-.comm_orgs {
-display: flex;
-flex-direction: row;
-flex-wrap:wrap;
-padding: 0px;
-margin: 0px;
-border: none;
-margin-bottom: 40px;
-}
-.comm_orgs section {
-border: dotted 1px #CCC;
-width: 25%;
-margin: 0px;
-height: 250px;
-justify-content: center;
-align-items: center;
-background: white;
+.card {
+  display: grid;
+  width: 30%;
+  grid-template-areas: "image";
+  position: relative;
+  margin: 10px;
+  /* to round the corners */
+  /* border-radius: 18px; */
+  background: white;
+  box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
+  border: 1px solid #f7f7f7;
 }
 
-.comm_org-list {
-position: relative;
-width: 100%;
+.collab-card {
+  align-self: center;
+  display: grid;
+  width: 80%;
+  grid-template-areas: "text";
+  text-align: center;
+  position: relative;
+  padding: 1rem;
+  margin: 4rem;
+  background: white;
+  box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
+  border: 1px solid #f7f7f7;
+}
+
+.card-image {
+  grid-area: image;
+  /* to round the corners */
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+  background-size: cover;
+  height: auto;
 }
 
 .image {
-opacity: 1;
-display: block;
-width: 100%;
-height: auto;
-transition: .5s ease;
-backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
-.card {
-background-size: cover !important;
-background-position: center !important;
-}
+
 .comm_org-name {
-transition: .5s ease;
-opacity: 0;
-text-align: center;
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
 }
 
 .card:hover {
-background-image-opacity: 0.1;
+  background-image-opacity: 0.1;
+  cursor: pointer;
 }
 
 .card:hover .comm_org-name {
-opacity: 1;
+  opacity: 1;
 }
 
-.text {
-background-color: #8FB339;
-color: white;
-font-size: 16px;
-padding: 16px 32px;
-display: inline-flex;
+.card-text {
+  grid-area: text;
+  color: #8b8b92;
+  padding: 1.5rem;
 }
+
+.card-text h5 {
+  color: #404044;
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height:1.5;
+}
+
+.align-center{
+  align-self: center;
+}
+
+/* .card-text h5:hover{
+  color: #87C38F;
+} */
+
 /* END how hover effect on grid can be created */
 
 @media (max-width: 800px) {
 main {
     padding: 20px;
 }
-.people section {
-    width: 100%;
-    height: 200px;
-}
+
 }

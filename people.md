@@ -17,7 +17,7 @@ Here is some stuff for the People Page
 
     <!-- preview panel -->
     <section class="preview_box">
-        <div class="featured_image" style="background-image:url('{{ site.baseurl }}/assets/images/placeholder.jpg');"></div>
+        <div class="featured_image" style="background-image:url('assets/images/placeholder.jpg');"></div>
         <button class="close">&times;</button>
         <button class="prev">&lsaquo;</button>
         <button class="next">&rsaquo;</button>
