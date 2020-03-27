@@ -1,8 +1,8 @@
 ---
 layout: person
-title: Jane
-name: Jane Doe
-filename: assets/images/green.jpg
+title: Rihanna
+name: Rihanna
+filename: assets/images/people_images/rihanna_headshot.jpg
 ---
 
-Here is some stuff about Jane.
+Here is some stuff about Rihanna.

@@ -3,6 +3,7 @@ layout: default
 ---
 {{content}}
 <section class="projects">
+
   {% for project in site.projects %}
 
     <div class="card">
@@ -40,4 +41,11 @@ layout: default
       <a href="#">&gt;</a>
     </li>
   </ul>
+<!--     {% for project in site.projects %}
+    <section>
+        <a href="{{site.baseurl}}{{project.url}}">{{ project.title }}</a><br>
+        {{ project.filename }}
+        {{ project.icon}}
+    </section>
+    {% endfor %} -->
 </section>

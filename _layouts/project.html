@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <!-- <article class="project">
 
   {% if page.filename %}
@@ -9,7 +10,38 @@ layout: default
     <!-- {{ page.filename }}
   {% endif %}
 
-  <div>{{ content }}</div>
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/individual_project.css">
+
+<nav class="bigBar">
+    <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="how_we_work.html">How We Work</a></li>
+        <li><a href="community_partners.html">Community Partners</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="tree-website-mockup.pdf" target="_blank">Wire Frames</a></li>
+    </ul>
+</nav>
+
+
+<!-- main panel -->
+<main>
+  <h2 class="bigTitle">{{ page.projectTitle }}</h2>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    {% assign i = 1 %}
+    {% for image in page.images %}
+    <div class="mySlides fade">
+        <div class= "numbertext"> {{ i }} / {{ page.images | size }}</div>
+        <div class= "image" style="background-image:url('{{site.baseurl}}/assets/images/{{image.url}}');"></div>
+        <!-- <img src="{{site.baseurl}}/assets/images/{{image.url}}" style="width:100%"> -->
+        <div class="text">{{image.caption}}</div>
+      </div>
+        {% assign i = i | plus: 1 %}
+      {% endfor %}
+  <!-- Full-width images with number and caption text -->
+
 
 </article> -->
 
@@ -89,3 +121,33 @@ layout: default
     </div>
   </div>
 </section>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+  {% assign i = 1 %}
+  {% for image in page.images %}
+    <span class="dot" onclick="currentSlide({{i}})"></span>
+  {% assign i = i | plus: 1 %}
+  {% endfor %}
+  </div>
+
+  <section class="projectDetails">
+    <p>
+      <b>People</b>
+      {% for person in page.people %}
+        <br>{{person}}
+        {% endfor %}
+    </p>
+</section>
+  <section class= "projectDescription">
+    <p>{{ page.content }}</p>
+  </section>
+</main>
+
+<script type="text/javascript" src= "{{site.baseurl}}/assets/js/slideshow.js"></script>
