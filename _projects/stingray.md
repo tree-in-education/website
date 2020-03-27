@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Stingray
-filename: assets/images/img1.jpg
+projectTitle: Stingray
+filename: assets/images/purple.jpg
 ---
 
 Here is some stuff for the Stingray page.

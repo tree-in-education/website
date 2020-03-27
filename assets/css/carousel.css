@@ -1,0 +1,68 @@
+
+.preview_box {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.preview_box.active {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    background: rgba(255, 255, 255, 1);
+}
+
+.featured_image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.next, .prev, .close {
+    position: absolute;
+    color: white;
+    border-width: 0px;
+    font-size: 2.5em;
+}
+.close {
+    background: none;
+    top: 0vh;
+    line-height: 1em;
+    right: 0vh;
+}
+.next, .prev {
+    background: rgba(255,255,255,0.2);
+    border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    padding-bottom: 5px;
+}
+.next:hover, .prev:hover, .close:hover {
+    background: rgba(255,255,255,0.4);
+}
+.prev {
+    top: 45vh;
+    left: 2vw;
+}
+.next {
+    top: 45vh;
+    right: 2vw;
+}
+
+
+
+
+/*
+// Alternate style:
+.featured_image {
+    width: 80%;
+    height: 80%;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+   box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
+      0 17px 17px 0 rgba(0, 0, 0, 0.15);
+}
+*/

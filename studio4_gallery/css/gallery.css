@@ -1,0 +1,43 @@
+body {
+    height:100%;
+    margin:0;
+    padding:0;
+}
+body * {
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    list-style: none;
+}
+.cards li {
+    width: 25%;
+    height: 50%;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.image {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.image:hover {
+    opacity: 0.7;
+}
+
+/* Media Queries */
+@media (max-width: 900px) {
+    main .card { width: 50%; }
+}
+
+@media (max-width: 550px) {
+    main .card { width: 100%; }
+}
