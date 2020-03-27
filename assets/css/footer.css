@@ -1,17 +1,14 @@
 body {
   margin:0;
-  font-family: work sans,Arial,sans-serif;
-  line-height: 1.8;
-  font-weight: 300;
 }
 
 .footer-container{
-  padding-top: 120px;
+  padding-top: 100px;
   color: #fff;
 }
 
 .row{
-  padding: 8em 0em 8em;
+  padding: 5em 0em 5em;
   margin:0;
   min-width: 100%;
   background-color:#38A700;
@@ -22,7 +19,6 @@ body {
   width: 30%;
   grid-template-columns: "a a a";
   padding-left: 5rem;
-  /* margin-left: 5rem !important; */
 }
 
 .quick-links {
@@ -31,17 +27,22 @@ body {
 
 ul{
   list-style: none;
+  line-height: 3rem;
+}
+
+a {
+  color: #fff;
+}
+
+ul a:hover{
+  color: #87C38F;
+}
+
+.footer-summary {
+  line-height: 2rem;
 }
 
 .copyright-details {
-  padding-top: 45px;
-  text-align: center !important;
+  padding-top: 5px;
+  text-align: center;
 }
-
-/* .vertical-line {
-  border-left: 6px solid #8b8b92;
-}
-
-.text-center {
-  text-align: center!important;
-} */

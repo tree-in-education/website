@@ -9,11 +9,11 @@ twitter: |
 carousel:
 ---
 
-<h2>TREE Lab: Big Picture</h2>
+<h2 class="underline-border">TREE Lab: Big Picture</h2>
 <p>
   The Technology, Race, Ethics, and Equity (TREE) Lab aims to research the intersections between technology, race, and ethics. We create learning experiences through demonstrations of how technology affects marginalized populations for students from under-served communities. Our work with technological innovations includes:
 </p>
-<ol>
+<ol> <b>
     <li>
       designing interdisciplinary activities with teachers and learners
     </li>
@@ -26,7 +26,7 @@ carousel:
     <li>
       innovating tools to build an equitable and ethical Computer Science education
     </li>
-</ol>
+</b> </ol>
 <p>
 We position our work as inclusive, in that we endeavor to address historic and contemporary disparities in inclusivity and social, racial and economic inequity. Furthermore, we work with teachers, students, community organizations and parents, in hope of supporting the development of interdisciplinary learning opportunities through a variety of mediums.
 </p>

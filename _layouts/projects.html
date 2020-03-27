@@ -11,20 +11,10 @@ layout: default
         <div class="card-date">{{ project.date | date: "%B %-d, %Y"  }}</div>
         <div class="card-people">{{ project.people }}</div>
         <a href="{{site.baseurl}}{{project.url}}"><h3>{{ project.title }}</h3></a>
-        <!-- <p>{{ project.description }}</p> -->
       </div>
     </div>
   {% endfor %}
 </section>
-
-<!-- not really sure how to template page numbers and limit to 6 or 9 cards a page-->
-<!-- <script>
-  var i;
-  var max-card-amount = 6;
-  for (i=0; i < max-card-amount.length; i++) {
-
-  }
-</script> -->
 
 <section class="page-arrows">
   <ul class="text-center">

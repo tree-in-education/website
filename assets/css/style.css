@@ -2,6 +2,7 @@ body {
    margin: 0;
    font-family: work sans,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
     background: #f8faff!important;
+    line-height: 1.5;
 }
 body, body * {
    box-sizing: border-box;
@@ -12,9 +13,9 @@ body, body * {
 .container {
     display: grid;
     min-height: 100vh;
-    grid-row-gap: 20px;
+    /* grid-row-gap: 20px;
     grid-column-gap: 20px;
-    margin: 20px;
+    margin: 20px; */
     grid-template-columns: 1fr;
     grid-template-rows: 15vh auto auto 10vh;
     grid-template-areas:
@@ -24,13 +25,56 @@ body, body * {
         "bottom";
 }
 
+.underline-border {
+  border-bottom: 2px solid #87C38F;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: #ffffff;
+  background-color: #87C38F;
+  outline: none;
+}
+
+button:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+/* inverse colors on mouse-over */
+button:hover {
+  color: #87C38F;
+  border-color: currentColor;
+  background-color: white;
+}
+
+/* inverse colors on mouse-over and focus */
+button:hover,
+button:focus {
+  color: #87C38F;
+  border-color: currentColor;
+  background-color: white;
+}
+
+button::-moz-focus-inner {
+  border: none;
+}
+
 header, nav, footer, main {
    display: flex;
    border: dotted 1px #CCC;
 }
 header, nav{
     justify-content: center;
-    align-items: center;
 }
 
 main {
@@ -53,9 +97,10 @@ main h1 a:hover {
 header {
    grid-area: top;
    align-items: flex-end;
+   max-height: 6.8rem;
 }
 header h1 {
-    margin-bottom: 0px;
+    /* changed to make title float margin-bottom: 0px; */
 }
 nav {
    grid-area: menu;
