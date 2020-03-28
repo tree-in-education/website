@@ -35,7 +35,7 @@ permalink: /contact/
   <div class="card">
     <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/envelope.png');"> </div>
     <div class="card-text">
-      <h3>Additional questions?</h3>
+      <h3>Additional Questions?</h3>
       <p>Please reach out! Expect a response in 2-3 business days.</p>
       <button onclick="window.location.href='mailto:sepehr.vakil@northwestern.edu'">EMAIL</button>
     </div>
