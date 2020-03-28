@@ -71,7 +71,7 @@ button::-moz-focus-inner {
 
 header, nav, footer, main {
    display: flex;
-   border: dotted 1px #CCC;
+   /* border: dotted 1px #CCC; */
 }
 header, nav{
     justify-content: center;
@@ -80,8 +80,8 @@ header, nav{
 main {
     min-height: 65vh;
     flex-direction: column;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
 }
 main h1 a, main h1 a:visited {
     color: black;
@@ -104,6 +104,7 @@ header h1 {
 }
 nav {
    grid-area: menu;
+   border: solid 3px #c4cac8;
 }
 nav ul {
     display: flex;
