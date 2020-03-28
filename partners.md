@@ -5,7 +5,7 @@ permalink: /partners/
 ---
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/community_partners.css">
 <main>
-    <h3>TREE Lab cares about representing the communities we seek to educate and learn from. We have collaborated with the following organizations below:</h3>
+    <p>TREE Lab is dedicated to building strong roots with the communities we seek to educate and learn from. We have collaborated with the following organizations below:</p>
     <div class = "comm-org-list">
       <div class="card">
         <div class="card-image" style="background-image: url('assets/images/community_partners_images/mca_chicago.jpg')" onclick="window.location.href='https://mcachicago.org/'"></div>

@@ -5,7 +5,7 @@ permalink: /contact/
 ---
 <link rel="stylesheet" href="{{site.baseurl}}/assets/css/contacts.css">
 <div class="banner-text">
-  <span class="letter">Feel Free to Branch Out</span>
+  <!-- <span class="letter">Feel Free to Branch Out</span> -->
 </div>
   <main class="contact-info">
   <div class="card">
@@ -20,7 +20,7 @@ permalink: /contact/
     <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/application.png');"> </div>
     <div class="card-text">
       <h3>Interested in working with us?</h3>
-      <p>Apply! Tell us how you want to make an impact in technology. All majors are welcome.</p>
+      <p>Apply! Tell us how you want to make an impact in technology.<br>All majors are welcome.</p>
       <button onclick="window.location.href='https://forms.gle/dLXYiLxsNJhKCJZX9'">APPLY</button>
     </div>
   </div>
@@ -35,7 +35,7 @@ permalink: /contact/
   <div class="card">
     <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/envelope.png');"> </div>
     <div class="card-text">
-      <h3>Additional questions?</h3>
+      <h3>Additional Questions?</h3>
       <p>Please reach out! Expect a response in 2-3 business days.</p>
       <button onclick="window.location.href='mailto:sepehr.vakil@northwestern.edu'">EMAIL</button>
     </div>
