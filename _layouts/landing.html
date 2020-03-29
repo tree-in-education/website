@@ -17,18 +17,32 @@
                 grid-template-areas:
                     "top top"
                     "menu menu"
-                    "left main"
+                    "left left"
+                    "twitter main"
                     "bottom bottom";
+                align-items: flex-start;
             }
             aside {
                 grid-area: left;
+                display: flex;
+                border: dotted 1px #CCC;
+                min-height: 30vh;
+                justify-content: left;
+                flex-direction: column;
+                align-items: stretch;
+                padding-bottom: 30px;
+            }
+            .twitter-area {
+                grid-area: twitter;
                 display: flex;
                 border: dotted 1px #CCC;
                 min-height: 65vh;
                 justify-content: left;
                 flex-direction: column;
                 align-items: stretch;
-                padding-bottom: 30px;
+            }
+            .footer-area{
+              grid-area: bottom;
             }
             main {
                 justify-content: center;
@@ -41,7 +55,9 @@
                     grid-template-areas:
                         "top"
                         "menu"
+                        "left"
                         "main"
+                        "twitter"
                         "bottom";
                     margin: 0px;
                     grid-row-gap: 0px;
@@ -61,16 +77,19 @@
                 <section>
                     {{ content }}
                 </section>
+            </aside>
+            <div class="twitter-area">
                 <section class="twitter">
                     {{page.twitter}}
                 </section>
-            </aside>
-
+            </div>
             <!-- main panel -->
             <main class="carousel">
                 {% include carousel.html height="50" unit="%" duration="7" %}
             </main>
+          <div class="footer-area">
             {% include footer.html %}
+          </div>
         </div>
         <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
         <script type="text/javascript" src="{{site.baseurl}}/assets/js/tree.js"></script>
