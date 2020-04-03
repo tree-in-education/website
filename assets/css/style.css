@@ -29,6 +29,10 @@ body, body * {
   border-bottom: 2px solid #87C38F;
 }
 
+.text-center {
+  text-align: center!important;
+}
+
 button {
   font: inherit;
   cursor: pointer;
