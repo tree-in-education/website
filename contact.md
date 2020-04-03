@@ -13,7 +13,7 @@ permalink: /contact/
     <div class="card-text">
       <h3>Want to stay updated about the TREE Lab?</h3>
       <p>Stay in touch! Keep up with all TREE Lab's news.</p>
-      <button onclick="window.location.href='https://twitter.com/tolloquialism'">FOLLOW</button>
+      <button onclick="window.location.href='https://twitter.com/dailypuppy?lang=en'">FOLLOW</button>
     </div>
   </div>
   <div class="card">

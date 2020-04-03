@@ -5,7 +5,7 @@
 layout: landing
 animate: true
 twitter: |
-    <a class="twitter-timeline" href="https://twitter.com/dogsontrains"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" href="https://twitter.com/dailypuppy?lang=en"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
 <h2 class="underline-border">TREE Lab: Big Picture</h2>
