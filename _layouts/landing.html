@@ -7,6 +7,7 @@
         <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/treeLab_icon1.png" sizes="16x16">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/landing.css">
         {% if page.extra_stylesheet %}
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ page.extra_stylesheet }}">
         {% endif %}
@@ -25,7 +26,7 @@
             aside {
                 grid-area: left;
                 display: flex;
-                border: dotted 1px #CCC;
+                /* border: dotted 1px #CCC; */
                 min-height: 30vh;
                 justify-content: left;
                 flex-direction: column;
@@ -35,7 +36,7 @@
             .twitter-area {
                 grid-area: twitter;
                 display: flex;
-                border: dotted 1px #CCC;
+                /* border: dotted 1px #CCC; */
                 min-height: 65vh;
                 justify-content: left;
                 flex-direction: column;
@@ -74,7 +75,7 @@
             {% include header.html %}
             {% include navigation.html %}
             <aside>
-                <section>
+                <section class="bigPicture">
                     {{ content }}
                 </section>
             </aside>
