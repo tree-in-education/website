@@ -93,8 +93,21 @@
 /* END how hover effect on grid can be created */
 
 @media (max-width: 800px) {
-main {
-    padding: 20px;
+    .card {
+        width: 45%;
+    }
+    .card-image {
+        height: 200px;
+    }
 }
 
+@media (max-width: 600px) {
+
+    .card {
+        width: 100%;
+    }
+    .card-image {
+        height: 250px;
+    }
 }
+

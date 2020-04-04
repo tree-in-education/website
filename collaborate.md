@@ -2,7 +2,7 @@
 layout: default
 title: Collaborate
 permalink: /collaborate/
-extra_stylesheet: /website/assets/css/collaborate.css
+extra_stylesheet: collaborate.css
 ---
   <div class="method_details">
     <p class="underline-border"><b>Corporate Partnerships</b></p>
@@ -15,11 +15,11 @@ extra_stylesheet: /website/assets/css/collaborate.css
     <p class="underline-border"><b>Everything Else</b></p>
     <p>If you do not fall into the limited categories above, please email and let us know how you envision a partnership with the TREE Lab.</p>
   </div>
-  <div class="bottom-buttons">
-    <div class="card">
-      <p><b>Let's Grow Together</b></p>
-      <div>
-        <button onclick="window.location.href='mailto:sepehr.vakil@northwestern.edu'">EMAIL</button>
-      </div>
+<div class="bottom-buttons">
+<div class="card">
+    <p><b>Let's Grow Together</b></p>
+    <div>
+    <button onclick="window.location.href='mailto:sepehr.vakil@northwestern.edu'">EMAIL</button>
     </div>
-  </div>
+</div>
+</div>
