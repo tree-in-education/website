@@ -1,0 +1,27 @@
+.errorImage {
+  background-size: cover;
+  height: 18rem;
+  float: left;
+  width: 51rem;
+  margin: 3rem;
+}
+
+.errorTitle {
+  font-size: 2.6em;
+}
+
+.errorText {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8rem;
+}
+
+.errorPage {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  line-height: 1.6rem;
+}
