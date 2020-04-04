@@ -2,9 +2,8 @@
 layout: default
 title: Collaborate
 permalink: /collaborate/
+extra_stylesheet: /website/assets/css/collaborate.css
 ---
-<link rel="stylesheet" href="{{site.baseurl}}/assets/css/collaborate.css">
-<main>
   <div class="method_details">
     <p class="underline-border"><b>Corporate Partnerships</b></p>
     <p>The TREE Lab does partner with corporate companies to host events about inclusion in tech. We have partnered in the past with Google, Facebook, Amazon, Boeing, and other companies to learn of their efforts to make technolgoy more accessible and equitable. Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
@@ -24,4 +23,3 @@ permalink: /collaborate/
       </div>
     </div>
   </div>
-</main>
