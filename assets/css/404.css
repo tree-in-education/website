@@ -1,8 +1,5 @@
 .errorImage {
-  background-size: cover;
-  height: 18rem;
   float: left;
-  width: 51rem;
   margin: 3rem;
 }
 
@@ -11,7 +8,6 @@
 }
 
 .errorText {
-  margin: 1rem;
   display: flex;
   flex-direction: column;
   margin-bottom: 8rem;
