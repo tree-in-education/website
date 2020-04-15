@@ -1,19 +1,67 @@
----
-layout: default
----
-{{content}}
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/treeLab_icon1.png" sizes="16x16">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gallery.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/carousel.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if page.extra_stylesheet %}
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ page.extra_stylesheet }}">
+        {% endif %}
+    </head>
+    <body>
+        <div class="container">
+            {% include header.html %}
+            {% include navigation.html %}
 
 
-<!-- <section class="people">
-    {% for person in site.people %}
-<!--     <section>
-        <a href="{{site.baseurl}}{{person.url}}">{{ person.name }}</a><br>
-        <img src = "{{site.baseurl}}/{{ person.filename }}" />
-    </section> -->
+        <main>
+          {{ content }}
+          <ul class="cards">
+            {% for person in site.people %}
+            <li class="card">
+                <div class="image" style="background-image:url('{{site.baseurl}}/{{ person.filename }}')"></div>
+            </li>
+            {% endfor %}
+          </ul>
+          <!-- preview panel -->
+          <section class="preview_box">
+              <div class="featured_image" style="background-image:url('../assets/images/placeholder.jpg');"></div>
+              <button class="close">&times;</button>
+              <button class="prev">&lsaquo;</button>
+              <button class="next">&rsaquo;</button>
+          </section>
+          <!-- end preview panel -->
 
-    <!-- <section class="card" style="background-image: url('{{site.baseurl}}/{{ person.filename }}')">
-        <!-- <img src="rihanna_headshot.jpg" alt="Test3" class="image" style="width:100%"> -->
-        <!-- <div class="people-name">
-          <div class="text">{{ person.name }}</div>
-
-    {% endfor %} -->
+        </main>
+  {% include footer.html %}
+</div>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/carousel.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/people.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/tree.js"></script>
+<!-- logo interactive movement -->
+<script>
+  let animate = false;
+  let isInteractive = false;
+  {% if page.animate %}
+      animate = true;
+  {% endif %}
+  {% if page.isInteractive %}
+      isInteractive = true;
+  {% endif %}
+  const logo = Tree('logo', {
+      lineWidth: 0.5,
+      fontSize: '20px',
+      animate: animate,
+      isInteractive: isInteractive,
+      speed: 2,
+      delay: 200
+  });
+</script>
+</body>
+</html>

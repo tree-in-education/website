@@ -215,6 +215,7 @@ a {
     header {
         align-items: center;
         justify-content: flex-start;
+        z-index: 1000;
     }
     header i { font-size: 24px; }
     header a {

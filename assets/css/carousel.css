@@ -33,6 +33,7 @@
     top: 0vh;
     line-height: 1em;
     right: 0vh;
+    padding: 0.6em;
 }
 .next, .prev {
     background: rgba(255,255,255,0.2);
@@ -47,10 +48,12 @@
 .prev {
     top: 45vh;
     left: 2vw;
+    padding:0;
 }
 .next {
     top: 45vh;
     right: 2vw;
+    padding:0;
 }
 
 

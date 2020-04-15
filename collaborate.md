@@ -2,9 +2,8 @@
 layout: default
 title: Collaborate
 permalink: /collaborate/
+extra_stylesheet: collaborate.css
 ---
-<link rel="stylesheet" href="{{site.baseurl}}/assets/css/collaborate.css">
-<main>
   <div class="method_details">
     <p class="underline-border"><b>Corporate Partnerships</b></p>
     <p>The TREE Lab does partner with corporate companies to host events about inclusion in tech. We have partnered in the past with Google, Facebook, Amazon, Boeing, and other companies to learn of their efforts to make technolgoy more accessible and equitable. Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
@@ -16,12 +15,11 @@ permalink: /collaborate/
     <p class="underline-border"><b>Everything Else</b></p>
     <p>If you do not fall into the limited categories above, please email and let us know how you envision a partnership with the TREE Lab.</p>
   </div>
-  <div class="bottom-buttons">
-    <div class="card">
-      <p><b>Let's Grow Together</b></p>
-      <div>
-        <button onclick="window.location.href='mailto:sepehr.vakil@northwestern.edu'">EMAIL</button>
-      </div>
+<div class="bottom-buttons">
+<div class="card">
+    <p><b>Let's Grow Together</b></p>
+    <div>
+    <button onclick="window.location.href='mailto:sepehr.vakil@northwestern.edu'">EMAIL</button>
     </div>
-  </div>
-</main>
+</div>
+</div>
