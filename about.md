@@ -2,9 +2,8 @@
 layout: default
 title: How We Work
 permalink: /how-we-work/
+extra_stylesheet: about.css
 ---
-<link rel="stylesheet" href="{{site.baseurl}}/assets/css/about.css">
-<main>
   <div class="method_details">
     <p>The TREE Lab is a large and growing groups of over 30 undergraduate and graduate students from a wide breadth of disciplines. We hold a quarterly meeting of all the project groups to align our daily actions with the larger goals of the lab. On a weekly basis, students meet with their specific project groups and regularly have check-ins with Northwestern faculty or community partners who are overseeing their growth. On occasion, project groups do collaborate with one another. For example, when our Student Journal Breakpoint reported on the anti-militarism teach-ins conducted on Northwestern's campus.</p>
     <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>
@@ -26,4 +25,3 @@ permalink: /how-we-work/
       </div>
     </div>
   </div>
-</main>
