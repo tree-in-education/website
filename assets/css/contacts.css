@@ -8,23 +8,15 @@
 }
 .card {
   display: grid;
-  min-width: 26%;
+  min-width: 24%;
   position: relative;
-  grid-template-areas: "image" "text";
+  grid-template-areas: "text";
   margin: 15px;
   /* to round the corners */
   /* border-radius: 18px; */
   background: white;
   box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
   border: 1px solid #f7f7f7;
-}
-.card-image {
-  grid-area: image;
-  /* to round the corners */
-  /* border-top-left-radius: 15px;
-  border-top-right-radius: 15px; */
-  background-size: cover;
-  height: 280px;
 }
 
 .card-text {
@@ -39,64 +31,36 @@
   font-weight: 400;
   font-size: 1.5rem;
   line-height:1.5;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
 }
 
 .text-center {
   text-align: center;
 }
 
-.banner-text{
-  width: 90%;
-  margin: 0 auto;
-  text-align: center;
-}
-.letter{
-  display: inline-block;
-  font-weight: 900;
-  font-size: 4em;
+.long_image {
+  display: block;
   position: relative;
-  color: #87C38F;
-  transform-style: preserve-3d;
-  perspective: 400;
-  z-index: 1;
+  margin:0;
+  align-self: center;
 }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .card {
-      flex: 100%;
-      max-width: 100%;
+      min-width: 100%;
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .card {
-      flex: 100%;
-      max-width: 100%;
+@media (max-width: 800px) {
+    .card {
+      min-width: 45%;
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .card {
-      flex: 100%;
-      max-width: 100%;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .card {
-      flex: 50%;
-      max-width: 50%;
-    }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .card {
-      flex: 50%;
-      max-width: 50%;
+@media (max-width: 600px) {
+    .card {
+      min-width: 100%;
     }
 }

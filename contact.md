@@ -4,9 +4,11 @@ title: Contact Us
 permalink: /contact/
 extra_stylesheet: contacts.css
 ---
+<div class="long_image">
+  <img src="{{site.baseurl}}/assets/images/green.jpg" alt="TREE_Lab_working-group" width="500">
+</div>
 <div class="contact-info">
   <div class="card">
-    <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/Twitter_bw.png');"> </div>
     <div class="card-text">
       <h3>Want to stay updated about the TREE Lab?</h3>
       <p>Stay in touch! Keep up with all TREE Lab's news.</p>
@@ -14,7 +16,6 @@ extra_stylesheet: contacts.css
     </div>
   </div>
   <div class="card">
-    <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/application.png');"> </div>
     <div class="card-text">
       <h3>Interested in working with us?</h3>
       <p>Apply! Tell us how you want to make an impact in technology.<br>All majors are welcome.</p>
@@ -22,7 +23,6 @@ extra_stylesheet: contacts.css
     </div>
   </div>
   <div class="card">
-    <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/interview_bw.png');"></div>
     <div class="card-text">
       <h3>Want to collaborate with TREE Lab?</h3>
       <p>Learn more about the collaborations we have done in the past and how we work with partnering organizations.</p>
@@ -30,7 +30,6 @@ extra_stylesheet: contacts.css
     </div>
   </div>
   <div class="card">
-    <div class="card-image" style="background-image: url('{{site.baseurl}}/assets/images/contact_icons/envelope.png');"></div>
     <div class="card-text">
       <h3>Additional Questions?</h3>
       <p>Please reach out! Expect a response in 2-3 business days.</p>

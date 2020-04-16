@@ -42,7 +42,7 @@
   /* border-top-left-radius: 15px;
   border-top-right-radius: 15px; */
   background-size: cover;
-  height: 350px;
+  height: 379px;
   widows: auto;
 }
 
@@ -86,10 +86,6 @@
 .align-center{
   align-self: center;
 }
-
-/* .card-text h5:hover{
-  color: #87C38F;
-} */
 
 /* END how hover effect on grid can be created */
 
