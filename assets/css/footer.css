@@ -2,12 +2,12 @@ body {
   margin:0;
 }
 
-.footer-container{
+footer {
   padding-top: 100px;
   color: #fff;
 }
 
-.row{
+.row {
   padding: 2em 0em 2em;
   margin:0;
   min-width: 100%;
