@@ -2,5 +2,13 @@
   background: white;
   box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
   border: 1px solid #f7f7f7;
-  padding: 1rem;  
+  padding: 1rem;
+}
+
+main {
+    background: none;
+    min-height: none;
+
+}
+@media (max-width: 800px) {
 }

@@ -1,6 +1,6 @@
 .errorImage {
   float: left;
-  margin: 3rem;
+  margin: 1.5rem;
 }
 
 .errorTitle {
@@ -10,14 +10,28 @@
 .errorText {
   display: flex;
   flex-direction: column;
-  margin-bottom: 8rem;
+  margin-bottom: 4rem;
 }
 
 .errorPage {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap-reverse;
 }
 
 p {
   line-height: 1.6rem;
+}
+
+img {
+  width: 28rem;
+}
+
+@media only screen and (max-width: 700px) {
+  h1 {
+      font-size: 3rem;
+    }
+  img {
+    width: 24rem;
+  }
 }

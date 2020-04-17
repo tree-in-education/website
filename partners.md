@@ -20,13 +20,13 @@ extra_stylesheet: community_partners.css
       </div> -->
     </div>
     <div class="card">
-      <div class="card-image" style="background-image: url('/website/assets/images/community_partners_images/naacp.png')" onclick="window.location.href='https://www.naacp.org/about-us/'"></div>
+      <div class="card-image" style="background-image: url('/website/assets/images/community_partners_images/art_institute.png')" onclick="window.location.href='https://www.naacp.org/about-us/'"></div>
       <!-- <div class = "comm_org-name">
           <div class = "card-text"><h5>Google.org</h5></div>
       </div> -->
     </div>
     <div class="card">
-      <div class="card-image" style="background-image: url('/website/assets/images/community_partners_images/naacp.png')" onclick="window.location.href='https://www.naacp.org/about-us/'"></div>
+      <div class="card-image" style="background-image: url('/website/assets/images/community_partners_images/chicago_seal.png')" onclick="window.location.href='https://www.naacp.org/about-us/'"></div>
       <!-- <div class = "comm_org-name">
           <div class = "card-text"><h5>National Association for the Advancement of Colored People</h5></div>
       </div> -->

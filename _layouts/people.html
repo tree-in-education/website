@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gallery.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/carousel.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/footer.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         {% if page.extra_stylesheet %}
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ page.extra_stylesheet }}">
@@ -17,8 +18,6 @@
         <div class="container">
             {% include header.html %}
             {% include navigation.html %}
-
-
         <main>
           {{ content }}
           <ul class="cards">
