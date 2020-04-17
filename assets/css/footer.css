@@ -18,7 +18,6 @@ footer {
 .col-md {
   display: inline-grid;
   width: 30%;
-  grid-template-columns: "a a a";
   padding-left: 5rem;
 }
 
@@ -48,38 +47,13 @@ ul a:hover{
   text-align: center;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 800px) {
   .col-md {
-      flex: 100%;
-      max-width: 100%;
-    }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .col-md {
-    display: column;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 30%;
     padding-left: 5rem;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .col-md {
-    display: column;
-    width: 30%;
-    padding-left: 5rem;
-    }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .col-md {
-    display: inline-grid;
-    width: 30%;
-    grid-template-columns: "a a a";
-    padding-left: 5rem;
-    }
 }

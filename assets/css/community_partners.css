@@ -89,21 +89,11 @@
 
 /* END how hover effect on grid can be created */
 
-@media (max-width: 800px) {
-    .card {
-        width: 45%;
-    }
-    .card-image {
-        height: 200px;
-    }
-}
-
 @media (max-width: 600px) {
-
-    .card {
-        width: 100%;
-    }
-    .card-image {
-        height: 250px;
-    }
+}
+@media (max-width: 800px) {
+  .card-image {
+    height: 98px;
+    width: auto;
+  }
 }

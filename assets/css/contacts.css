@@ -50,20 +50,20 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .card {
-      min-width: 100%;
+      width: 100%;
+      height: auto;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     .card {
       min-width: 45%;
+      height: auto;
     }
-}
-
-@media (max-width: 600px) {
-    .card {
-      min-width: 100%;
+    main {
+        background: none;
+        min-height: none;
     }
 }

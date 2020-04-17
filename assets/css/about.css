@@ -14,3 +14,14 @@
 .bottom-buttons {
   display: inline-flex;
 }
+
+@media (max-width: 800px) {
+  .bottom-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 100%;
+  }
+}
