@@ -26,11 +26,15 @@
   margin: 1.5rem;
   background: white;
   border: 1px solid #f7f7f7;
+  box-shadow: rgb(181, 227, 204) 0px 0px 4px 0px;
 }
 
 .course-name {
   text-align: left;
   color: #00324B;
+  padding: 0;
+  margin:0;
+  text-transform: uppercase;
 }
 
 .card:hover {
@@ -50,4 +54,26 @@
 
 .align-center{
   align-self: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .course-list{
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .course-list{
+    flex-direction: column;
+  }
 }
