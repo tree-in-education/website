@@ -11,7 +11,7 @@ footer {
   /* padding: 2em 0em 2em; */
   padding: 0em;
   min-width: 100%;
-  background-color: #00324B;
+  background-color: #23022E;
   display: flex;
   flex-direction: row;
 }
@@ -42,7 +42,7 @@ li a {
 }
 
 li a:hover{
-  color: #45B69C;
+  color: #23022E;
 }
 
 .footer-summary {
@@ -65,3 +65,13 @@ li a:hover{
     padding-left: 5rem;
   }
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  color: #7b838a; }
