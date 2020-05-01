@@ -29,3 +29,35 @@ li a:hover:not(.active) {
 li img {
   width:2.5rem;
 }
+
+.dropbtn {
+  padding-top: 0.8rem;
+  padding-right: 0.8rem;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding:1rem;
+  width: 100%;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
