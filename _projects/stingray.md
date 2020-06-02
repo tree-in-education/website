@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Stingray
+projectTitle: Stingray
 filename: assets/images/purple.jpg
 ---
 

@@ -1,9 +1,12 @@
 ---
 layout: person
-notitle: true
 title: Beyonce
 name: Beyonce
-filename: assets/images/red.jpg
+linkedIn: XXXXX
+interests:
+  - algorithms
+    policing
+filename: assets/images/people_images/beyonce_headshot.jpg
 ---
 
 Here is some stuff about Beyonce.

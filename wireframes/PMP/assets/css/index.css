@@ -1,0 +1,165 @@
+.container{
+  padding:0;
+  margin:0;
+}
+
+.card {
+  display: grid;
+  grid-template-areas: "text";
+  height: auto
+  /* to round the corners */
+  text-align: left;
+  position: relative;
+  background: white;
+  border: 1px solid #f7f7f7;
+  box-shadow: 0 8px 24px -12px rgba(0,0,0,.75);
+}
+
+.course-num {
+  text-align: center;
+  color: #404044;
+  padding: 0;
+  margin:0;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  line-height: 2.4rem;
+}
+
+.intro-text{
+  margin:4rem;
+  margin-bottom: 14rem;
+}
+
+.intro-heading{
+  font-size: 4em;
+  line-height: 1.2em;
+}
+
+h4{
+  font-size: 1.3em;
+}
+
+.carousel-quotes {
+  background-color:white;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.stories-heading{
+  font-size: 2em;
+  margin:2rem;
+  text-align:center;
+  color:#23022E;
+  font-family: 'Handlee', cursive;
+}
+
+.bio-heading{
+  font-size: 2em;
+  margin:2rem;
+  text-align:center;
+  color:#23022E;
+}
+
+.quote-name {
+  text-align: left;
+}
+
+#slideshow {
+  overflow: hidden;
+  /* height: 510px;
+  width: 728px; */
+  height:20rem;
+  width:100%;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 648px;
+  margin-left: 50px;
+  margin-right:25px;
+}
+
+.slide:nth-child(1) {
+  background: #D93B65;
+}
+
+.slide:nth-child(2) {
+  background: #037E8C;
+}
+
+.slide:nth-child(3) {
+  background: #36BF66;
+}
+
+.slide:nth-child(4) {
+  background: #D9D055;
+}
+
+.slide:nth-child(5) {
+  background: #A44EED;
+}
+
+.slide-text {
+  color: #000;
+  text-align: left;
+  font-size: 1.6em;
+  line-height: 1.5em;
+  font-weight:lighter;
+  padding: 3rem;
+  font-family: 'Handlee', cursive;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+.pm-spotlight{
+  margin-top: 4rem;
+}
+.spotlight-container {
+  display:flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  margin:2rem;
+}
+
+.spotlight-description {
+  max-width:65%;
+  margin: 2rem;
+  align-self: baseline;
+}
+
+.pm-image{
+  border-radius: 50%;
+  height:20rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .card {
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

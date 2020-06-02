@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<title>Facial Recognition | Roots</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="assets/images/roots-logo.png" sizes="16x16">
+<link rel="stylesheet" href="assets/css/style.css" />
+<!-- <link rel="stylesheet" href="css/footer.css" /> -->
+<!-- <link rel="stylesheet" href="css/nav.css" /> -->
+<link rel="stylesheet" href="assets/css/course-page.css" />
+<body>
+
+<div class="flexRow">
+<!-- Sidebar -->
+  <div class="sidebar-content">
+    <div class="back-buttons">
+      <a href="index.html">
+        <h1>&lt <img src="assets/images/roots-logo1.png" width="80"></h1>
+      </a>
+    </div>
+    <h3 class="bar-heading">Facial Recognition</h3>
+    <ul>
+      <li>
+        <a href="/course-page.html" class="side-link">Facial Recognition</a>
+      </li>
+      <li>
+        <a href="course-page2.html" class="side-link">How It Works</a>
+      </li>
+      <li>
+        <a href="course-page3.html" class="side-link">STEP 1: Face Detection</a>
+      </li>
+      <li>
+        <a href="course-page4.html" class="side-link">STEP 2: Facial Landmark Estimation</a>
+      </li>
+      <li>
+        <a href="course-page5.html" class="side-link">Storytime</a>
+      </li>
+      <li>
+        <a href="/course-page6.html" class="side-link active">STEP 3: Face Encoding</a>
+      </li>
+      <li>
+        <a href="/course-page7.html" class="side-link">STEP 4: Face Comparison</a>
+      </li>
+      <li>
+        <a href="course-page8.html" class="side-link">Machine Learning</a>
+      </li>
+      <li>
+        <a href="course-page9.html" class="side-link">Algorithmic Bias</a>
+      </li>
+      <li>
+        <a href="course-page10.html" class="side-link">Storytime</a>
+      </li>
+      <li>
+        <a href="/course-page11.html" class="side-link">Police and Surveillance</a>
+      </li>
+      <li>
+        <a href="course-page12.html" class="side-link">Storytime</a>
+      </li>
+    </ul>
+  </div>
+<!-- Page Content -->
+<div class="course-content">
+  <h1 class="bar-heading">Face Encoding</h1>
+  <div class="text-container">
+    <p>
+      Facial recognition is the process of verifying or identifying a face. This means we are going to need to compare our face to other faces in order to find a match. One way to do this would be to directly compare the pixels of the face we’ve found face with other faces. Unfortunately, this method does not work very well. Two images of the same person may look very different - for example, they might have different lighting. What we really want to find is the structure of the faces.
+    </p>
+    <p>
+      One way to determine the structure of a face is to measure distances between different points on the face. The process of determining the structure of a face using measurements is called face encoding. For example, you could measure the distance between eyes, the width of the mouth, and the distance between the tip of the chin to the nose. In this example, we would be encoding our face with three metrics. 
+    </p>
+    <p>
+      The best way to encode a face is to encode many more metrics than just three. The most advanced face encoding techniques use a method called <b>deep learning</b> to discover hundreds of metrics of a face. Deep learning is a category of a broader field called machine learning, which we will discuss more in a later section.
+    </p>
+    <img class="ex-images" src="assets/images/encoding.png" height=350 width=700></img>
+  </div>
+  <div class="next-button">
+    <button onclick="window.location.href='course-page7.html'">
+      Next
+    </button>
+  </div>
+
+</div>
+
+</body>
+</html>

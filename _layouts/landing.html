@@ -4,51 +4,79 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ page.title }}</title>
+        <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/treeLab_icon1.png" sizes="16x16">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/landing.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/footer.css">
         {% if page.extra_stylesheet %}
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ page.extra_stylesheet }}">
         {% endif %}
         <style media="screen">
+            /* header, nav, aside, main, .twitter-area, footer {
+                border: solid 5px red;
+            } */
+
             .container {
                 grid-template-columns: 1fr 2fr;
-                grid-template-rows: 15vh auto auto 10vh;
+                grid-template-rows: 15vh auto auto auto 10vh;
                 grid-template-areas:
                     "top top"
                     "menu menu"
-                    "left main"
+                    "left left"
+                    "twitter main"
                     "bottom bottom";
+                align-items: flex-start;
             }
+            header {
+                grid-area: top;
+            }   
+            nav {
+                grid-area: menu;
+            }            
             aside {
                 grid-area: left;
                 display: flex;
-                border: dotted 1px #CCC;
-                min-height: 65vh;
+                min-height: 30vh;
                 justify-content: left;
                 flex-direction: column;
                 align-items: stretch;
                 padding-bottom: 30px;
             }
+            .twitter-area {
+                grid-area: twitter;
+                display: flex;
+                min-height: 65vh;
+                justify-content: left;
+                flex-direction: column;
+                align-items: stretch;
+            }
+            footer {
+                grid-area: bottom;
+            }
             main {
                 justify-content: center;
                 align-items: center;
+                grid-area: main;
             }
             @media (max-width: 800px) {
                 .container {
                     grid-template-columns: 1fr;
-                    grid-template-rows: 10vh auto auto 8vh;
+                    grid-template-rows: 10vh auto auto auto auto auto;
                     grid-template-areas:
                         "top"
                         "menu"
+                        "left"
                         "main"
+                        "twitter"
                         "bottom";
                     margin: 0px;
                     grid-row-gap: 0px;
                     grid-column-gap: 0px;
                 }
-                aside {
+                /* aside {
                     display: none;
-                }
+                } */
             }
         </style>
     </head>
@@ -57,17 +85,18 @@
             {% include header.html %}
             {% include navigation.html %}
             <aside>
-                <section>
+                <section class="bigPicture">
                     {{ content }}
                 </section>
+            </aside>
+            <div class="twitter-area">
                 <section class="twitter">
                     {{page.twitter}}
                 </section>
-            </aside>
-
+            </div>
             <!-- main panel -->
             <main class="carousel">
-                <p>This is a photo carousel</p>
+                {% include carousel.html height="50" unit="%" duration="7" %}
             </main>
             {% include footer.html %}
         </div>

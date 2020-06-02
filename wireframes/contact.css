@@ -1,0 +1,24 @@
+.container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "top"
+        "menu"
+        "main"
+        "bottom";
+}
+main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+img{
+  width: 180px;
+  object-fit: scale-down;
+}
+
+button{
+  display: inline;
+}

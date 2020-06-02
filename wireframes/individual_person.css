@@ -1,0 +1,57 @@
+.profile {
+    position: absolute;
+    top: 210px;
+    left: 0px;
+    /* width: 600px; */
+}
+
+.person_name {
+    border:1px solid;
+}
+
+.profilePic{
+  height: 260px;
+}
+
+/* .bio_details{
+  border: 1px solid;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* main{
+  position: static;
+} */
+
+.research_position{
+  position: absolute;
+  top: 250px;
+  left: 370px;
+}
+
+.contact_information{
+  position: absolute;
+  top: 535px;
+  left: 0px;
+}
+
+.other_apps{
+  position: absolute;
+  top: 690px;
+  left: 0px;
+}
+
+.media {
+  margin: 7px;
+  width: 50px;
+  object-fit: scale-down;
+}
+
+.biography{
+  position: absolute;
+  top: 248px;
+  left: 365px;
+}

@@ -1,0 +1,69 @@
+.contact-info {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: auto;
+  font-family: work sans,Arial,sans-serif;
+}
+.card {
+  display: grid;
+  width: 21%;
+  position: relative;
+  grid-template-areas: "text";
+  margin: 15px;
+  /* to round the corners */
+  /* border-radius: 18px; */
+  background: white;
+  box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
+  border: 1px solid #f7f7f7;
+  height: 350px;
+}
+
+.card-text {
+  grid-area: text;
+  color: #8b8b92;
+  padding: 0.8rem;
+  text-align: center;
+}
+
+.card-text h3 {
+  color: #404044;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height:1.5;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.long_image {
+  display: block;
+  position: relative;
+  margin:0;
+  align-self: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 700px) {
+  .card {
+      width: 100%;
+      height: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .card {
+      min-width: 45%;
+      height: auto;
+    }
+    main {
+        background: none;
+        min-height: none;
+    }
+}

@@ -1,0 +1,17 @@
+.card {
+  display: grid;
+  grid-template-areas: "text";
+  text-align: center;
+  position: relative;
+  padding: 0.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  margin: 1rem;
+  background: white;
+  box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
+  border: 1px solid #f7f7f7;
+}
+
+.bottom-buttons {
+  align-self: center;
+}

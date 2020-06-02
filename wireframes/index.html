@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
     <head>
+      <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Handlee|Inria+Serif|Montserrat+Alternates|Nanum+Gothic+Coding|Neucha|Open+Sans|Playfair+Display|Ubuntu&display=swap&effect=putting-green" rel="stylesheet">
+        <!-- <link rel="tabIcon" href="img/favicon.png" type="image/png"> -->
         <title>TREE Lab</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
+      <!-- main css -->
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <div class="container">
@@ -22,64 +27,79 @@
             </header>
 
             <!-- navigation -->
-            <nav>
+            <nav class="bigBar">
                 <ul>
                     <li><a href="index.html">About</a></li>
                     <li><a href="projects.html">Projects</a></li>
-                    <li><a href="#">People</a></li>
-                    <li><a href="#">How We Work</a></li>
-                    <li><a href="#">Community Partners</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="people.html">People</a></li>
+                    <li><a href="how_we_work.html">How We Work</a></li>
+                    <li><a href="community_partners.html">Community Partners</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <li><a href="tree-website-mockup.pdf" target="_blank">Wire Frames</a></li>
-                    <li class="desktop">
-                        <a href="#"><i class="fas fa-search"></i></a>
-                    </li>
                 </ul>
             </nav>
 
             <!-- left panel -->
             <aside>
-                <section>
-                    <h2>TREE Lab: Big Picture</h2>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
+                  <h2>TREE Lab: Big Picture</h2>
+                  <section class="bigPicture">
+                    <p class="bigPictureDetails">The Technology, Race, Ethics, and Equity (TREE) Lab aims to research the intersections between technology, race, and ethics. We create learning experiences through demonstrations of how technology affects marginalized populations for students from under-served communities. Our work with technological innovations includes:</p>
+                    <ol type = "1" class="bigPictureDetails">
+                      <li>designing interdisciplinary activities with teachers and learners</li>
+                      <li>creating accessible interfaces that broaden participation in technology and understanding its effects through meaningful learning experience</li>
+                      <li>facilitating discussions with learners and faculty about the intersections of technology and ethics</li>
+                      <li>innovating tools to build an equitable and ethical Computer Science education</li>
+                    </ol>
+                    <p class="bigPictureDetails">We position our work as inclusive, in that we endeavor to address historic and contemporary disparities in inclusivity and social, racial and economic inequity. Furthermore, we work with teachers, students, community organizations and parents, in hope of supporting the development of interdisciplinary learning oppotunities through a variety of mediums.</p>
                 </section>
                 <section>
-                    <h2>Twitter</h2>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
-                    <p>
-                        text text text text text
-                        text text text text text
-                        text text text text text
-                    </p>
+                    <a class="twitter-timeline" data-height="500" data-theme="light" href="https://twitter.com/tolloquialism?ref_src=twsrc%5Etfw">Tweets by tolloquialism</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 </section>
             </aside>
 
             <!-- main panel -->
             <main>
-                <p>This is a photo carousel</p>
+              <!-- Slideshow container -->
+              <div class="slideshow-container">
+
+              <!-- Full-width images with number and caption text -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 4</div>
+                <img src="slideshow_images/stock_1.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <img src="slideshow_images/stock_2.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <img src="slideshow_images/stock_3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+              </div>
+
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="slideshow_images/stock_4.jpg" style="width:100%">
+                <div class="text">Caption Four</div>
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+
+              <!-- The dots/circles -->
+              <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              </div>
             </main>
 
             <!-- footer -->
@@ -89,6 +109,7 @@
         </div>
         <script type="text/javascript" src="main.js"></script>
         <script type="text/javascript" src="logo/tree.js"></script>
+        <script type="text/javascript" src="slideshow.js"></script>
         <script>
             const logo = Tree('logo', {
                 lineWidth: 0.5,

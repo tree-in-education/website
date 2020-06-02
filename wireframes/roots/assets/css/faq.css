@@ -1,0 +1,19 @@
+.container{
+  margin-left: 5rem;
+  margin-right: 7rem;
+  margin-top: 6rem;
+}
+
+.title-heading {
+  text-align: left;
+  color: #00324B;
+  padding: 2rem;
+  margin:0;
+  text-transform: uppercase;
+  font-size: 6em;
+}
+
+.text-container {
+  color: #00324B;
+  margin-left: 4rem;
+}

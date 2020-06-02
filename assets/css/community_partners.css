@@ -1,0 +1,99 @@
+.comm-org-list {
+  /* width: 90vw; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.card {
+  display: grid;
+  width: 30%;
+  grid-template-areas: "image";
+  position: relative;
+  margin: 10px;
+  /* to round the corners */
+  /* border-radius: 18px; */
+  background: white;
+  box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
+  border: 1px solid #f7f7f7;
+}
+
+.collab-card {
+  align-self: center;
+  display: grid;
+  width: 80%;
+  grid-template-areas: "text";
+  text-align: center;
+  position: relative;
+  padding: 1rem;
+  margin: 4rem;
+  background: white;
+  box-shadow: 0 4px 18px -12px rgba(0,0,0,.75);
+  border: 1px solid #f7f7f7;
+}
+
+.card-image {
+  grid-area: image;
+  /* to round the corners */
+  /* border-top-left-radius: 15px;
+  border-top-right-radius: 15px; */
+  background-size: cover;
+  height: 379px;
+  widows: auto;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.comm_org-name {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+}
+
+.card:hover {
+  background-image-opacity: 0.1;
+  cursor: pointer;
+}
+
+.card:hover .comm_org-name {
+  opacity: 1;
+}
+
+.card-text {
+  grid-area: text;
+  color: #8b8b92;
+  padding: 1.5rem;
+}
+
+.card-text h5 {
+  color: #404044;
+  font-weight: 200;
+  font-size: 1.2rem;
+  line-height:1.5;
+}
+
+.align-center{
+  align-self: center;
+}
+
+/* END how hover effect on grid can be created */
+
+@media (max-width: 600px) {
+}
+@media (max-width: 800px) {
+  .card-image {
+    height: 98px;
+    width: auto;
+  }
+}
