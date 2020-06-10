@@ -43,7 +43,7 @@
 }
 
 .long_image {
-  display: block;
+  display: none;
   position: relative;
   margin:0;
   align-self: center;
