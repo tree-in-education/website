@@ -3,6 +3,49 @@ body {
     font-family: "Source Sans Pro", sans-serif;
     margin: 0px;
 }
+
+canvas {
+    /* border: solid 1px #000; */
+    width: 180px;
+    height: 130px;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.title {
+    /* padding: 0px 250px 0px 250px; */
+    padding: 0px 100px 30px 100px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.title > h2 {
+    width: 100%;
+}
+.title h1 {
+    font-size: 35px;
+    letter-spacing: 8px;
+    width: 500px;
+    margin-left: -60px;
+    margin-bottom: -10px
+}
+.title h2 {
+    text-transform: none;
+    color: #87C38F;
+    padding: 8px;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+}
+
 h1 {
     font-family: "Oswald", sans-serif;
     font-size: 24px;
@@ -17,15 +60,15 @@ h2 {
     font-size: 1.5em;
     letter-spacing: 1px;
     text-align: center;
-    color: #444;
+    color: #222;
     font-weight: 400;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* z-index: 10; */
 }
 h3 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: black;
 }
@@ -99,30 +142,6 @@ li::before {
     margin-top: 100px;
 }
 
-.title {
-  padding: 60px 250px 0px 250px;
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.title > h1, .title > h2 {
-    width: 100%;
-}
-.title h1 {
-  font-size: 35px;
-  letter-spacing: 8px;
-}
-.title h2 {
-    /* width: 80%; */
-    text-transform: none;
-    color: #87C38F;
-    padding: 8px;
-    border-top: solid 1px #000;
-    border-bottom: solid 1px #000;
-}
-
 section > div {
     padding: 0px 250px 100px 250px;
 }
@@ -130,7 +149,7 @@ section > div {
 .parallax-one, .parallax-two {
     padding: 0px;
 }
-.parallax-one .content {
+.parallax-one .content  {
     margin-left: 50vw;
     background: #EEE;
     padding: 60px 40px 60px 40px;
@@ -154,47 +173,39 @@ section > div {
     background-color: #EEE;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-size: 100vh 100vh;
 }
 .parallax-one {
     background-image: url(../images/stingray3.png);
-    background-position: 0vw top;
-    background-size: 100vh 100vh;
+    background-position: 0px 10px;
 }
 
 .parallax-two {
     background-image: url(../images/cta.png);
-    background-position: 50vw top;
-    background-size: 100vh 100vh;
+    background-position: 50vw 55px;
 }
 
+@media screen and (max-width: 1200px) {
+    section > div {
+        padding: 30px 100px 30px 100px;
+    }
+}
 
-@media screen and (max-width: 959px) and (min-width: 768px) {
-  .block {
-    padding: 40px;
-    width: 620px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .block {
-    padding: 30px;
-    width: 420px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-  .block {
-    padding: 30px;
-  }
-  .parallax-one,
-  .parallax-two,
-  .parallax-three {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-}
-@media screen and (max-width: 479px) {
-  .block {
-    padding: 30px 15px;
-    width: 290px;
-  }
+@media screen and (max-width: 900px) {
+    .parallax-one .content, .parallax-two .content {
+        margin: 70vw 30px 70vw 30px;
+        background: rgba(230, 230, 230, 0.9);
+        padding: 30px 20px 30px 20px;
+    }
+    .parallax-one, .parallax-two {
+        background-size: cover;
+        background-position: center 55px;
+    }
+
+    .title {
+        padding: 30px 20px 30px 20px;
+    }
+    section > div {
+        padding: 0px 20px 50px 20px;
+    }
 }
