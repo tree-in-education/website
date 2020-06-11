@@ -11,6 +11,7 @@ const Tree = (id, opts) => {
     let alpha = 1;
     let branchAngleDifference = -0.35;
     let animation = null;
+    let currentY = animationY;
     let fontSize = opts.fontSize || '30px'
 
     const drawTree = (x1, y1, x2, y2, branchLength, branchAngle, depth) => {
@@ -48,7 +49,6 @@ const Tree = (id, opts) => {
 
     const redrawTree = () => {
       ctx.clearRect(0,0, canvas.width, canvas.height);
-      const rect = canvas.getBoundingClientRect();
       const x = canvas.width / 2;
       const y1 = canvas.height;
       const y2 = canvas.height - trunkHeight;
@@ -62,9 +62,13 @@ const Tree = (id, opts) => {
     };
 
     const updateTreeOnMousemove = (e) => {
+        clearInterval(animation);
         const rect = canvas.getBoundingClientRect();
         const y = e.clientY - rect.top;
-        updateTree(y);
+        if (Math.abs(currentY - y) > 3) {
+            currentY = y;
+            updateTree(y);
+        }
     };
 
     const setDimensions = () => {

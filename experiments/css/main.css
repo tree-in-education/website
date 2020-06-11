@@ -1,0 +1,32 @@
+body * {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li::before {
+    content: ''; 
+}
+
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:active {
+    color: black; 
+    text-decoration: none;
+    border-bottom: solid 1px transparent;
+}
+nav ul li a:hover {
+    border-bottom: solid 1px #000;
+}
