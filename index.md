@@ -10,19 +10,5 @@ twitter: |
 
 <h2 class="underline-border">TREE Lab: Big Picture</h2>
 <p>
-  The Technology, Race, Ethics, and Equity (TREE) Lab aims to research the intersections between technology, race, and ethics. We create learning experiences through demonstrations of how technology affects marginalized populations for students from under-served communities. We position our work as inclusive, in that we endeavor to address historic and contemporary disparities in inclusivity and social, racial and economic inequity. Furthermore, we work with teachers, students, community organizations and parents, in hope of supporting the development of interdisciplinary learning opportunities through a variety of mediums.
+  The newly launched TREE (Technology, Race, Ethics, and Equity in Education) Lab within the School of Education and Social Policy is an NSF-funded initiative that brings together graduate and undergraduate students with youth and community members to jointly investigate ethical and social dimensions of new technologies. The lab is jointly directed by Sepehr Vakil, assistant professor of Learning Sciences in SESP , and Sarah Van Wart, assistant professor of Computer Science in McCormick.
 </p>
-<ol> <b>
-    <li>
-      designing interdisciplinary activities with teachers and learners
-    </li>
-    <li>
-      creating accessible interfaces that broaden participation in technology and understanding its effects through meaningful learning experience
-    </li>
-    <li>
-      facilitating discussions with learners and faculty about the intersections of technology and ethics
-    </li>
-    <li>
-      innovating tools to build an equitable and ethical Computer Science education
-    </li>
-</b> </ol>
