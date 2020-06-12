@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   width: 100%;
   margin-right: auto;
@@ -13,8 +13,6 @@
 .card {
   display: grid;
   width: 30%;
-  /* grid-template-columns: 300px;
-  grid-template-rows: 280px 120px; */
   grid-template-areas: "image" "text";
   position: relative;
   margin: 15px;

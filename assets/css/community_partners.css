@@ -55,6 +55,13 @@
   backface-visibility: hidden;
 }
 
+.family-matters-pic{
+  background-size: contain;
+  background-position-x: -17px;
+  background-position-y: 45px; 
+  background-repeat: no-repeat;
+}
+
 .comm_org-name {
   transition: .5s ease;
   opacity: 0;

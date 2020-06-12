@@ -1,6 +1,6 @@
 ---
 layout: single-project
-title: YPRPT
+title: Young People’s Race Power and Tech Project
 filename: assets/images/red.jpg
 date: Feb 12, 2020
 url: http://127.0.0.1:4000/website/project
