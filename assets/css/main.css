@@ -11,10 +11,6 @@ body * {
     box-sizing: border-box;
 }
 
-.mobile { display: none; }
-.desktop { display: block; } 
-
-
 nav {
     width: 100%;
     border-top: solid 1px #000;
@@ -45,12 +41,15 @@ nav ul li a:visited,
 nav ul li a:active {
     color: black; 
     text-decoration: none;
-    border-bottom: solid 1px transparent;
+    /* border-bottom: solid 1px transparent; */
+}
+nav ul li.selected {
+    font-weight: bold;
 }
 
-nav ul li a:hover {
+/* nav ul li a:hover {
     border-bottom: solid 1px #000;
-}
+} */
 
 nav.sticky {
     height: 55px;
@@ -71,6 +70,75 @@ main {
     margin-bottom: 60px;
 }
 
+
+blockquote {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #999;
+    font-weight: 400;
+}
+
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #222;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    /* z-index: 10; */
+}
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+}
+p, li {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6em;
+}
+p {
+    margin-bottom: 1em;
+}
+li {
+    margin-bottom: 0.5em;
+}
+
+canvas {
+    /* border: solid 1px #000; */
+    width: 180px;
+    height: 130px;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    position: relative;
+    margin-bottom: -47px;
+    margin-right: 164px;
+}
+
+.container {
+    padding: 30px 200px 0px 200px;
+}
+
+.mobile { display: none; }
+.desktop { display: block; } 
+
 .button {
     margin-top: 0px;
     color: #FFF;
@@ -90,33 +158,6 @@ main {
 }
 .space-top-40 {
     margin-top: 40px;
-}
-
-blockquote {
-    font-family: "Oswald", sans-serif;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    color: #999;
-    font-weight: 400;
-}
-
-.container {
-    padding: 30px 200px 0px 200px;
-}
-
-
-canvas {
-    /* border: solid 1px #000; */
-    width: 180px;
-    height: 130px;
-    font-family: "Oswald", sans-serif;
-    font-size: 35px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    position: relative;
-    margin-bottom: -47px;
-    margin-right: 164px;
 }
 
 .title {
@@ -147,46 +188,10 @@ canvas {
     margin-top: 12px;
 }
 
-h1 {
-    font-family: "Oswald", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: black;
-    padding: 0;
-    margin: 0;
-}
-h2 {
-    font-family: "Oswald", sans-serif;
-    font-size: 1.5em;
-    letter-spacing: 1px;
-    color: #222;
-    font-weight: 400;
-    /* text-transform: uppercase; */
-    /* z-index: 10; */
-}
 .landing section h2 {
     text-align: center;
 }
-h3 {
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: black;
-}
-p, li {
-    font-weight: 400;
-    font-size: 1.1em;
-    color: #555;
-    line-height: 1.6em;
-}
-p {
-    margin-bottom: 1em;
-}
-li {
-    margin-bottom: 0.5em;
-}
+
 .first-character {
     font-weight: 400;
     float: left;

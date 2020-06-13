@@ -27,15 +27,15 @@
         <nav id="nav" class="desktop">
             <ul>
                 {% if page.permalink == '/' %}
-                    <li><a href="#news">News</a></li>
+                    <li class="selected"><a href="#">Home</a></li>
                 {% else %}
                     <li><a href="/website/">Home</a></li>
                 {% endif %}
-                <li><a href="/website/projects/">Projects</a></li>
-                <li><a href="/website/people/">People</a></li>
-                <li><a href="/website/how-we-work/" class="active">How We Work</a></li>
-                <li><a href="/website/partners/">Community Partners</a></li>
-                <li><a href="/website/contact/">Contact</a></li>
+                <li {% if page.url contains "projects" %}class="selected"{% endif %}><a href="/website/projects/">Projects</a></li>
+                <li {% if page.url contains "people" %}class="selected"{% endif %}><a href="/website/people/">People</a></li>
+                <li {% if page.url contains "how-we-work"  %}class="selected"{% endif %}><a href="/website/how-we-work/" class="active">How We Work</a></li>
+                <li {% if page.url contains "partners"  %}class="selected"{% endif %}><a href="/website/partners/">Community Partners</a></li>
+                <li {% if page.url contains "contact" %}class="selected"{% endif %}><a href="/website/contact/">Contact</a></li>
             </ul>
         </nav>
     </div>
