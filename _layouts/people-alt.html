@@ -9,15 +9,13 @@ extra_stylesheets:
 {% comment %}
     In order to put people into three columns, we need to do a few calculations first:
 {% endcomment %}
-{% assign num_columns = 2 %}
+{% assign num_columns = 3 %}
 {% assign len = site.people | size %}
 {% assign people_per_card = len | divided_by: num_columns %}
 
-<!-- {% comment %}
-    {% if people_per_card * num_columns == len %}
-        {% assign people_per_card = people_per_card | plus: 1 %}
-    {% endif %}
-{% endcomment %} -->
+{% if people_per_card * num_columns == len %}
+    {% assign people_per_card = people_per_card | plus: 1 %}
+{% endif %}
 
 <!-- Create three columns: -->
 <section class="cards">

@@ -1,0 +1,64 @@
+.masonry {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(100px,1fr));
+    grid-gap: 30px;
+    grid-auto-rows: 0;
+}
+.masonry h3, .masonry h4 {
+    padding-left: 1rem;
+    margin: 0;
+}
+.masonry h4 {
+    margin-bottom: 1rem;
+}
+
+.masonry-item, .masonry-content {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.masonry-item img {
+    width: 100%;
+}
+
+.masonry-item {
+    border: solid 1px #CCC;
+}
+
+.masonry-content {
+    overflow: hidden;
+}
+
+.masonry-item {
+    color: #111111;
+    background-color: #f9f9f9;
+}
+
+.masonry-title, .masonry-description {
+    margin: 0;
+}
+
+.masonry-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 1rem 1.5rem;
+}
+
+.masonry-description {
+    font-size: .9rem;
+    border-top: 1px solid rgba(0, 0, 0, .05);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media only screen and (min-width: 1024px) {
+    .masonry {
+        grid-template-columns: repeat(3, minmax(100px,1fr));
+    }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    .masonry {
+        grid-template-columns: repeat(2, minmax(100px,1fr));
+    }
+}

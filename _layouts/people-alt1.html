@@ -1,0 +1,42 @@
+---
+layout: default
+extra_stylesheets:
+    - masonry.css
+extra_scripts:
+    - https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js
+    - masonry.js
+
+---
+{{ content }}
+
+{% comment %}
+    In order to put people into three columns, we need to do a few calculations first:
+{% endcomment %}
+{% assign num_columns = 3 %}
+{% assign len = site.people | size %}
+{% assign people_per_card = len | divided_by: num_columns %}
+
+{% if people_per_card * num_columns == len %}
+    {% assign people_per_card = people_per_card | plus: 1 %}
+{% endif %}
+
+<!-- Create three columns: -->
+<div class="masonry">
+    {% for person in site.people %}
+        <div class="masonry-item">
+            <div class="masonry-content">
+                <img src="{{site.baseurl}}/{{ person.filename }}" alt="photo of person" />
+                <h3 class="masonry-title">{{ person.name }}</h3>
+                <h4>{{ person.role }}</h4>
+                <div class="masonry-description">
+                    {{ person.content }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+<!-- end preview panel -->
+
+<!-- <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/masonry.js"></script>
+ -->
