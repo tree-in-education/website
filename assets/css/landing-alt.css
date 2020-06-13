@@ -1,0 +1,126 @@
+
+.landing section h2 {
+    text-align: center;
+}
+
+.banner {
+    background: #87C38F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 102vh;
+}
+.banner .block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.banner h2 {
+    color: white;
+    font-size: 3em;
+}
+.banner p, .banner li {
+    color: white;
+    font-size: 1.3em;
+}
+
+.scroll-button {
+    align-self: center;
+    margin-top: 100px;
+}
+
+.block {
+    margin-top: 60px;
+}
+
+.title {
+    padding: 30px 250px 0px 250px;
+}
+section > div {
+    padding: 0px 250px 100px 250px;
+}
+
+.landing section ul {
+    list-style: none;
+    padding-left: 80px;
+}
+
+.landing section li::before {
+    content: "•"; 
+    color: #87C38F;
+    display: inline-block; 
+    width: 1em;
+    font-size: 1.5em;
+    vertical-align: middle;
+    margin-left: -1em;
+}
+
+.parallax-one, .parallax-two {
+    padding: 0px;
+}
+.parallax-one .content  {
+    margin-left: 50vw;
+    background: #EEE;
+    padding: 60px 40px 60px 40px;
+}
+
+.parallax-two .content {
+    margin-right: 50vw;
+    background: #EEE;
+    padding: 60px 40px 60px 40px;
+}
+.parallax-one h2, .parallax-two h2 {
+    margin-top: 0px;
+    text-align: left;
+}
+.parallax-one, .parallax-two {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-color: #EEE;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vh 100vh;
+}
+.parallax-one {
+    background-image: url(../images/landing/stingray3.png);
+    background-position: 0px 10px;
+}
+
+.parallax-two {
+    background-image: url(../images/landing/cta.png);
+    background-position: 50vw 55px;
+}
+
+@media screen and (max-width: 1200px) {
+    .title, .container, section > div {
+        padding: 30px 100px 30px 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .parallax-one .content, .parallax-two .content {
+        margin: 70vw 30px 70vw 30px;
+        background: rgba(230, 230, 230, 0.9);
+        padding: 30px 20px 30px 20px;
+    }
+    .parallax-one, .parallax-two {
+        background-size: cover;
+        background-position: center 55px;
+    }
+    section > div {
+        padding: 0px 20px 50px 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .parallax-one .content, .parallax-two .content {
+        margin: 100vw 0px 0vw 0px;
+        background: white;
+    }
+}

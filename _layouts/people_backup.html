@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/treeLab_icon1.png" sizes="16x16">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/gallery.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/carousel.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/footer.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% if page.extra_stylesheet %}
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ page.extra_stylesheet }}">
+        {% endif %}
+    </head>
+    <body>
+      <div class="container">
+            {% include header.html %}
+            {% include navigation.html %}
+        <main>
+          {{ content }}
+          <ul class="cards">
+            {% for person in site.people %}
+            <li class="card">
+                <div class="image" style="background-image:url('{{site.baseurl}}/{{ person.filename }}')"></div>
+            </li>
+            {% endfor %}
+          </ul>
+          <!-- preview panel -->
+          <section class="preview_box">
+              <div class="featured_image" style="background-image:url('../assets/images/placeholder.jpg');"></div>
+              <button class="close">&times;</button>
+              <button class="prev">&lsaquo;</button>
+              <button class="next">&rsaquo;</button>
+          </section>
+          <!-- end preview panel -->
+
+        </main>
+      <div style="margin-top:800px;">{% include footer.html %}</div>
+    </div>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/carousel.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/people.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+<script type="text/javascript" src="{{site.baseurl}}/assets/js/tree.js"></script>
+<!-- logo interactive movement -->
+<script>
+  let animate = false;
+  let isInteractive = false;
+  {% if page.animate %}
+      animate = true;
+  {% endif %}
+  {% if page.isInteractive %}
+      isInteractive = true;
+  {% endif %}
+  const logo = Tree('logo', {
+      lineWidth: 0.5,
+      fontSize: '20px',
+      animate: animate,
+      isInteractive: isInteractive,
+      speed: 2,
+      delay: 200
+  });
+</script>
+</body>
+</html>

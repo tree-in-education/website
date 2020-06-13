@@ -6,16 +6,20 @@
         <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/treeLab_icon1.png" sizes="16x16">
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css">
+        <!-- <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css"> -->
+        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
         <link rel="stylesheet" href="{{site.baseurl}}/assets/css/footer.css">
-        {% if page.extra_stylesheet %}
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ page.extra_stylesheet }}">
-        {% endif %}
+        {% for stylesheet in page.extra_stylesheets %}
+            <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ stylesheet }}">
+        {% endfor %}
+        {% for stylesheet in layout.extra_stylesheets %}
+            <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ stylesheet }}">
+        {% endfor %}
     </head>
     <body>
         <div class="container">
+            {{ page.extra_stylesheets}}
             {% include header.html %}
-            {% include navigation.html %}
             <main>
                 {% if page.layout == 'person' %}
                     <h1><a href="../people/">People</a> > {{ page.title }}</h1>
@@ -27,8 +31,8 @@
 
                 {{ content }}
             </main>
-            {% include footer.html %}
         </div>
+        {% include footer.html %}
         <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
         <script type="text/javascript" src="{{site.baseurl}}/assets/js/tree.js"></script>
         <!-- logo interactive movement -->
@@ -41,13 +45,17 @@
             {% if page.isInteractive %}
                 isInteractive = true;
             {% endif %}
+
             const logo = Tree('logo', {
                 lineWidth: 0.5,
-                fontSize: '20px',
-                animate: animate,
-                isInteractive: isInteractive,
-                speed: 2,
-                delay: 200
+                branchingDepth: 10,
+                animate: true,
+                fontSize: '35px',
+                speed: 1,
+                delay: 0,
+                isInteractive: true,
+                // showLabel: false,
+                leafColor: 'rgba(135, 195, 143, 1)'
             });
         </script>
     </body>

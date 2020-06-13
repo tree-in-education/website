@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0px;
+}
+body * {
+    box-sizing: border-box;
+}
+
+.mobile { display: none; }
+.desktop { display: block; } 
+
+
+nav {
+    width: 100%;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    margin-top: 10px;
+}
+  
+nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+}
+nav ul li {
+    list-style: none;
+    padding: 10px 10px;
+    margin: 0px;
+}
+
+nav ul li::before {
+    content: ''; 
+}
+
+nav ul li a,
+nav ul li a:visited,
+nav ul li a:active {
+    color: black; 
+    text-decoration: none;
+    border-bottom: solid 1px transparent;
+}
+
+nav ul li a:hover {
+    border-bottom: solid 1px #000;
+}
+
+nav.sticky {
+    height: 55px;
+    background: #FFFFFF;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    border: none;
+    margin-top: 0px;
+}
+
+main {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.button {
+    margin-top: 0px;
+    color: #FFF;
+    background-color: #87C38F;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    width: 180px;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.space-top-30 {
+    margin-top: 30px;
+}
+.space-top-40 {
+    margin-top: 40px;
+}
+
+blockquote {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #999;
+    font-weight: 400;
+}
+
+.container {
+    padding: 30px 250px 0px 250px;
+}
+
+
+canvas {
+    /* border: solid 1px #000; */
+    width: 180px;
+    height: 130px;
+    font-family: "Oswald", sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    position: relative;
+    margin-bottom: -47px;
+    margin-right: 164px;
+}
+
+.title {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.title > h1, .title h2 {
+    width: 100%;
+}
+.title h1 {
+    font-size: 35px;
+    letter-spacing: 8px;
+    /* width: 500px; */
+    /* margin-left: -60px; */
+    margin-bottom: -10px
+}
+.title h2 {
+    text-transform: none;
+    color: #87C38F;
+    /* padding: 8px; */
+    margin-top: 12px;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+h2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color: #222;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    /* z-index: 10; */
+}
+.landing section h2 {
+    text-align: center;
+}
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: black;
+}
+p, li {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6em;
+}
+p {
+    margin-bottom: 1em;
+}
+li {
+    margin-bottom: 0.5em;
+}
+.first-character {
+    font-weight: 400;
+    float: left;
+    font-size: 84px;
+    line-height: 64px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #87C38F;
+}
+
+
+@media screen and (max-width: 900px) {
+    .title {
+        display: grid;
+        grid-template-columns: 40px calc(100vw - 40px);
+        padding: 0px;
+        justify-content: flex-start;
+        align-items: center;
+        position: fixed;
+        background: white;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        z-index: 100000;
+        height: 55px;
+    }
+    .title h1 {
+        width: 100%;
+        font-size: 1.8em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .title .hamburger {
+        text-decoration: none;
+        color: black;
+        font-size: 1.4em;
+        margin-left: 10px;
+    }
+    .mobile { display: flex; }
+    .desktop { display: none; } 
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 30px 10px 30px 10px;
+    }
+}

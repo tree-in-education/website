@@ -9,6 +9,12 @@ const Tree = (id, opts) => {
     if (opts.isInteractive !== undefined) {
         isInteractive = opts.isInteractive;
     }
+    let showLabel = opts.showLabel;
+    if (showLabel === undefined) {
+        showLabel = true;
+    }
+    let height = document.querySelector('#' + id).clientHeight;
+    let width = document.querySelector('#' + id).clientWidth;    
     let animationY = canvas.height;
     let branchLengthRatio = 0.873; //0.775;
     let branchingDepth = opts.branchingDepth || 10;
@@ -25,8 +31,20 @@ const Tree = (id, opts) => {
         ctx.beginPath();
         ctx.lineWidth = opts.lineWidth || 0.5;
         ctx.moveTo(x1, y1);
+        // if (depth < 3) {
+        //     // if (alpha < 0.1)
+        //     //     ctx.strokeStyle = 'black';
+        //     // else
+        //         ctx.strokeStyle = 'rgba(41, 81, 46, ' + alpha + ')';
+        //     // ctx.strokeStyle = 'rgba(62, 122, 70, ' + alpha + ')';
+        //     // ctx.strokeStyle = 'rgba(135, 195, 143, ' + alpha + ')';
+        //     // ctx.strokeStyle = 'rgba(124, 143, 19, ' + alpha + ')';
+        // } else 
+        
         if (depth < 2) {
-            ctx.strokeStyle = 'rgba(124, 143, 19, ' + alpha + ')';
+            ctx.strokeStyle = 'rgba(62, 122, 70, ' + alpha + ')';
+        } else if (depth < 1) {
+            ctx.strokeStyle = 'rgba(135, 195, 143, ' + alpha + ')';
         } else {
             ctx.strokeStyle = 'black';
         }
@@ -52,29 +70,38 @@ const Tree = (id, opts) => {
     };
 
     const redrawTree = () => {
-      ctx.clearRect(0,0, canvas.width, canvas.height);
-      const rect = canvas.getBoundingClientRect();
-      const x = canvas.width / 2;
-      const y1 = canvas.height;
-      const y2 = canvas.height - trunkHeight;
-      drawTree(x, y1, x, y2, trunkHeight,
-               - Math.PI / 2, branchingDepth);
-      // label:
-      ctx.fillStyle = 'rgba(0, 0, 0, ' + alpha + ')';
-      ctx.font = fontSize + " Arial";
-      ctx.textAlign = 'center';
-      ctx.fillText("TR EE", x, y1 - 10);
+        ctx.clearRect(0,0, canvas.width, canvas.height);
+        const x = canvas.width / 2;
+        const y1 = canvas.height;
+        const y2 = canvas.height - trunkHeight;
+        const opacity = 1.0 - alpha;
+        console.log(opacity);
+        // canvas.getContext("2d").fillStyle = 'rgba(255, 255, 255, ' + opacity + ')';
+        // canvas.getContext("2d").fillRect(0, 0, canvas.width, canvas.height);
+            
+        drawTree(x, y1, x, y2, trunkHeight,
+                - Math.PI / 2, branchingDepth);
+        // label:
+        if (showLabel) {
+            // ctx.fillRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = 'rgba(0, 0, 0, ' + alpha + ')';
+            ctx.font = fontSize + ' "Oswald", sans-serif';
+            //ctx.fontWeight = 300;
+            ctx.textAlign = 'center';
+            ctx.fillText("TREE", x + x * 0.03, y1);
+        }
     };
 
     const updateTreeOnMousemove = (e) => {
+        clearInterval(animation);
         const rect = canvas.getBoundingClientRect();
         const y = e.clientY - rect.top;
         updateTree(y);
     };
 
     const setDimensions = () => {
-        const height = document.querySelector('#' + id).clientHeight;
-        const width = document.querySelector('#' + id).clientWidth;
+        height = document.querySelector('#' + id).clientHeight;
+        width = document.querySelector('#' + id).clientWidth;
         canvas.width = width;
         canvas.height = height;
         trunkHeight = canvas.height / 6;
@@ -94,7 +121,10 @@ const Tree = (id, opts) => {
 
     const animate = () => {
         --animationY;
-        if (animationY <= 0) {
+        console.log(animationY);
+        const ratio = animationY / height;
+        // if (animationY <= 0) {
+        if (ratio <= 0.1) {
             clearInterval(animation);
             console.log('CLEARED');
             return;

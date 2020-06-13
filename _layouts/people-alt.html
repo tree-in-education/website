@@ -1,0 +1,53 @@
+---
+layout: default
+extra_stylesheets:
+    - cards.css
+    - carousel.css
+---
+{{ content }}
+
+{% comment %}
+    In order to put people into three columns, we need to do a few calculations first:
+{% endcomment %}
+{% assign num_columns = 2 %}
+{% assign len = site.people | size %}
+{% assign people_per_card = len | divided_by: num_columns %}
+
+<!-- {% comment %}
+    {% if people_per_card * num_columns == len %}
+        {% assign people_per_card = people_per_card | plus: 1 %}
+    {% endif %}
+{% endcomment %} -->
+
+<!-- Create three columns: -->
+<section class="cards">
+<ul>
+    {% assign count == 0 %}
+    {% for person in site.people %}
+        {% assign count = count | plus: 1 %}
+        {% assign mod = count | modulo: people_per_card %}
+        <li class="card1">
+            <!-- <p>{{ mod }} - {{count}} - {{len}} - {{people_per_card}}</p> -->
+            <img src="{{site.baseurl}}/{{ person.filename }}" />
+            <h3>{{ person.name }}</h3>
+            <h4>{{ person.role }}</h4>
+            <p>{{ person.content }}</p>
+        </li>
+        {% if mod == 0 %}
+            </ul><ul>
+        {% endif %}
+    {% endfor %}
+</ul>
+</section>
+<!-- preview panel -->
+<section class="preview_box">
+    <div class="featured_image" style="background-image:url('../assets/images/placeholder.jpg');"></div>
+    <button class="close">&times;</button>
+    <button class="prev">&lsaquo;</button>
+    <button class="next">&rsaquo;</button>
+</section>
+<!-- end preview panel -->
+
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/carousel.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/people.js"></script>
+

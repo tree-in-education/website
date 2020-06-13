@@ -1,5 +1,5 @@
 <!-- banner -->
-<header>
+<!-- <header>
     <a href="{{site.baseurl}}/" class="desktop">
         <canvas id="logo" class="logo desktop"></canvas>
     </a>
@@ -8,4 +8,35 @@
         <i class="menu-toggle fas fa-bars"></i>
     </a>
     <h1 class="mobile">TREE Lab</h1>
+</header> -->
+
+
+<header>
+    <div class="title">
+        <span class="desktop">
+            <canvas id="logo"></canvas>
+            <h1>The &nbsp; &nbsp; &nbsp; &nbsp; Collective</h1>
+            <h2>
+                Examining Technology, Race, Equity, and Ethics in Education
+            </h2>
+        </span>
+        <a class="mobile hamburger" href="#">
+            <i class="menu-toggle fas fa-bars"></i>
+        </a>
+        <h1 class="mobile">The TREE Collective</h1>
+        <nav id="nav" class="desktop">
+            <ul>
+                {% if page.permalink == '/' %}
+                    <li><a href="#news">News</a></li>
+                {% else %}
+                    <li><a href="/website/">Home</a></li>
+                {% endif %}
+                <li><a href="/website/projects/">Projects</a></li>
+                <li><a href="/website/people/">People</a></li>
+                <li><a href="/website/how-we-work/" class="active">How We Work</a></li>
+                <li><a href="/website/partners/">Community Partners</a></li>
+                <li><a href="/website/contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>

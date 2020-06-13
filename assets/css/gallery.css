@@ -1,24 +1,17 @@
-body {
-    height:100%;
-    margin:0;
-    padding:0;
-}
-body * {
-    box-sizing: border-box;
-}
-
 .cards {
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
     margin: 0;
     padding-left: 20px;
     padding-top: 20px;
     list-style: none;
 }
+img {
+    width: 300px;
+}
 .cards li {
-    width: 25%;
-    height: 50%;
+    width: 33.3%;
+    height: 270px;
     padding-bottom: 20px;
     padding-right: 20px;
 }
