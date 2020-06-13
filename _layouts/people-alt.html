@@ -1,51 +1,30 @@
 ---
 layout: default
 extra_stylesheets:
-    - cards.css
-    - carousel.css
+    - masonry.css
+extra_scripts:
+    - https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js
+    - masonry.js
 ---
 {{ content }}
 
-{% comment %}
-    In order to put people into three columns, we need to do a few calculations first:
-{% endcomment %}
-{% assign num_columns = 3 %}
-{% assign len = site.people | size %}
-{% assign people_per_card = len | divided_by: num_columns %}
+{% assign faculty = site.people | where: 'type', "faculty" | sort: 'ordering' %}
+{% assign phds = site.people | where: 'type', "phd" | sort: 'ordering' %}
+{% assign undergrads = site.people | where: 'type', "undergraduate" | sort: 'ordering' %}
 
-{% if people_per_card * num_columns == len %}
-    {% assign people_per_card = people_per_card | plus: 1 %}
-{% endif %}
+{% assign people = faculty | concat: phds | concat: undergrads %}
 
-<!-- Create three columns: -->
-<section class="cards">
-<ul>
-    {% assign count == 0 %}
-    {% for person in site.people %}
-        {% assign count = count | plus: 1 %}
-        {% assign mod = count | modulo: people_per_card %}
-        <li class="card1">
-            <!-- <p>{{ mod }} - {{count}} - {{len}} - {{people_per_card}}</p> -->
-            <img src="{{site.baseurl}}/{{ person.filename }}" />
-            <h3>{{ person.name }}</h3>
-            <h4>{{ person.role }}</h4>
-            <p>{{ person.content }}</p>
-        </li>
-        {% if mod == 0 %}
-            </ul><ul>
-        {% endif %}
+<div class="masonry three">
+    {% for person in people %}
+        <div class="masonry-item">
+            <div class="masonry-content">
+                <img src="{{site.baseurl}}/{{ person.filename }}" alt="photo of person" />
+                <h3 class="masonry-title">{{ person.name }}</h3>
+                <h4>{{ person.role }}</h4>
+                <div class="masonry-description">
+                    {{ person.content }}
+                </div>
+            </div>
+        </div>
     {% endfor %}
-</ul>
-</section>
-<!-- preview panel -->
-<section class="preview_box">
-    <div class="featured_image" style="background-image:url('../assets/images/placeholder.jpg');"></div>
-    <button class="close">&times;</button>
-    <button class="prev">&lsaquo;</button>
-    <button class="next">&rsaquo;</button>
-</section>
-<!-- end preview panel -->
-
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/carousel.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/people.js"></script>
-
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: people-alt1
+layout: people-alt
 title: People
 permalink: /people/
 ---

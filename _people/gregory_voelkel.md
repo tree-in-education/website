@@ -2,7 +2,8 @@
 layout: person
 title: Gregory Voelkel
 name: Gregory Voelkel
-role: Student Researcher
+type: undergraduate
+role: Undergraduate Student Researcher
 filename: assets/images/people_images/gregoryvoelkel.jpg
 ---
 Gregory Voelkel is a Filmmaker and Undergraduate Researcher with Northwestern University's TREE Lab, specifically with the YPRPT Program and in collaboration with Family Matters. He is originally from Columbia, South Carolina.

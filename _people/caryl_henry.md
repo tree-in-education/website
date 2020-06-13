@@ -2,7 +2,8 @@
 layout: person
 title: Caryl Henry
 name: Caryl Henry
-role: Student Researcher
+type: undergraduate
+role: Undergraduate Student Researcher
 filename: assets/images/people_images/carylhenry.jpg
 ---
 Caryl is a junior majoring in Computer Science while pursuing a minor in Psychology, the Segal Design Certificate, Integrated Marketing Communications Certificate, and Digital Media Module. She also has conducted Human-Computer Interaction research through COMP_SCI 315: Design, Technology, and Research. Caryl’s diverse academic background and experience in Human-Computer Interaction research has made her passionate about developing technology responsibly such that helping people is at the forefront.

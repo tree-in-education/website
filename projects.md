@@ -1,6 +1,6 @@
 ---
-layout: projects
-title: Projects
+layout: projects-alt
+title: Affiliated Projects
 permalink: /projects/
 extra_stylesheet: projects.css
 ---

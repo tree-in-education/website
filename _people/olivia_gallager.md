@@ -2,7 +2,8 @@
 layout: person
 title: Olivia Gallager
 name: Olivia Gallager
-role: Student Researcher
+type: undergraduate
+role: Undergraduate Student Researcher
 filename: assets/images/people_images/oliviagallager.jpg
 ---
 Olivia is working on developing lessons for a Computer Science and Ethics course to be taught in the Fall after taking Professor Vakil's Intersections of Race and Technology course in SESP.

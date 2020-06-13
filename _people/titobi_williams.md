@@ -2,10 +2,9 @@
 layout: person
 title: Titobi Williams
 name: Titobi Williams
-role: Student Researcher
+type: undergraduate
+role: Undergraduate Student Researcher
 filename: assets/images/people_images/titobiwilliams.png
 ---
 
-Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!
-
-Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!
+Titobi is a rising senior at Northwestern, studying Computer Science and Legal Studies. Her interests lie at the intersection of technology, race and justice. She works cross functionally with the TREE lab, and will be interning remotely with Google during the summer of 2020.

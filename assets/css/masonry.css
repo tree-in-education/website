@@ -52,8 +52,12 @@
 }
 
 @media only screen and (min-width: 1024px) {
-    .masonry {
+    .masonry, .masonry.three {
         grid-template-columns: repeat(3, minmax(100px,1fr));
+    }
+
+    .masonry.two {
+        grid-template-columns: repeat(2, minmax(100px,1fr));
     }
 }
 

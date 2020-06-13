@@ -1,0 +1,23 @@
+---
+layout: default
+extra_stylesheets:
+    - masonry.css
+extra_scripts:
+    - https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js
+    - masonry.js
+---
+{{content}}
+
+<div class="masonry two">
+    {% for project in site.projects %}
+        <div class="masonry-item">
+            <div class="masonry-content">
+                <img src="{{site.baseurl}}/{{ project.filename }}" alt="image of project" />
+                <h3 class="masonry-title">{{ project.title }}</h3>
+                <div class="masonry-description">
+                    {{ project.content }}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
