@@ -23,11 +23,15 @@ extra_scripts:
                 <h4>{{ person.role }}</h4>
                 <div class="masonry-description">
                     {{ person.content }}
-                    <h4>Projects</h4>
+                    {% assign counter = 0 %}
                     {% for project in site.projects %}
                         {% for collaborator in project.collaborators %}
                             {% if collaborator.slug == person.slug %}
+                                {% if counter == 0 %}
+                                    <h4>Projects</h4>
+                                {% endif %}
                                 <a class="tag" href="../projects#{{ project.slug}}">{{ project.shortname}}</a>
+                                {% assign counter = counter | plus: 1 %}
                             {% endif %}
                         {% endfor %}
                     {% endfor %}

@@ -62,6 +62,9 @@
     padding-left: 1rem;
     padding-right: 1rem;
 }
+.masonry .masonry-description h4 {
+    padding-left: 0em;
+}
 
 
 
