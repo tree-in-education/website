@@ -16,6 +16,7 @@ nav {
     border-top: solid 1px #000;
     border-bottom: solid 1px #000;
     margin-top: 10px;
+    display: flex;
 }
   
 nav ul {
@@ -47,6 +48,15 @@ nav ul li.selected {
     font-weight: bold;
 }
 
+footer a, main a {
+    text-decoration: none;
+    color: #444;
+}
+
+footer a:hover, main a:hover {
+  color: #87C38F;
+}
+
 /* nav ul li a:hover {
     border-bottom: solid 1px #000;
 } */
@@ -63,6 +73,41 @@ nav.sticky {
     z-index: 200;
     border: none;
     margin-top: 0px;
+}
+
+nav.mobile {
+    z-index: 100000000;
+    margin-top: 0px;
+    border: none;
+    position: fixed;
+    top: 50px;
+    left: 0px;
+    background: rgba(255, 255, 255, 1);
+}
+
+nav.mobile ul {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+nav.mobile ul li {
+    display: flex;
+    width: 100vw;
+    text-align: left;
+    /* border-bottom: solid 1px #ccc; */
+}
+nav.mobile ul li:hover {
+    background: #EEE;
+}
+nav.mobile ul li.selected {
+    background: #87C38F;
+    font-weight: normal;
+}
+nav.mobile ul li.selected a {
+    color: #FFF;
 }
 
 main {
@@ -212,6 +257,7 @@ canvas {
 
 @media screen and (max-width: 900px) {
     
+    nav { display: none; }
     .title {
         display: grid;
         grid-template-columns: 40px calc(100vw - 40px);
@@ -245,8 +291,8 @@ canvas {
     .desktop { display: none; } 
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .container {
         padding: 30px 10px 30px 10px;
     }
-}
+} */

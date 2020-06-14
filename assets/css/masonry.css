@@ -22,10 +22,15 @@
 }
 
 .masonry-item {
-    border: solid 1px #CCC;
+    /* 
+    border: solid 1px #CCC; 
+    */
+    background-color: #f9f9f9;
+    
     opacity: 0;
     transition-property: width, opacity;
-    transition-duration: 1s;
+    transition-duration: 3s;
+    color: #111111;
 }
 .masonry-item.visible {
     opacity: 1;
@@ -36,8 +41,7 @@
 }
 
 .masonry-item {
-    color: #111111;
-    background-color: #f9f9f9;
+    
 }
 
 .masonry-title, .masonry-description {
@@ -65,10 +69,19 @@
     .masonry.two {
         grid-template-columns: repeat(2, minmax(100px,1fr));
     }
+
+    .masonry-item {
+        border: solid 1px #CCC;
+        background-color: #f9f9f9;
+    }
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
     .masonry {
         grid-template-columns: repeat(2, minmax(100px,1fr));
+    }
+    .masonry-item {
+        border: solid 1px #CCC;
+        background-color: #f9f9f9;
     }
 }

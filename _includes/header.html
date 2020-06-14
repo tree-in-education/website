@@ -24,19 +24,19 @@
             <i class="menu-toggle fas fa-bars"></i>
         </a>
         <h1 class="mobile">The TREE Collective</h1>
-        <nav id="nav">
-            <ul>
-                {% if page.permalink == '/' %}
-                    <li class="selected"><a href="#">Home</a></li>
-                {% else %}
-                    <li><a href="/website/">Home</a></li>
-                {% endif %}
-                <li {% if page.url contains "projects" %}class="selected"{% endif %}><a href="/website/projects/">Projects</a></li>
-                <li {% if page.url contains "people" %}class="selected"{% endif %}><a href="/website/people/">People</a></li>
-                <li {% if page.url contains "how-we-work"  %}class="selected"{% endif %}><a href="/website/how-we-work/" class="active">How We Work</a></li>
-                <li {% if page.url contains "partners"  %}class="selected"{% endif %}><a href="/website/partners/">Community Partners</a></li>
-                <li {% if page.url contains "contact" %}class="selected"{% endif %}><a href="/website/contact/">Contact</a></li>
-            </ul>
-        </nav>
     </div>
+    <nav id="nav">
+        <ul>
+            {% if page.permalink == '/' %}
+                <li class="selected"><a href="#">Home</a></li>
+            {% else %}
+                <li><a href="/website/">Home</a></li>
+            {% endif %}
+            <li {% if page.url contains "projects" %}class="selected"{% endif %}><a href="/website/projects/">Projects</a></li>
+            <li {% if page.url contains "people" %}class="selected"{% endif %}><a href="/website/people/">People</a></li>
+            <li {% if page.url contains "how-we-work"  %}class="selected"{% endif %}><a href="/website/how-we-work/" class="active">How We Work</a></li>
+            <li {% if page.url contains "partners"  %}class="selected"{% endif %}><a href="/website/partners/">Community Partners</a></li>
+            <li {% if page.url contains "contact" %}class="selected"{% endif %}><a href="/website/contact/">Contact</a></li>
+        </ul>
+    </nav>
 </header>

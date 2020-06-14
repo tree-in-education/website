@@ -1,30 +1,24 @@
-document.querySelector('.menu-toggle').onclick = (e) => {
-    //console.log(document.querySelector('nav').classList);
+const nav = document.querySelector("nav");
+const sticky = nav.offsetTop;
+
+const toggleMobileMenu = (e) => {
     document.querySelector('nav').classList.toggle('mobile');
     e.preventDefault();
 };
+const isMobile = () => {
+    return getComputedStyle(nav).display === 'none' || nav.classList.contains('mobile');
+};
 
-
-
-const nav = document.querySelector("nav");
-const sticky = nav.offsetTop;
-let timeout;
 const stickyToggle = () => {
-    if (window.pageYOffset > sticky && !nav.classList.contains('mobile')) {
-        if (!timeout) {
-            timeout = setTimeout(() => {
-                nav.classList.add("sticky");
-                timeout = null;
-            }, 100);
-        }
+    if (isMobile()) { 
+        return; 
+    }
+    if (window.pageYOffset > sticky) {
+        nav.classList.add("sticky");
     } else {
-        if (!timeout) {
-            timeout = setTimeout(() => {
-                nav.classList.remove("sticky");
-                timeout = null;
-            }, 100);
-        }
+        nav.classList.remove("sticky");
     }
 };
 
 window.onscroll = stickyToggle;
+document.querySelector('.menu-toggle').onclick = toggleMobileMenu;
