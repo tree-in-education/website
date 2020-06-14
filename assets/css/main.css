@@ -293,8 +293,8 @@ canvas {
     .desktop { display: none; } 
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .container {
         padding: 30px 10px 30px 10px;
     }
-} */
+}
