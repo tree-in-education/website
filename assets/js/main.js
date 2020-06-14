@@ -8,12 +8,22 @@ document.querySelector('.menu-toggle').onclick = (e) => {
 
 const nav = document.querySelector("nav");
 const sticky = nav.offsetTop;
-
+let timeout;
 const stickyToggle = () => {
     if (window.pageYOffset > sticky && !nav.classList.contains('mobile')) {
-        nav.classList.add("sticky");
+        if (!timeout) {
+            timeout = setTimeout(() => {
+                nav.classList.add("sticky");
+                timeout = null;
+            }, 100);
+        }
     } else {
-        nav.classList.remove("sticky");
+        if (!timeout) {
+            timeout = setTimeout(() => {
+                nav.classList.remove("sticky");
+                timeout = null;
+            }, 100);
+        }
     }
 };
 
