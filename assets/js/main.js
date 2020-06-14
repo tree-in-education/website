@@ -2,6 +2,7 @@ const nav = document.querySelector("nav");
 const sticky = nav.offsetTop;
 
 const toggleMobileMenu = (e) => {
+    document.querySelector('nav').classList.remove('sticky');
     document.querySelector('nav').classList.toggle('mobile');
     e.preventDefault();
 };
