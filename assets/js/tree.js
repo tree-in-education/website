@@ -74,8 +74,8 @@ const Tree = (id, opts) => {
         const x = canvas.width / 2;
         const y1 = canvas.height;
         const y2 = canvas.height - trunkHeight;
-        const opacity = 1.0 - alpha;
-        console.log(opacity);
+        // const opacity = 1.0 - alpha;
+        // console.log(opacity);
         // canvas.getContext("2d").fillStyle = 'rgba(255, 255, 255, ' + opacity + ')';
         // canvas.getContext("2d").fillRect(0, 0, canvas.width, canvas.height);
             
@@ -121,12 +121,12 @@ const Tree = (id, opts) => {
 
     const animate = () => {
         --animationY;
-        console.log(animationY);
+        // console.log(animationY);
         const ratio = animationY / height;
         // if (animationY <= 0) {
         if (ratio <= 0.1) {
             clearInterval(animation);
-            console.log('CLEARED');
+            // console.log('CLEARED');
             return;
         }
         updateTree(animationY);

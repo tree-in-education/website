@@ -10,7 +10,7 @@ extra_scripts:
 
 <div class="masonry two">
     {% for project in site.projects %}
-        <div class="masonry-item">
+        <div class="masonry-item" id="{{ project.slug}}">
             <div class="masonry-content">
                 <img src="{{site.baseurl}}/{{ project.filename }}" alt="image of project" />
                 <h3 class="masonry-title">{{ project.title }}</h3>

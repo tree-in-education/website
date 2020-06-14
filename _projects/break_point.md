@@ -1,8 +1,10 @@
 ---
 # layout: project
 title: BreakPoint Journal
+shortname: BreakPoint Journal
 filename: assets/images/landing/stingray3.png
 date: Feb 12, 2020
+slug: breakpoint
 website: https://tree-in-education.github.io/BreakPointNU/
 collaborators:
   - slug: akansha-raj

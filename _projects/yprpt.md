@@ -1,8 +1,10 @@
 ---
 # layout: single-project
 title: Young People’s Race Power and Tech Project (YPRPT)
+shortname: YPRPT
 filename: assets/images/red.jpg
 date: Feb 12, 2020
+slug: yprpt
 collaborators:
   - slug: sepehr-vakil
   - slug: gregory-voelkel

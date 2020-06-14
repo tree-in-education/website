@@ -1,7 +1,9 @@
 ---
 # layout: single-project
-title: Technology Learning Modules
+title: Computing & Society Learning Resources
+shortname: Learning Resources
 filename: assets/images/project_images/facial-recognition-icon.jpg
+slug: learning-resources
 date: Feb 12, 2020
 collaborators:
   - slug: thomas-young

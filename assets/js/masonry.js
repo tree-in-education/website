@@ -3,11 +3,13 @@
  * @param item Object A brick/tile/cell inside the masonry
  * @link https://w3bits.com/css-grid-masonry/
  */
-function resizeMasonryItem(item) {
 
+let numLoaded = 0;
+
+const resizeMasonryItem = (item) => {
     /* Get the grid object, its row-gap, and the size of its implicit rows */
     //item.style.removeProperty('grid-row-end');
-    var grid = document.getElementsByClassName('masonry')[0];
+    const grid = document.getElementsByClassName('masonry')[0];
     if (grid) {
         var rowGap = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-row-gap')),
             rowHeight = parseInt(window.getComputedStyle(grid).getPropertyValue('grid-auto-rows')),
@@ -20,41 +22,63 @@ function resizeMasonryItem(item) {
         if(gridImagesAsContent) {
             item.querySelector('img.masonry-content').style.height = item.getBoundingClientRect().height + "px";
         }
-        setTimeout(() => {
-            item.classList.add('visible');
-        }, 100);
-        
     }
-}
+};
 
-function resizeAllMasonryItems() {
-    console.log('resizing!')
-    var allItems = document.querySelectorAll('.masonry-item');
+const resizeAllMasonryItems = () => {
+    const allItems = document.querySelectorAll('.masonry-item');
     if (allItems) {
         for(var i=0;i < allItems.length;i++){
             resizeMasonryItem(allItems[i]);
         }
     };
-}
-  
-function waitForImages() {
-    //var grid = document.getElementById("masonry");
-    var allItems = document.querySelectorAll('.masonry-item');
-    if( allItems ) {
-      for(var i=0;i<allItems.length;i++){
-        imagesLoaded( allItems[i], function(instance) {
-          var item = instance.elements[0];
-          resizeMasonryItem(item);
-          console.log("Waiting for Images");
-        } );
-      }
+};
+
+const scrollToAnchor = (ev) => {
+    console.log('scrollToAnchor');
+    if (!window.location.hash) {
+        console.log('returning...');
+        return;
     }
-}
+    setTimeout(() => {window.scrollTo(0, 250);}, 1);
+    // window.scrollTo(0, 250);
+    const distanceToTop = (el) => {
+        return Math.floor(el.getBoundingClientRect().top);
+    };
+    setTimeout(() => {
+        var targetID = window.location.hash;
+        const targetAnchor = document.querySelector(targetID);
+        const yDistance = distanceToTop(targetAnchor) - 60;
+        console.log(targetID, yDistance);
+        window.scrollBy({ top: yDistance, left: 0, behavior: 'smooth' });
+    }, 10);
+    if (ev) {
+        ev.preventDefault();
+    }          
+};
   
-var masonryEvents = ['load', 'resize'];
-masonryEvents.forEach( function(event) {
-    window.addEventListener(event, resizeAllMasonryItems);
-});
+const waitForImages = () => {
+    const allItems = document.querySelectorAll('.masonry-item');
+    if (allItems) {
+        for( var i=0; i<allItems.length; i++) {
+            imagesLoaded( allItems[i], function(instance) {
+                var item = instance.elements[0];
+                resizeMasonryItem(item);
+                ++numLoaded;
+                if (numLoaded === allItems.length) {
+                    numLoaded = 0;
+                    document.querySelector('.masonry').classList.add('visible');
+                    scrollToAnchor();
+                }
+            });
+        }
+    }
+};
   
+
+window.addEventListener('load', resizeAllMasonryItems);
+window.addEventListener('resize', resizeAllMasonryItems);
+window.addEventListener('hashchange', scrollToAnchor);
+
 /* Do a resize once more when all the images finish loading */
 waitForImages();

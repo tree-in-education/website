@@ -1,7 +1,9 @@
 ---
 # layout: project
-title: Design Initiative for<br>CS & Ethics Course
+title: Design Initiative forCS & Ethics Course
+shortname: CS Ethics Education
 filename: assets/images/project_images/ethics1.png
+slug: ethics-course
 collaborators:
   - slug: natalie-melo
   - slug: olivia-gallager
