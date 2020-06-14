@@ -256,7 +256,9 @@ canvas {
 }
 
 @media screen and (max-width: 900px) {
-    
+    main {
+        margin-top: 90px;
+    }
     nav { display: none; }
     .title {
         display: grid;
@@ -274,7 +276,7 @@ canvas {
     }
     .title h1 {
         width: 100%;
-        font-size: 1.8em;
+        font-size: 1.4em;
         text-align: center;
         display: flex;
         justify-content: center;
