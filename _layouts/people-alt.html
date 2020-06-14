@@ -16,7 +16,7 @@ extra_scripts:
 
 <div class="masonry three">
     {% for person in people %}
-        <div class="masonry-item">
+        <div class="masonry-item" id="{{ person.slug }}">
             <div class="masonry-content">
                 <img src="{{site.baseurl}}/{{ person.filename }}" alt="photo of person" />
                 <h3 class="masonry-title">{{ person.name }}</h3>

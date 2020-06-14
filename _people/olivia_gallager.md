@@ -1,5 +1,6 @@
 ---
 layout: person
+slug: olivia-gallager
 title: Olivia Gallager
 name: Olivia Gallager
 type: undergraduate

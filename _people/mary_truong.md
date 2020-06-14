@@ -1,5 +1,6 @@
 ---
 layout: person
+slug: mary-truong
 title: Mary Truong
 name: Mary Truong
 type: undergraduate

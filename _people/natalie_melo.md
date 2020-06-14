@@ -1,5 +1,6 @@
 ---
 layout: person
+slug: natalie-melo
 title: Natalie Melo
 name: Natalie Melo
 type: phd

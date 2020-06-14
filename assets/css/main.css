@@ -127,7 +127,6 @@ blockquote {
     font-weight: 400;
 }
 
-
 h1 {
     font-family: "Oswald", sans-serif;
     font-size: 24px;
@@ -199,6 +198,20 @@ canvas {
     justify-content: center;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+
+.tag {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #EEE;
+    border-radius: 4px;
+    margin-right: 4px;
+    margin-bottom: 8px;
+}
+a.tag:hover {
+    color: #FFF;
+    background-color: #87C38F;
 }
 
 .space-top-30 {

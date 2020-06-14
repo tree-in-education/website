@@ -4,6 +4,12 @@ title: BreakPoint Journal
 filename: assets/images/landing/stingray3.png
 date: Feb 12, 2020
 website: https://tree-in-education.github.io/BreakPointNU/
+collaborators:
+  - slug: akansha-raj
+  - slug: katherine-johns
+  - slug: kimani-isaac
+  - slug: mary-truong
+  - slug: titobi-williams
 ---
 
 With all its perks, technology is normally touted as our path to that more equitable, shining future, a boon to save us from ourselves. But what if it’s not? We have evidence to believe that often, technology does the opposite, re-entrenching us in our inequities, even without malicious intent. 

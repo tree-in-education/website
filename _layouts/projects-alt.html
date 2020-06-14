@@ -16,6 +16,16 @@ extra_scripts:
                 <h3 class="masonry-title">{{ project.title }}</h3>
                 <div class="masonry-description">
                     {{ project.content }}
+                
+                    <h4>Team Members</h4>
+                    {% for collaborator in project.collaborators %}
+                        {% if collaborator.slug %}
+                            {% assign person = site.people | where:"slug", collaborator.slug | first %}
+                            <a class="tag" href="../people#{{person.slug}}">{{ person.name }}</a>
+                        {% else %}
+                            <span class="tag">{{ collaborator.name }}</span>
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
         </div>

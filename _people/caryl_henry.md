@@ -1,5 +1,6 @@
 ---
 layout: person
+slug: caryl-henry
 title: Caryl Henry
 name: Caryl Henry
 type: undergraduate

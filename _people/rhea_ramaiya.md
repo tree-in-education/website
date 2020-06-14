@@ -1,5 +1,6 @@
 ---
 layout: person
+slug: rhea-ramaiya
 title: Rhea Ramaiya
 name: Rhea Ramaiya
 type: undergraduate

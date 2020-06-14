@@ -1,5 +1,6 @@
 ---
 layout: person
+slug: thomas-young
 title: Thomas Young
 name: Thomas Young
 type: undergraduate
