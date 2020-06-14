@@ -113,7 +113,7 @@ section > div {
     .title, section > div {
         padding: 0px;
     }
-    .skinny {
+    .intro-text {
         padding: 0px 50px 0px 50px;
     }
     nav {
@@ -142,10 +142,15 @@ section > div {
 
 @media screen and (max-width: 600px) {
     .parallax-one .content, .parallax-two .content {
-        margin: 100vw 0px 0vw 0px;
+        margin: 100vh 0px 0vw 0px;
         background: white;
     }
-    .container {
+    .container, .intro-text {
         padding: 0px;
+    }
+    blockquote {
+        margin-right: 0px;
+        margin-left: 30px;
+        /* color: black; */
     }
 }
