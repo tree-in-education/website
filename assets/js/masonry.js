@@ -20,7 +20,7 @@ function resizeMasonryItem(item) {
         if(gridImagesAsContent) {
             item.querySelector('img.masonry-content').style.height = item.getBoundingClientRect().height + "px";
         }
-        // item.classList.add('masonry-item');
+        item.classList.add('visible');
     }
 }
 

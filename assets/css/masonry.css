@@ -23,6 +23,12 @@
 
 .masonry-item {
     border: solid 1px #CCC;
+    opacity: 0;
+    transition-property: width, opacity;
+    transition-duration: 1s;
+}
+.masonry-item.visible {
+    opacity: 1;
 }
 
 .masonry-content {

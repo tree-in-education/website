@@ -1,7 +1,7 @@
 ---
 # layout: project
 title: Design Initiative for<br>CS & Ethics Course
-filename: assets/images/img2.jpg
+filename: assets/images/project_images/ethics1.png
 ---
 
 Societies are being rapidly shaped by computer-mediated systems. These systems provide tremendous benefits (e.g. online shopping, convenient access to information, connection to friends and family) and risks (e.g. biased decision-making, surveillance, disinformation, and exclusion from critical material opportunities) that are important to examine and understand.

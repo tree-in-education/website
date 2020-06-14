@@ -37,6 +37,9 @@ collections:
   people:
     output: true
     permalink: /people/:name
+  partners:
+    output: true
+    permalink: /partners/:name
 
 
 

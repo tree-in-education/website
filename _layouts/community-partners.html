@@ -1,0 +1,25 @@
+---
+layout: default
+extra_stylesheets:
+    - masonry.css
+extra_scripts:
+    - https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js
+    - masonry.js
+---
+{{ content }}
+
+
+<div class="masonry three">
+    {% for partner in site.partners %}
+        <div class="masonry-item">
+            <div class="masonry-content">
+                <img src="{{site.baseurl}}/{{ partner.filename }}" alt="photo of person" />
+                <h3 class="masonry-title">{{ partner.title }}</h3>
+                <div class="masonry-description">
+                    {{ partner.content }}
+                    <a class="button" href="{{ partner.website }}" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
