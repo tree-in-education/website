@@ -6,7 +6,7 @@ extra_stylesheets:
     - contacts.css
 ---
 
-We'd love to hear from you! If your an undergraduate or graduate student, contact us and let us know about opportunities. If you're an organization who would like to collaborate with us, we'd love to hear from you. Please feel free to email us (see information below).
+We'd love to hear from you! If your an undergraduate or graduate student, contact us and tell us about yourself and your interests. If you're an organization who would like to collaborate with us, we'd love to hear from you. More info below.
 
 <div class="contact-info">
   <!-- <div class="card">

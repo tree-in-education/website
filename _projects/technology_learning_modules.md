@@ -2,7 +2,7 @@
 # layout: single-project
 title: Computing & Society Learning Resources
 shortname: Learning Resources
-filename: assets/images/project_images/facial-recognition-icon.jpg
+filename: assets/images/project_images/fac-detection1.png
 slug: learning-resources
 date: Feb 12, 2020
 collaborators:
