@@ -27,7 +27,7 @@ We'd love to hear from you! If your an undergraduate or graduate student, contac
     </div>
     <div class="card">
         <div class="card-text">
-            <h3>For Community Partners</h3>
+            <h3>For Organizations</h3>
             <p>Want to collaborate with us? Learn more about the collaborations we have done in the past and how we work with partnering organizations.</p>
             <div>
                 <a class="button" href="../partners">Collaborate</a>

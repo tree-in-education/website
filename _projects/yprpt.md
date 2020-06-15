@@ -2,7 +2,7 @@
 # layout: single-project
 title: Young People’s Race Power and Tech Project (YPRPT)
 shortname: YPRPT
-filename: assets/images/red.jpg
+filename: assets/images/project_images/yprpt.jpg
 date: Feb 12, 2020
 slug: yprpt
 collaborators:

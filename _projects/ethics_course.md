@@ -1,6 +1,6 @@
 ---
 # layout: project
-title: Design Initiative forCS & Ethics Course
+title: Computing, Ethics, and Society Course
 shortname: CS Ethics Education
 filename: assets/images/project_images/ethics1.png
 slug: ethics-course
