@@ -50,11 +50,12 @@ nav ul li.selected {
 
 footer a, main a {
     text-decoration: none;
-    color: #444;
+    color: #87C38F;
 }
 
 footer a:hover, main a:hover {
-  color: #87C38F;
+  /* color: #87C38F; */
+  text-decoration: underline;
 }
 
 /* nav ul li a:hover {
@@ -199,6 +200,10 @@ canvas {
     text-decoration: none;
     text-transform: uppercase;
 }
+.button:hover {
+    text-decoration: none;
+    background-color: #87c38fb9;
+}
 
 
 .tag {
@@ -209,9 +214,13 @@ canvas {
     margin-right: 4px;
     margin-bottom: 8px;
 }
+a.tag {
+    color: #444;
+}
 a.tag:hover {
     color: #FFF;
     background-color: #87C38F;
+    text-decoration: none;
 }
 
 .space-top-30 {
