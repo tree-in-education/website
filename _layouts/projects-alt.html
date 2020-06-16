@@ -22,6 +22,8 @@ extra_scripts:
                         {% if collaborator.slug %}
                             {% assign person = site.people | where:"slug", collaborator.slug | first %}
                             <a class="tag" href="../people#{{person.slug}}">{{ person.name }}</a>
+                        {% else if collaborator.website %}
+                            <a class="tag" href="{{collaborator.website}}" target="_blank">{{ collaborator.name }}</a>
                         {% else %}
                             <span class="tag">{{ collaborator.name }}</span>
                         {% endif %}
