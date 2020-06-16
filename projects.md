@@ -6,4 +6,4 @@ extra_stylesheets:
     - projects.css
 ---
 
-<span class="first-character">A</span>t the TREE Lab, we are completing several projects at a time in different workgroups such as, student Journal Breakpoint, Militarism teach-ins, and collaborating with high-school students to complete documentaries of how technology's greater effect on society.
+<span class="first-character">T</span>here are several projects currently underway within the TREE Collective, which are run by different student-faculty-community working groups. You can read more about these initiatives below.
