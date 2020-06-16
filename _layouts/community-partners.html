@@ -8,9 +8,9 @@ extra_scripts:
 ---
 {{ content }}
 
-
+{% assign partners = site.partners | sort: 'ordering' %}
 <div class="masonry three">
-    {% for partner in site.partners %}
+    {% for partner in partners %}
         <div class="masonry-item">
             <div class="masonry-content">
                 <img src="{{site.baseurl}}/{{ partner.filename }}" alt="photo of person" />

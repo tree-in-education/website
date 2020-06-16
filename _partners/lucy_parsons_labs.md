@@ -1,5 +1,6 @@
 ---
 title: Lucy Parsons Labs
+ordering: 3
 filename: assets/images/community_partners_images/LPL.jpg
 website: https://lucyparsonslabs.com/
 ---
