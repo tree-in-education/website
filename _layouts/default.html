@@ -44,7 +44,7 @@
         
         <script>
             let animate = false;
-            let isInteractive = false;
+            let isInteractive = true;
             {% if page.animate %}
                 animate = true;
             {% endif %}
@@ -55,11 +55,11 @@
             const logo = Tree('logo', {
                 lineWidth: 0.5,
                 branchingDepth: 10,
-                animate: true,
+                animate: animate,
                 fontSize: '35px',
                 speed: 1,
                 delay: 0,
-                isInteractive: true,
+                isInteractive: isInteractive,
                 // showLabel: false,
                 leafColor: 'rgba(135, 195, 143, 1)'
             });
