@@ -52,7 +52,7 @@ const Tree = (id, opts) => {
 
     const obj = canvas_obj(document.getElementById(id));
     let { canvas, ctx, dpi, set, get } = obj;
-    console.log(dpi);
+    // console.log(dpi);
 
     // requestAnimationFrame(animate);
 
@@ -88,17 +88,8 @@ const Tree = (id, opts) => {
             return;
 
         ctx.beginPath();
-        ctx.lineWidth = 2.5;
+        ctx.lineWidth = opts.lineWidth * dpi;
         ctx.moveTo(x1, y1);
-        // if (depth < 3) {
-        //     // if (alpha < 0.1)
-        //     //     ctx.strokeStyle = 'black';
-        //     // else
-        //         ctx.strokeStyle = 'rgba(41, 81, 46, ' + alpha + ')';
-        //     // ctx.strokeStyle = 'rgba(62, 122, 70, ' + alpha + ')';
-        //     // ctx.strokeStyle = 'rgba(135, 195, 143, ' + alpha + ')';
-        //     // ctx.strokeStyle = 'rgba(124, 143, 19, ' + alpha + ')';
-        // } else 
         
         if (depth < 2) {
             ctx.strokeStyle = 'rgba(62, 122, 70, ' + alpha + ')';
@@ -216,10 +207,8 @@ const Tree = (id, opts) => {
 
     const animate = () => {
         --animationY;
-        // console.log(animationY);
-        const ratio = animationY / height;
-        // if (animationY <= 0) {
-        if (ratio <= 0.1) {
+        const ratio = get.style.height() / 7;
+        if (animationY < ratio) {
             clearInterval(animation);
             // console.log('CLEARED');
             return;
@@ -243,7 +232,8 @@ const Tree = (id, opts) => {
         } else {
             // make sure that font has loaded from the internet...
             document.fonts.ready.then(() => {
-                updateTree(document.querySelector('#' + id).clientHeight / 5);
+                const ratio = get.style.height() / 7
+                updateTree(ratio);
             });
         }
     }
