@@ -77,6 +77,9 @@ nav.sticky {
     border: none;
     margin-top: 0px;
 }
+main.sticky {
+    margin-top: 120px;
+}
 
 nav.mobile {
     margin: 0px;

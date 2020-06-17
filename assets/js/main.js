@@ -1,4 +1,5 @@
 const nav = document.querySelector("nav");
+const main = document.querySelector("main");
 const sticky = nav.offsetTop;
 
 const toggleMobileMenu = (e) => {
@@ -16,8 +17,10 @@ const stickyToggle = () => {
     }
     if (window.pageYOffset > sticky) {
         nav.classList.add("sticky");
+        main.classList.add("sticky");
     } else {
         nav.classList.remove("sticky");
+        main.classList.remove("sticky");
     }
 };
 
