@@ -5,7 +5,7 @@ title: Sepehr Vakil
 name: Sepehr Vakil
 type: faculty
 ordering: 1
-role: Principle Investigator
+role: Principal Investigator
 filename: assets/images/people_images/sepehrvakil.jpg
 ---
 Dr. Sepehr Vakil is the Principal Investigator and Co-Director (alongside Dr. Sarah Van Wart) of the Technology Race Ethics and Equity in Education (TREE) Lab in the School of Education and Social Policy at Northwestern University, where he is currently an assistant professor of Learning Sciences. 

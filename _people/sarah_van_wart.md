@@ -5,7 +5,7 @@ title: Sarah Van Wart
 name: Sarah Van Wart
 ordering: 2
 type: faculty
-role: Principle Investigator
+role: Principal Investigator
 filename: assets/images/people_images/sarahvanwart.jpg
 ---
 
