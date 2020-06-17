@@ -1,16 +1,3 @@
-<!-- banner -->
-<!-- <header>
-    <a href="{{site.baseurl}}/" class="desktop">
-        <canvas id="logo" class="logo desktop"></canvas>
-    </a>
-    <h1 class="desktop">Technology, Race, Ethics, and Equity in Education Lab</h1>
-    <a class="mobile" href="#">
-        <i class="menu-toggle fas fa-bars"></i>
-    </a>
-    <h1 class="mobile">TREE Lab</h1>
-</header> -->
-
-
 <header>
     <div class="title">
         <span class="desktop">
@@ -30,15 +17,15 @@
             {% if page.permalink == '/' %}
                 <li class="selected"><a href="#">Home</a></li>
             {% else %}
-                <li><a href="/website/">Home</a></li>
+                <li><a href="/">Home</a></li>
             {% endif %}
-            <li {% if page.url contains "projects" %}class="selected"{% endif %}><a href="/website/projects/">Projects</a></li>
-            <li {% if page.url contains "people" %}class="selected"{% endif %}><a href="/website/people/">People</a></li>
+            <li {% if page.url contains "projects" %}class="selected"{% endif %}><a href="{{site.baseurl}}/projects/">Projects</a></li>
+            <li {% if page.url contains "people" %}class="selected"{% endif %}><a href="{{site.baseurl}}/people/">People</a></li>
             {% comment %}
-                <li {% if page.url contains "how-we-work"  %}class="selected"{% endif %}><a href="/website/how-we-work/" class="active">How We Work</a></li>
+                <li {% if page.url contains "how-we-work"  %}class="selected"{% endif %}><a href="{{site.baseurl}}/how-we-work/" class="active">How We Work</a></li>
             {% endcomment %}
-            <li {% if page.url contains "partners"  %}class="selected"{% endif %}><a href="/website/partners/">Community Partners</a></li>
-            <li {% if page.url contains "contact" %}class="selected"{% endif %}><a href="/website/contact/">Contact</a></li>
+            <li {% if page.url contains "partners"  %}class="selected"{% endif %}><a href="{{site.baseurl}}/partners/">Community Partners</a></li>
+            <li {% if page.url contains "contact" %}class="selected"{% endif %}><a href="{{site.baseurl}}/contact/">Contact</a></li>
         </ul>
     </nav>
 </header>
