@@ -8,8 +8,10 @@ slug: yprpt
 collaborators:
   - slug: sepehr-vakil
   - slug: gregory-voelkel
-  - slug: rhea-ramaiya
+  - slug: jessie-marshall
   - slug: jessica-rodriguez
+  - slug: rhea-ramaiya
+  - slug: thomas-young
   - name: Endangered Peace Productions
     website: https://www.endangeredpeace.com/
   - name: Family Matters
