@@ -20,7 +20,6 @@ section h2 {
     color: white;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     flex-wrap: wrap;
     flex-direction: row;
     padding: 120px 200px 120px 200px;
@@ -29,7 +28,6 @@ section h2 {
 .banner a, .banner a:hover, .banner a:visited, .banner a:active {
     color: white;
     text-decoration: none;
-    /* font-weight: 600; */
     border-bottom: dotted 2px #fff;
 }
 
@@ -93,6 +91,10 @@ section > div {
     margin-left: -1em;
 }
 
+.content img {
+    display: none;
+}
+
 .parallax-one, .parallax-two {
     padding: 0px;
 }
@@ -123,12 +125,10 @@ section > div {
     background-size: 100vh 100vh;
 }
 .parallax-one {
-    background-image: url(../images/landing/stingray3.png);
     background-position: 0px 10px;
 }
 
 .parallax-two {
-    background-image: url(../images/project_images/yprpt_square.jpg);
     background-position: 50vw 55px;
 }
 

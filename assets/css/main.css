@@ -170,6 +170,38 @@ li {
     margin-bottom: 0.5em;
 }
 
+hr {
+    border: 0 solid #CCC;
+    border-top-width: 1px;
+    height: 0;
+    margin: 80px auto 60px auto;
+    clear: both;
+    display: block;
+    width: 400px;
+}
+
+hr:after {
+    /* content: "\f06c";
+    font-weight: 900;
+    font-family: 'Font Awesome 5 Free'; */
+    
+    content: "\f18c";
+    font-weight: 400;
+    font-family: 'Font Awesome 5 Brands';
+    
+    font-size: 1.7em;
+    display: block;
+    position: absolute;
+    left: 50%;
+    height: 20px;
+    width: 50px;
+    margin: -14px 0 0 -15px;
+    background: white;
+    text-align: center;
+    /* color: #407946; */
+    color: #87C38F;
+}
+
 canvas {
     /* border: solid 1px #000; */
     width: 160px;
