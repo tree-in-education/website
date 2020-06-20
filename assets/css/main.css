@@ -177,7 +177,7 @@ hr {
     margin: 80px auto 60px auto;
     clear: both;
     display: block;
-    width: 400px;
+    max-width: 400px;
 }
 
 hr:after {
@@ -240,7 +240,21 @@ canvas {
     text-decoration: none;
     background-color: #87c38fb9;
 }
+p.video {
+    display: flex;
+    width: 100%;
+    height: 320px;
+    background: #EEE;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+}
 
+.img-right {
+    width: 340px;
+    float: right;
+    margin-left: 20px;
+}
 
 .tag {
     display: inline-block;
@@ -321,6 +335,12 @@ a.tag:hover {
         margin-top: 90px;
     }
     nav { display: none; }
+    .img-right {
+        width: 100%;
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
     .title {
         display: grid;
         grid-template-columns: 40px calc(100vw - 40px);

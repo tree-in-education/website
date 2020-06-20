@@ -7,16 +7,8 @@ snippet: |
     Special <a href="#documentary-launch">online screening</a> of three documentaries produced by students of the Young People’s Race, Power, and Technology (YPRPT) project
 excerpt_separator: <!--more-->
 ---
-<style>
-    img {
-        width: 340px;
-        float: right;
-        margin-left: 20px;
-    }
-    
-</style>
 
-<img src="/assets/images/project_images/yprpt.jpg" />
+<img class="img-right" src="/assets/images/project_images/yprpt.jpg" />
 <span class="first-character">I</span>n partnership with the TREE Lab in Northwestern's School of Education and Social Policy, the Block Museum presented a special online screening, on June 17, 2020, of three documentaries produced by students of the Young People’s Race, Power, and Technology (YPRPT) project. YPRPT is an afterschool program, developed in partnership with community partners including Evanston Township High School, Family Matters, Endangered Peace, and the Lucy Parsons Labs, that brings together NU undergraduate students with youth and community members to jointly investigate the ethical and social dimensions of specific law enforcement technologies such as facial recognition and gang databases. 
 
 The screening was introduced by professors Sepehr Vakil (Northwestern University) and Raphael Nash (DePaul University) and followed by a live panel discussion between the YPRPT student filmmakers. The conversation was be moderated by Jessica Marshall (PhD student in Learning Sciences at Northwestern University School of Education and Social Policy). 
@@ -30,7 +22,8 @@ Below, you can watch the recordings of the event, which include a brief introduc
 ## Introduction
 Professor Sepehr Vakil (Northwestern University) introduces the screening, Young People's Race, Power, and Technology: Policing Surveillance.
 
-* Video coming soon
+{:.video}
+Video coming soon
 
 ---
 
@@ -53,7 +46,8 @@ In the last 25 years, Facial Recognition Technology transformed from a sci-fi mo
 The topic of immigration has become more prevalent over the past few years. It is crucial to understand the role of ICE. They use technology such as social media to aid in their efforts of deportation and family separation. On the flip side, communities have taken up their own defenses and use technology to protect themselves from ICE. Melting Ice serves to expose ICE’s practices while uplifting and informing communities.
 
 
-* Video coming soon
+{:.video}
+Video coming soon
 
 ---
 
@@ -62,4 +56,5 @@ Q&A for Policing Surveillance: A YPRPT Documentary Series event between student 
 
 <!-- <iframe src="https://player.vimeo.com/video/430463809" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
 
-* Video coming soon
+{:.video}
+Video coming soon
