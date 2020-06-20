@@ -15,10 +15,10 @@ extra_stylesheets:
         <h2>Announcements</h2>
         {% for post in site.posts %}
             <span>
-                {{ post.date | date: '%B %d, %Y' }}
+                {{ post.date | date: '%B %-d, %Y' }}
             </span>
             <div>
-                {{ post.snippet }}
+                {{ post.snippet_landing }}
             </div>
         {% endfor %}
     <!-- </div> -->
@@ -35,9 +35,9 @@ extra_stylesheets:
         <div class="{{ className }}" id="{{ post.slug }}" style="background-image: url({{post.featured_image}})">
             <div class="content">
                 <h2><a href="{{ post.url }}" target="_blank">{{post.title }}</a></h2>
-                <h3>{{ post.date | date: '%B %d, %Y' }}</h3>
+                <h3>{{ post.date | date: '%B %-d, %Y' }}</h3>
                 {{ post.excerpt }}  
-                <a class="button" href="{{ post.url }}" target="_blank">Read more</a>
+                <a class="button" href="{{ post.url }}">Read more</a>
             </div>
         </div>
     </section>

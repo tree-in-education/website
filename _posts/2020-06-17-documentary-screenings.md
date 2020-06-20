@@ -3,8 +3,10 @@ layout: post
 title:  "YPRPT: Documentary Film Screenings"
 featured_image: /assets/images/project_images/yprpt_square.jpg
 slug: documentary-launch
+snippet_landing: |
+    Special <a href="#documentary-launch">online screening</a> of three documentaries produced by students of the Young People’s Race, Power, and Technology (YPRPT) project.
 snippet: |
-    Special <a href="#documentary-launch">online screening</a> of three documentaries produced by students of the Young People’s Race, Power, and Technology (YPRPT) project
+    Special online screening of three documentaries produced by students of the Young People’s Race, Power, and Technology (YPRPT) project.
 excerpt_separator: <!--more-->
 ---
 
@@ -24,7 +26,6 @@ Professor Sepehr Vakil (Northwestern University) introduces the screening, Young
 
 * <a href="https://vimeo.com/showcase/7260847/video/429422733" target="_blank">Video</a>
 
----
 
 ## The Documentaries
 
@@ -48,7 +49,6 @@ The topic of immigration has become more prevalent over the past few years. It i
 {:.video}
 * <a href="https://vimeo.com/showcase/7260847/video/429377282" target="_blank">The Films</a>
 
----
 
 ## Q&A
 Q&A for Policing Surveillance: A YPRPT Documentary Series event between student filmmakers with moderation by Jessica Marshall (PhD student in Learning Sciences at Northwestern University School of Education and Social Policy). Involved in this discussion are the student filmmakers Eliana Chandra and Jazminé Morrow (Melting Ice); Yuzuka Komiyama-Kasai and Gregory Voelkel (Racial Recognition); as well as David Lewis, Jessica Rodriguez, and Izadorius Tortuga (Targeted) along with YPRPT mentors Raphael Nash and Sepehr Vakil.

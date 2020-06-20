@@ -19,6 +19,7 @@
             {% else %}
                 <li><a href="/">Home</a></li>
             {% endif %}
+            <li {% if page.url contains "news" %}class="selected"{% endif %}><a href="{{site.baseurl}}/news/">News</a></li>
             <li {% if page.url contains "projects" %}class="selected"{% endif %}><a href="{{site.baseurl}}/projects/">Projects</a></li>
             <li {% if page.url contains "people" %}class="selected"{% endif %}><a href="{{site.baseurl}}/people/">People</a></li>
             {% comment %}

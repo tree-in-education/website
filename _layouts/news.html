@@ -1,0 +1,18 @@
+---
+layout: default
+extra_stylesheets:
+    - news.css
+---
+
+{{ content }}
+
+<section class="news">
+    {% for post in site.posts %}
+        <span>
+            {{ post.date | date: '%B %-d, %Y' }}
+        </span>
+        <div>
+            {{ post.snippet }} <a href="{{ post.url }}">Read more</a>.
+        </div>
+    {% endfor %}
+</section>

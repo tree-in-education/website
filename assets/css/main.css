@@ -223,6 +223,14 @@ canvas {
 .mobile { display: none; }
 .desktop { display: block; } 
 
+.breadcrumb {
+    color: #41381a;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: -3px;
+}
+
 .button {
     margin-top: 0px;
     color: #FFF;

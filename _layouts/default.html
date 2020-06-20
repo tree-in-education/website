@@ -8,11 +8,10 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169887876-1"></script>
         <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-169887876-1');
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-169887876-1');
         </script>
 
         <link rel="icon" type="image/png" href="{{site.baseurl}}/assets/images/treeLab_icon1.png" sizes="16x16">
@@ -32,10 +31,8 @@
         <div class="container">
             {% include header.html %}
             <main>
-                {% if page.layout == 'person' %}
-                    <h1><a href="../people/">People</a> > {{ page.title }}</h1>
-                {% elsif page.layout == 'project' %}
-                    <h1><a href="../projects/">Projects</a> > {{ page.title }}</h1>
+                {% if page.layout == 'post' %}
+                    <h1><a href="../news/">News</a> <span class="breadcrumb"> // </span> {{ page.title }}</h1>
                 {% else %}
                     <h1>{{ page.title }}</h1>
                 {% endif %}

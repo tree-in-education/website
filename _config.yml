@@ -40,6 +40,9 @@ collections:
   partners:
     output: true
     permalink: /partners/:name
+  posts:
+    output: true
+    permalink: /news/:name
 
 
 
