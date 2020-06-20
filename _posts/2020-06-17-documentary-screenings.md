@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 ---
 
 <img class="img-right" src="/assets/images/project_images/yprpt.jpg" />
-<span class="first-character">I</span>n partnership with the TREE Lab in Northwestern's School of Education and Social Policy, the Block Museum presented a special online screening, on June 17, 2020, of three documentaries produced by students of the Young People’s Race, Power, and Technology (YPRPT) project. YPRPT is an afterschool program, developed in partnership with community partners including Evanston Township High School, Family Matters, Endangered Peace, and the Lucy Parsons Labs, that brings together NU undergraduate students with youth and community members to jointly investigate the ethical and social dimensions of specific law enforcement technologies such as facial recognition and gang databases. 
+<span class="first-character">I</span>n partnership with the TREE Lab in Northwestern's School of Education and Social Policy, the Block Museum presented a <a href="https://vimeo.com/showcase/7260847" target="_blank">special online screening</a>, on June 17, 2020, of three documentaries produced by students of the Young People’s Race, Power, and Technology (YPRPT) project. YPRPT is an afterschool program, developed in partnership with community partners including Evanston Township High School, Family Matters, Endangered Peace, and the Lucy Parsons Labs, that brings together NU undergraduate students with youth and community members to jointly investigate the ethical and social dimensions of specific law enforcement technologies such as facial recognition and gang databases. 
 
 The screening was introduced by professors Sepehr Vakil (Northwestern University) and Raphael Nash (DePaul University) and followed by a live panel discussion between the YPRPT student filmmakers. The conversation was be moderated by Jessica Marshall (PhD student in Learning Sciences at Northwestern University School of Education and Social Policy). 
 
@@ -22,8 +22,7 @@ Below, you can watch the recordings of the event, which include a brief introduc
 ## Introduction
 Professor Sepehr Vakil (Northwestern University) introduces the screening, Young People's Race, Power, and Technology: Policing Surveillance.
 
-{:.video}
-Video coming soon
+* <a href="https://vimeo.com/showcase/7260847/video/429422733" target="_blank">Video</a>
 
 ---
 
@@ -47,14 +46,11 @@ The topic of immigration has become more prevalent over the past few years. It i
 
 
 {:.video}
-Video coming soon
+* <a href="https://vimeo.com/showcase/7260847/video/429377282" target="_blank">The Films</a>
 
 ---
 
 ## Q&A
 Q&A for Policing Surveillance: A YPRPT Documentary Series event between student filmmakers with moderation by Jessica Marshall (PhD student in Learning Sciences at Northwestern University School of Education and Social Policy). Involved in this discussion are the student filmmakers Eliana Chandra and Jazminé Morrow (Melting Ice); Yuzuka Komiyama-Kasai and Gregory Voelkel (Racial Recognition); as well as David Lewis, Jessica Rodriguez, and Izadorius Tortuga (Targeted) along with YPRPT mentors Raphael Nash and Sepehr Vakil.
 
-<!-- <iframe src="https://player.vimeo.com/video/430463809" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
-
-{:.video}
-Video coming soon
+<iframe src="https://player.vimeo.com/video/430463809" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
