@@ -19,7 +19,9 @@ excerpt_separator: <!--more-->
 <img src="/assets/images/project_images/yprpt.jpg" />
 <span class="first-character">I</span>n partnership with the TREE Lab in Northwestern's School of Education and Social Policy, the Block Museum presented a special online screening, on June 17, 2020, of three documentaries produced by students of the Young People’s Race, Power, and Technology (YPRPT) project. YPRPT is an afterschool program, developed in partnership with community partners including Evanston Township High School, Family Matters, Endangered Peace, and the Lucy Parsons Labs, that brings together NU undergraduate students with youth and community members to jointly investigate the ethical and social dimensions of specific law enforcement technologies such as facial recognition and gang databases. 
 
-The screening was introduced by professors Sepehr Vakil (Northwestern University) and Raphael Nash (DePaul University) and then followed by a live panel discussion between the YPRPT student filmmakers. The conversation was be moderated by Jessica Marshall (PhD student in Learning Sciences at Northwestern University School of Education and Social Policy). <!--more-->
+The screening was introduced by professors Sepehr Vakil (Northwestern University) and Raphael Nash (DePaul University) and followed by a live panel discussion between the YPRPT student filmmakers. The conversation was be moderated by Jessica Marshall (PhD student in Learning Sciences at Northwestern University School of Education and Social Policy). 
+
+<!--more-->
 
 Below, you can watch the recordings of the event, which include a brief introductory presentation by Professor Sepehr Vakil (Northwestern University) on the YPRPT project, three short films by YPRPT student filmmakers, and a Q&A between filmmakers and program mentors.
 
