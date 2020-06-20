@@ -53,4 +53,7 @@ The topic of immigration has become more prevalent over the past few years. It i
 ## Q&A
 Q&A for Policing Surveillance: A YPRPT Documentary Series event between student filmmakers with moderation by Jessica Marshall (PhD student in Learning Sciences at Northwestern University School of Education and Social Policy). Involved in this discussion are the student filmmakers Eliana Chandra and Jazminé Morrow (Melting Ice); Yuzuka Komiyama-Kasai and Gregory Voelkel (Racial Recognition); as well as David Lewis, Jessica Rodriguez, and Izadorius Tortuga (Targeted) along with YPRPT mentors Raphael Nash and Sepehr Vakil.
 
-<iframe src="https://player.vimeo.com/video/430463809" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<div class="vimeo">
+    <iframe src="https://player.vimeo.com/video/430463809" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<!-- <iframe src="https://player.vimeo.com/video/430463809" class="vimeo" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->

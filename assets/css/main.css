@@ -231,6 +231,12 @@ canvas {
     letter-spacing: -3px;
 }
 
+.vimeo {
+    max-width: 640px;
+    /* border: solid 1px #000; */
+    height: 340px;
+}
+
 .button {
     margin-top: 0px;
     color: #FFF;
