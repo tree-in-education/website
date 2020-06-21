@@ -68,10 +68,10 @@ section h2 {
 .title {
     padding: 30px 200px 0px 200px;
 }
-/* nav {
+nav {
     margin: 10px 200px 0px 200px;
     width: calc(100% - 400px);
-} */
+}
 section > div {
     padding: 0px 200px 100px 200px;
 }
@@ -130,10 +130,10 @@ section > div {
     .banner {
         padding: 120px 50px 120px 50px;
     }
-    /* nav {
+    nav {
         margin: 10px 50px 0px 50px;
         width: calc(100% - 100px);
-    } */
+    }
 }
 
 @media screen and (max-width: 900px) {

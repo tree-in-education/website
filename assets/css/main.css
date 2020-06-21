@@ -321,9 +321,9 @@ a.tag:hover {
         border: none;
         position: fixed;
         z-index: 100000000;
-        width: 55vw;
+        width: 55vw !important;
         height: 100vh;
-        margin: 0px;
+        margin: 0px !important;
         background: white;
     }
     nav ul {
