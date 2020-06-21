@@ -81,42 +81,6 @@ main.sticky {
     margin-top: 120px;
 }
 
-nav.mobile {
-    margin: 0px;
-    z-index: 100000000;
-    border: none;
-    position: fixed;
-    top: 50px;
-    left: 0px;
-    background: rgba(255, 255, 255, 1);
-}
-
-nav.mobile ul {
-    display: flex;
-    width: 100vw;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-nav.mobile ul li {
-    display: flex;
-    width: 100vw;
-    text-align: left;
-    background: #FFF;
-    /* border-bottom: solid 1px #ccc; */
-}
-nav.mobile ul li:hover {
-    background: #EEE;
-}
-nav.mobile ul li.selected {
-    background: #87C38F;
-    font-weight: normal;
-}
-nav.mobile ul li.selected a {
-    color: #FFF;
-}
-
 main {
     margin-top: 60px;
     margin-bottom: 60px;
@@ -220,7 +184,7 @@ canvas {
     padding: 30px 200px 0px 200px;
 }
 
-.mobile { display: none; }
+.mobile, .cover { display: none; }
 .desktop { display: block; } 
 
 .breadcrumb {
@@ -348,7 +312,64 @@ a.tag:hover {
     main {
         margin-top: 90px;
     }
-    nav { display: none; }
+
+    nav, nav.sticky { 
+        top: 0px;
+        left: -100vw;
+        transition-property: left;
+        transition-duration: 0.4s;
+        border: none;
+        position: fixed;
+        z-index: 100000000;
+        width: 55vw;
+        height: 100vh;
+        margin: 0px;
+        background: white;
+    }
+    nav ul {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.4), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
+        height: 100vh;
+    }
+    
+    nav.mobile {
+        left: 0vw;
+    }
+    nav ul li {
+        display: flex;
+        width: 100%;
+        text-align: left;
+        background: #FFF;
+    }
+    nav ul li a {
+        padding-left: 10px;
+        width: 100%;
+    }
+
+    nav ul li:hover {
+        background: #EEE;
+    }
+    nav ul li.selected {
+        background: #87C38F;
+        font-weight: normal;
+    }
+    nav ul li.selected a {
+        color: #FFF;
+        width: 100%;
+    }
+    .cover.mobile {
+        display: block;
+        width: 100vh;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.3);
+        top: 0px;
+        left: 0vw;
+        position: fixed;
+        z-index: 100000;
+    }
     .img-right {
         width: 100%;
         float: none;

@@ -1,10 +1,12 @@
 const nav = document.querySelector("nav");
 const main = document.querySelector("main");
+const cover = document.querySelector(".cover");
 const sticky = nav.offsetTop;
 
 const toggleMobileMenu = (e) => {
-    document.querySelector('nav').classList.remove('sticky');
-    document.querySelector('nav').classList.toggle('mobile');
+    nav.classList.remove('sticky');
+    nav.classList.toggle('mobile');
+    cover.classList.toggle('mobile');
     e.preventDefault();
 };
 const isMobile = () => {
@@ -26,3 +28,4 @@ const stickyToggle = () => {
 
 window.onscroll = stickyToggle;
 document.querySelector('.menu-toggle').onclick = toggleMobileMenu;
+document.querySelector('.cover').onclick = toggleMobileMenu;
