@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: kimani-isaac
 title: Kimani Isaac
 name: Kimani Isaac

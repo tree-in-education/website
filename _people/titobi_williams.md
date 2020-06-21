@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: titobi-williams
 title: Titobi Williams
 name: Titobi Williams

@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: ally-reith
 title: Ally Reith
 name: Ally Reith

@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: temitope-sonuyi
 title: Temitope Sonuyi
 name: Temitope Sonuyi

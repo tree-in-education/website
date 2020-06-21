@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: gregory-voelkel
 title: Gregory Voelkel
 name: Gregory Voelkel

@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: akansha-raj
 title: Akansha Raj
 name: Akansha Raj

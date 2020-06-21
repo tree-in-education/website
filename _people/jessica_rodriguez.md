@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: jessica-rodriguez
 title: Jessica Rodriguez
 name: Jessica Rodriguez

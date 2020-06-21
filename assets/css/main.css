@@ -11,43 +11,6 @@ body * {
     box-sizing: border-box;
 }
 
-nav {
-    width: 100%;
-    border-top: solid 1px #000;
-    border-bottom: solid 1px #000;
-    margin-top: 10px;
-    display: flex;
-}
-  
-nav ul {
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    width: 100%;
-    justify-content: center;
-    margin: 0px;
-}
-nav ul li {
-    list-style: none;
-    padding: 10px 10px;
-    margin: 0px;
-}
-
-nav ul li::before {
-    content: ''; 
-}
-
-nav ul li a,
-nav ul li a:visited,
-nav ul li a:active {
-    color: black; 
-    text-decoration: none;
-    /* border-bottom: solid 1px transparent; */
-}
-nav ul li.selected {
-    font-weight: bold;
-}
-
 footer a, main a {
     text-decoration: none;
     color: #87C38F;
@@ -56,29 +19,6 @@ footer a, main a {
 footer a:hover, main a:hover {
   /* color: #87C38F; */
   text-decoration: underline;
-}
-
-/* nav ul li a:hover {
-    border-bottom: solid 1px #000;
-} */
-
-nav.sticky {
-    margin: 0px;
-    height: 55px;
-    background: #FFFFFF;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 200;
-    border: none;
-    margin-top: 0px;
-}
-main.sticky {
-    margin-top: 120px;
 }
 
 main {
@@ -313,63 +253,6 @@ a.tag:hover {
         margin-top: 90px;
     }
 
-    nav, nav.sticky { 
-        top: 0px;
-        left: -100vw;
-        transition-property: left;
-        transition-duration: 0.4s;
-        border: none;
-        position: fixed;
-        z-index: 100000000;
-        width: 55vw !important;
-        height: 100vh;
-        margin: 0px !important;
-        background: white;
-    }
-    nav ul {
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        justify-content: flex-start;
-        box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.4), 0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
-        height: 100vh;
-    }
-    
-    nav.mobile {
-        left: 0vw;
-    }
-    nav ul li {
-        display: flex;
-        width: 100%;
-        text-align: left;
-        background: #FFF;
-    }
-    nav ul li a {
-        padding-left: 10px;
-        width: 100%;
-    }
-
-    nav ul li:hover {
-        background: #EEE;
-    }
-    nav ul li.selected {
-        background: #87C38F;
-        font-weight: normal;
-    }
-    nav ul li.selected a {
-        color: #FFF;
-        width: 100%;
-    }
-    .cover.mobile {
-        display: block;
-        width: 100vw;
-        height: 100vh;
-        background: rgba(0, 0, 0, 0.3);
-        top: 0px;
-        left: 0vw;
-        position: fixed;
-        z-index: 100000;
-    }
     .img-right {
         width: 100%;
         float: none;

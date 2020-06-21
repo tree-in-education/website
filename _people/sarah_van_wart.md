@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: sarah-van-wart
 title: Sarah Van Wart
 name: Sarah Van Wart

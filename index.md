@@ -1,14 +1,7 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: landing
+layout: "landing-alt"
 animate: true
-twitter: |
-    <a class="twitter-timeline" href="https://twitter.com/dailypuppy?lang=en"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+permalink: /
 ---
 
-<h2 class="underline-border">TREE Lab: Big Picture</h2>
-<p>
-  The newly launched TREE (Technology, Race, Ethics, and Equity in Education) Lab within the School of Education and Social Policy is an NSF-funded initiative that brings together graduate and undergraduate students with youth and community members to jointly investigate ethical and social dimensions of new technologies. The lab is jointly directed by Sepehr Vakil, assistant professor of Learning Sciences in SESP , and Sarah Van Wart, assistant professor of Computer Science in McCormick.
-</p>
+<span class="first-character">T</span>he TREE (Technology, Race, Ethics, and Equity in Education) Lab within the School of Education and Social Policy is an NSF-funded initiative that brings together NU undergraduate students with youth and community members to jointly investigate ethical, social, and racialized dimensions of new technologies. Co-directed by SESP Assistant Professor Sepehr Vakil and McCormick Computer Science Assistant Professor of Instruction Sarah Van Wart, the TREE lab is fundamentally committed to reimagining the possibilities of technology learning. We design tools and environments that facilitate engagement with complex technologies in ways that make visible their sociopolitical and ethical dimensions and implications. We draw on a range of conceptual and methodological approaches including critical theory, learning sciences, HCI, sociocultural theory, and participatory design.

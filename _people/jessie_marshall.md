@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: jessie-marshall
 title: Jessica Marshall 
 name: Jessica Marshall 

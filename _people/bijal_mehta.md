@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: bijal-mehta
 title: Bijal Mehta
 name: Bijal Mehta

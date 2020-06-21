@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: katherine-johns
 title: Katherine Johns
 name: Katherine Johns

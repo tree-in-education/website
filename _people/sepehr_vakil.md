@@ -1,5 +1,4 @@
 ---
-layout: person
 slug: sepehr-vakil
 title: Sepehr Vakil
 name: Sepehr Vakil
