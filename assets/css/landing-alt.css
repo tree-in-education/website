@@ -102,12 +102,15 @@ section > div {
     padding-top: 0px;
     padding-bottom: 0px;
     overflow: hidden;
-    position: relative;
+    position: static;
     width: 100%;
     background-color: #EEE;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100vh 100vh;
+    /* transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: inherit; */
 }
 .parallax-one {
     background-position: 0px 10px;
