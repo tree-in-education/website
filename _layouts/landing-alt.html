@@ -2,6 +2,8 @@
 layout: default
 extra_stylesheets:
     - landing-alt.css
+extra_scripts:
+    - parallax.js
 ---
 
 <section class="intro-text">
@@ -11,17 +13,15 @@ extra_stylesheets:
 </section>
 
 <section class="banner">
-    <!-- <div class="block"> -->
-        <h2>Announcements</h2>
-        {% for post in site.posts %}
-            <span>
-                {{ post.date | date: '%B %-d, %Y' }}
-            </span>
-            <div>
-                {{ post.snippet_landing }}
-            </div>
-        {% endfor %}
-    <!-- </div> -->
+    <h2>Announcements</h2>
+    {% for post in site.posts %}
+        <span>
+            {{ post.date | date: '%B %-d, %Y' }}
+        </span>
+        <div>
+            {{ post.snippet_landing }}
+        </div>
+    {% endfor %}
 </section>
 
 

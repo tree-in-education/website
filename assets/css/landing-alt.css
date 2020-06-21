@@ -76,21 +76,6 @@ section > div {
     padding: 0px 200px 100px 200px;
 }
 
-.landing section ul {
-    list-style: none;
-    padding-left: 80px;
-}
-
-.landing section li::before {
-    content: "•"; 
-    color: #87C38F;
-    display: inline-block; 
-    width: 1em;
-    font-size: 1.5em;
-    vertical-align: middle;
-    margin-left: -1em;
-}
-
 .content img {
     display: none;
 }
