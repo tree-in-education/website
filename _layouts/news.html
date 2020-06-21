@@ -9,10 +9,12 @@ extra_stylesheets:
 <section class="news">
     {% for post in site.posts %}
         <span>
-            {{ post.date | date: '%B %-d, %Y' }}
+            <img src="{{ post.featured_image }}" />
         </span>
         <div>
-            {{ post.snippet }} <a href="{{ post.url }}">Read more</a>.
+            <h2><a href="{{ post.url }}">{{ post.date | date: '%B %-d, %Y' }}</a></h2>
+            <p>{{ post.snippet }}</p>
+            <p><a href="{{ post.url }}">Learn more</a></p>
         </div>
     {% endfor %}
 </section>

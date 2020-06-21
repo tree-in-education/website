@@ -11,17 +11,23 @@
     padding-bottom: 40px;
     padding-left: 0px;
     padding-top: 0px;
-    font-size: 1.1em;
-    line-height: 1.6em;
+    /* font-size: 1.1em; */
+    /* line-height: 1.6em; */
 }
 .news span {
     width: 150px;
     font-weight: 600;
 }
+.news span img {
+    width: 100%;
+    font-weight: 600;
+}
 .news div {
     width: calc(100% - 150px);
+    padding-left: 20px;
 }
-.news p, .news li {
-    color: white;
-    font-size: 1.1em;
+
+.news h2 {
+    margin: 0;
+    margin-bottom: 15px;
 }
