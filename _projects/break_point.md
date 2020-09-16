@@ -21,4 +21,4 @@ The onset of the Information Age has not solved the pernicious societal ills tha
 This is what our journal seeks to take apart, reassemble, and hand back to you, our readers. We reanalyze technology and its effects, so that we may assist you in understanding your reality, and we hope this will aid us all in figuring out where we should be adjusting so that when the future arrives, we aren’t more oppressed than we are now. Breakpoint NU is a quarterly publication, examining technologies on Northwestern’s campus, Chicago, and beyond. 
 
 
-<a class="button" href="https://tree-in-education.github.io/BreakPointNU/" target="_blank">Go to BreakpointNU</a>
+<a href="https://tree-in-education.github.io/BreakPointNU/" target="_blank">Go to BreakpointNU</a>
