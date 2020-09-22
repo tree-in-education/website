@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "YPRPT: Documentary Film Screenings"
+featured: 1
 featured_image: /assets/images/project_images/yprpt_square.jpg
 slug: documentary-launch
 snippet_landing: |

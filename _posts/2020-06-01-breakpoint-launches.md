@@ -2,6 +2,7 @@
 layout: post
 title:  "BreakPoint NU Launches"
 slug: breakpoint-launch
+featured: 1
 featured_image: /assets/images/landing/stingray3.png
 snippet_landing: |
     Launch of <a href="#breakpoint-launch">BreakPoint NU</a>, a student journal dedicated to examining technologies on Northwestern’s campus, Chicago, and beyond.

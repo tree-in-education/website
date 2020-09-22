@@ -22,8 +22,8 @@ extra_stylesheets:
     {% endfor %}
 </section>
 
-
-{% for post in site.posts %}
+{% assign featured_posts = site.posts | where: "featured", 1 %}
+{% for post in featured_posts %}
     {% assign className = "parallax-one" %}
     {% assign mod2 = forloop.index | modulo: 2 %}
     {% if mod2 == 1 %}
