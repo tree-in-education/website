@@ -2,7 +2,8 @@
 slug: mary-truong
 title: Mary Truong
 name: Mary Truong
-type: undergraduate
+years: 2020
+type: alum
 role: Artist in Residence
 filename: assets/images/people_images/marytruong.jpg
 ---

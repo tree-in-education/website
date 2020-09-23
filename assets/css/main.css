@@ -242,6 +242,17 @@ a.tag:hover {
     color: #87C38F;
 }
 
+.alums h3 {
+    margin-bottom: 4px;
+}
+.alums li {
+    margin-bottom: 0px;
+}
+.alums ul {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
 @media screen and (max-width: 1200px) {
     .container {
         padding: 30px 50px 0px 50px;

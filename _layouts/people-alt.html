@@ -12,6 +12,7 @@ extra_scripts:
 {% assign community = site.people | where: 'type', "community" | sort: 'ordering' %}
 {% assign phds = site.people | where: 'type', "phd" | sort: 'ordering' %}
 {% assign undergrads = site.people | where: 'type', "undergraduate" | sort: 'ordering' %}
+{% assign alums = site.people | where: 'type', "alum" | sort: 'ordering' %}
 
 {% assign people = faculty | concat: community | concat: phds | concat: undergrads %}
 
@@ -39,5 +40,33 @@ extra_scripts:
                 </div>
             </div>
         </div>
+    {% endfor %}
+</div>
+
+<hr>
+
+<h2>Alums</h2>
+{% assign alums = site.people | where: 'type', "alum" | sort: 'ordering' %}
+<div class="alums">
+    {% for person in alums %}
+    <div id="{{ person.slug }}">
+        <h3>{{ person.name }}</h3>
+        <ul>
+            <li>{{ person.role }} ({{ person.years }})</li>
+            <li>Worked on: 
+                {% assign counter = 0 %}
+                {% for project in site.projects %}
+                    {% for collaborator in project.collaborators %}
+                        {% if collaborator.slug == person.slug %}
+                            {% if counter > 0 %} &bull; {% endif %}
+                            <a href="../projects#{{ project.slug}}">{{ project.shortname}}</a>
+                            {% assign counter = counter | plus: 1 %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </li>
+        </ul>
+
+    </div>
     {% endfor %}
 </div>

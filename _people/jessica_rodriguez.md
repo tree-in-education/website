@@ -2,7 +2,8 @@
 slug: jessica-rodriguez
 title: Jessica Rodriguez
 name: Jessica Rodriguez
-type: undergraduate
+type: alum
+years: 2019-2020
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/jessica_rodriguez.jpg
 ---

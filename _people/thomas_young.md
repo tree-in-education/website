@@ -2,7 +2,8 @@
 slug: thomas-young
 title: Thomas Young
 name: Thomas Young
-type: undergraduate
+type: alum
+years: 2019-2020
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/thomasyoung.jpg
 ---
