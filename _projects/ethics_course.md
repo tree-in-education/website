@@ -1,13 +1,14 @@
 ---
 # layout: project
 title: Computing, Ethics, and Society Course
-shortname: CS Ethics Education
+shortname: CS Ethics Course
 filename: assets/images/project_images/ethics1.png
 slug: ethics-course
 collaborators:
   - slug: natalie-melo
   - slug: olivia-gallager
   - slug: caryl-henry
+  - slug: bijal-mehta
   - slug: sarah-van-wart
   - slug: sepehr-vakil
 ---
