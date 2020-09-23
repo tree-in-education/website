@@ -7,6 +7,7 @@ date: Feb 12, 2020
 slug: yprpt
 collaborators:
   - slug: sepehr-vakil
+  - slug: raphael-nash
   - slug: gregory-voelkel
   - slug: jessie-marshall
   - slug: jessica-rodriguez

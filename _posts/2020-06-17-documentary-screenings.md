@@ -25,7 +25,10 @@ Below, you can watch the recordings of the event, which include a brief introduc
 ## Introduction
 Professor Sepehr Vakil (Northwestern University) introduces the screening, Young People's Race, Power, and Technology: Policing Surveillance.
 
-* <a href="https://vimeo.com/showcase/7260847/video/429422733" target="_blank">Video</a>
+<div class="vimeo">
+    <iframe src="https://player.vimeo.com/video/429422733" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<a href="https://vimeo.com/429422733" target="_blank">Link on Vimeo</a>
 
 
 ## The Documentaries
@@ -35,20 +38,31 @@ Professor Sepehr Vakil (Northwestern University) introduces the screening, Young
 
 The documentary depicts how the gang database targets black and brown young men by labeling them as gang members in a database, which they can never get out of. This label causes irreparable damage to black and brown communities since being in the gang database can lead to eviction, not finding employment, and loss of scholarships. Because the police department does not notify individuals upon their placement into the database, this documentary also explores the Freedom of Information Act (FOIA) as a means of self-empowerment. We hope that this film causes awareness of a detrimental tool used against black and brown communities.
 
+<div class="vimeo">
+    <iframe src="https://player.vimeo.com/video/439757105" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<a href="https://vimeo.com/439757105" target="_blank">Link on Vimeo</a>
+
         
 ### Racial Recognition
 #### Filmmakers: Yuzuka Komiyama-Kasai, Gregory Voelkel
 
 In the last 25 years, Facial Recognition Technology transformed from a sci-fi movie gimmick to a go-to instrument used by police, governments and corporations alike. Now, Facial Recognition is present in our everyday lives; yet the technology is flawed, posing an immediate threat to marginalized communities and, on a broader scale, our Lab civil liberties. Racial Recognition hopes to raise awareness and promote change within the world of Facial Recognition.
 
+<div class="vimeo">
+    <iframe src="https://player.vimeo.com/video/439754046" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<a href="https://vimeo.com/439754046" target="_blank">Link on Vimeo</a>
+
 ### Melting ICE
 #### Filmmakers: Eliana Chandra, Jazminé Morrow
 
 The topic of immigration has become more prevalent over the past few years. It is crucial to understand the role of ICE. They use technology such as social media to aid in their efforts of deportation and family separation. On the flip side, communities have taken up their own defenses and use technology to protect themselves from ICE. Melting Ice serves to expose ICE’s practices while uplifting and informing communities.
 
-
-{:.video}
-* <a href="https://vimeo.com/showcase/7260847/video/429377282" target="_blank">The Films</a>
+<div class="vimeo">
+    <iframe src="https://player.vimeo.com/video/439761281" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+<a href="https://vimeo.com/439761281" target="_blank">Link on Vimeo</a>
 
 
 ## Q&A
@@ -57,4 +71,4 @@ Q&A for Policing Surveillance: A YPRPT Documentary Series event between student 
 <div class="vimeo">
     <iframe src="https://player.vimeo.com/video/430463809" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 </div>
-<!-- <iframe src="https://player.vimeo.com/video/430463809" class="vimeo" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+<a href="https://vimeo.com/430463809" target="_blank">Link on Vimeo</a>

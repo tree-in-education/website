@@ -137,7 +137,7 @@ canvas {
 
 .vimeo {
     max-width: 640px;
-    /* border: solid 1px #000; */
+    border: solid 5px #000;
     height: 340px;
 }
 
