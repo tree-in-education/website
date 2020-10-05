@@ -11,7 +11,7 @@ extra_scripts:
 {% assign partners = site.partners | sort: 'ordering' %}
 <div class="masonry three">
     {% for partner in partners %}
-        <div class="masonry-item">
+        <div class="masonry-item" id="{{ partner.slug }}">
             <div class="masonry-content">
                 <img src="{{site.baseurl}}/{{ partner.filename }}" alt="photo of person" />
                 <h3 class="masonry-title">{{ partner.title }}</h3>

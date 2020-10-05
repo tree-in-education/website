@@ -23,7 +23,11 @@ extra_scripts:
                     {% for pc in project.collaborators %}
                         {% assign collaborator = all_collaborators | where:"slug", pc.slug | first %}
                         {% if collaborator.type != "alum" %}
-                            <a class="tag" href="../people#{{collaborator.slug}}">{{ collaborator.title }}</a>
+                            {% if collaborator.role %}
+                                <a class="tag" href="../people#{{collaborator.slug}}">{{ collaborator.title }}</a>
+                            {% else %}
+                            <a class="tag" href="../partners#{{collaborator.slug}}">{{ collaborator.title }}</a>
+                            {% endif %}
                         {% endif %}
                     {% endfor %}
                 </div>
