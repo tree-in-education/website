@@ -1,5 +1,6 @@
 ---
 title: Family Matters
+slug: family-matters
 ordering: 1
 filename: assets/images/community_partners_images/family_matters.png
 website: https://www.familymatterschicago.org

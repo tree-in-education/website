@@ -8,6 +8,8 @@ extra_scripts:
 ---
 {{content}}
 
+{% assign all_collaborators = site.people | concat: site.partners %}
+
 <div class="masonry two">
     {% for project in site.projects %}
         <div class="masonry-item" id="{{ project.slug}}">
@@ -18,14 +20,10 @@ extra_scripts:
                     {{ project.content }}
                 
                     <h4>Team Members</h4>
-                    {% for collaborator in project.collaborators %}
-                        {% if collaborator.slug %}
-                            {% assign person = site.people | where:"slug", collaborator.slug | first %}
-                            <a class="tag" href="../people#{{person.slug}}">{{ person.name }}</a>
-                        {% else if collaborator.website %}
-                            <a class="tag" href="{{collaborator.website}}" target="_blank">{{ collaborator.name }}</a>
-                        {% else %}
-                            <span class="tag">{{ collaborator.name }}</span>
+                    {% for pc in project.collaborators %}
+                        {% assign collaborator = all_collaborators | where:"slug", pc.slug | first %}
+                        {% if collaborator.type != "alum" %}
+                            <a class="tag" href="../people#{{collaborator.slug}}">{{ collaborator.title }}</a>
                         {% endif %}
                     {% endfor %}
                 </div>

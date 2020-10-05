@@ -1,5 +1,6 @@
 ---
 title: Endangered Peace Productions
+slug: endangered-peace
 ordering: 2
 filename: assets/images/community_partners_images/endangered_peace.png
 website: https://www.endangeredpeace.com/

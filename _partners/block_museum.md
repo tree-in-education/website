@@ -1,5 +1,6 @@
 ---
 title: Block Museum
+slug: block-museum
 ordering: 5
 filename: assets/images/community_partners_images/block-museum.png
 website: https://www.blockmuseum.northwestern.edu
