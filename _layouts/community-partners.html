@@ -5,13 +5,14 @@ extra_stylesheets:
 extra_scripts:
     - https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js
     - masonry.js
+    - masonry-extras.js
 ---
 {{ content }}
 
 {% assign partners = site.partners | sort: 'ordering' %}
-<div class="masonry three">
+<div class="masonry three" id="collaborator-grid">
     {% for partner in partners %}
-        <div class="masonry-item" id="{{ partner.slug }}">
+        <div class="masonry-item" id="{{ partner.slug }}" data-external-link="{{ partner.website }}">
             <div class="masonry-content">
                 <img src="{{site.baseurl}}/{{ partner.filename }}" alt="photo of person" />
                 <h3 class="masonry-title">{{ partner.title }}</h3>

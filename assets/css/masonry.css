@@ -35,7 +35,7 @@
     color: #111111;
 }
 
-.masonry-item:hover {
+#project-grid .masonry-item:hover, #collaborator-grid .masonry-item:hover {
     border: solid 4px #87C38F;
 }
 

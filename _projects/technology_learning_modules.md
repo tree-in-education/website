@@ -5,6 +5,7 @@ shortname: Computing & Ethics Field Guide
 filename: assets/images/project_images/fac-detection1.png
 slug: learning-resources
 ordering: 4
+show_members: 1
 collaborators:
   - slug: thomas-young
   - slug: titobi-williams

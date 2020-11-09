@@ -5,13 +5,13 @@ extra_stylesheets:
 extra_scripts:
     - https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js
     - masonry.js
-    - projects.js
+    - masonry-extras.js
 ---
 {{content}}
 
 {% assign all_collaborators = site.people | concat: site.partners %}
 {% assign projects = site.projects | sort: 'ordering' %}
-<div class="masonry two">
+<div class="masonry two" id="project-grid">
     {% for project in projects %}
         <div class="masonry-item" id="{{ project.slug}}">
             <div class="masonry-content">

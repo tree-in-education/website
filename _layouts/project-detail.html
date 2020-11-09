@@ -5,25 +5,29 @@ layout: default
 
 {{ content }}
 
-<h4>Current Team Members</h4>
-{% for pc in page.collaborators %}
-    {% assign collaborator = all_collaborators | where:"slug", pc.slug | first %}
-    {% if collaborator.role %}
-        <a class="tag" href="../people#{{collaborator.slug}}">{{ collaborator.title }}</a>
-    {% else %}
-    <a class="tag" href="../partners#{{collaborator.slug}}">{{ collaborator.title }}</a>
-    {% endif %}
-
-{% endfor %}
-
-{% if page.former_collaborators %}
-    <h4>Former Team Members</h4>
-    {% for pc in page.former_collaborators %}
+{% if page.show_members == 1 %}
+    <hr>    
+    <h2> Team Members</h2>
+    <h3>Current</h3>
+    {% for pc in page.collaborators %}
         {% assign collaborator = all_collaborators | where:"slug", pc.slug | first %}
         {% if collaborator.role %}
             <a class="tag" href="../people#{{collaborator.slug}}">{{ collaborator.title }}</a>
         {% else %}
         <a class="tag" href="../partners#{{collaborator.slug}}">{{ collaborator.title }}</a>
         {% endif %}
+
     {% endfor %}
+
+    {% if page.former_collaborators %}
+        <h3>Alums</h3>
+        {% for pc in page.former_collaborators %}
+            {% assign collaborator = all_collaborators | where:"slug", pc.slug | first %}
+            {% if collaborator.role %}
+                <a class="tag" href="../people#{{collaborator.slug}}">{{ collaborator.title }}</a>
+            {% else %}
+            <a class="tag" href="../partners#{{collaborator.slug}}">{{ collaborator.title }}</a>
+            {% endif %}
+        {% endfor %}
+    {% endif %}
 {% endif %}

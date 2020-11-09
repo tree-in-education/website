@@ -16,7 +16,7 @@ extra_scripts:
 
 {% assign people = faculty | concat: community | concat: phds | concat: undergrads %}
 
-<div class="masonry three">
+<div class="masonry three" id="people-grid">
     {% for person in people %}
         <div class="masonry-item" id="{{ person.slug }}">
             <div class="masonry-content">

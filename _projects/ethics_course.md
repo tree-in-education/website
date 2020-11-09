@@ -5,6 +5,7 @@ shortname: CS Ethics Course
 filename: assets/images/project_images/ethics1.png
 slug: ethics-course
 ordering: 3
+show_members: 1
 collaborators:
   - slug: natalie-melo
   - slug: olivia-gallager
