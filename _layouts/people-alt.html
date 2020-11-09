@@ -27,12 +27,16 @@ extra_scripts:
                     {{ person.content }}
                     {% assign counter = 0 %}
                     {% for project in site.projects %}
-                        {% for collaborator in project.collaborators %}
+                        {% assign collaborators = project.collaborators %}
+                        {% if project.former_collaborators %}
+                            {% assign collaborators = collaborators | concat: project.former_collaborators %}
+                        {% endif %}
+                        {% for collaborator in collaborators %}
                             {% if collaborator.slug == person.slug %}
                                 {% if counter == 0 %}
                                     <h4>Projects</h4>
                                 {% endif %}
-                                <a class="tag" href="../projects#{{ project.slug}}">{{ project.shortname}}</a>
+                                <a class="tag" href="../projects/{{ project.slug}}">{{ project.shortname}}</a>
                                 {% assign counter = counter | plus: 1 %}
                             {% endif %}
                         {% endfor %}
@@ -56,7 +60,11 @@ extra_scripts:
             <li>Worked on: 
                 {% assign counter = 0 %}
                 {% for project in site.projects %}
-                    {% for collaborator in project.collaborators %}
+                    {% assign collaborators = project.collaborators %}
+                    {% if project.former_collaborators %}
+                        {% assign collaborators = collaborators | concat: project.former_collaborators %}
+                    {% endif %}
+                    {% for collaborator in collaborators %}
                         {% if collaborator.slug == person.slug %}
                             {% if counter > 0 %} &bull; {% endif %}
                             <a href="../projects#{{ project.slug}}">{{ project.shortname}}</a>

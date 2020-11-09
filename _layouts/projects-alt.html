@@ -5,19 +5,24 @@ extra_stylesheets:
 extra_scripts:
     - https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js
     - masonry.js
+    - projects.js
 ---
 {{content}}
 
 {% assign all_collaborators = site.people | concat: site.partners %}
-
+{% assign projects = site.projects | sort: 'ordering' %}
 <div class="masonry two">
-    {% for project in site.projects %}
+    {% for project in projects %}
         <div class="masonry-item" id="{{ project.slug}}">
             <div class="masonry-content">
                 <img src="{{site.baseurl}}/{{ project.filename }}" alt="image of project" />
                 <h3 class="masonry-title">{{ project.title }}</h3>
                 <div class="masonry-description">
-                    {{ project.content }}
+                    {% if project.description %}
+                        <p>{{ project.description }}</p>
+                    {% else %}
+                        {{ project.content }}
+                    {% endif %}
                 
                     <h4>Team Members</h4>
                     {% for pc in project.collaborators %}

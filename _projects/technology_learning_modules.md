@@ -1,10 +1,10 @@
 ---
-# layout: single-project
+layout: project-detail
 title: Computing & Society Learning Resources
 shortname: Computing & Ethics Field Guide
 filename: assets/images/project_images/fac-detection1.png
 slug: learning-resources
-date: Feb 12, 2020
+ordering: 4
 collaborators:
   - slug: thomas-young
   - slug: titobi-williams

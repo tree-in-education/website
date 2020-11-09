@@ -1,9 +1,10 @@
 ---
-# layout: project
+layout: project-detail
 title: Computing, Ethics, and Society Course
 shortname: CS Ethics Course
 filename: assets/images/project_images/ethics1.png
 slug: ethics-course
+ordering: 3
 collaborators:
   - slug: natalie-melo
   - slug: olivia-gallager

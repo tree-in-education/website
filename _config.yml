@@ -33,7 +33,7 @@ plugins:
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /projects/:slug
   people:
     output: true
     permalink: /people/:name

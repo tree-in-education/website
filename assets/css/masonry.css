@@ -5,6 +5,7 @@
     opacity: 0;
     transition-property: width, opacity;
     transition-duration: 3s;
+    margin-top: 50px;
 }
 .masonry, .masonry.three {
     grid-template-columns: repeat(3, minmax(100px,1fr));
@@ -24,16 +25,22 @@
 
 .masonry-item, .masonry-content {
     border-radius: 4px;
-}
-
-.masonry-item img {
-    width: 100%;
+    cursor: pointer;
 }
 
 .masonry-item {
     background-color: #f9f9f9;
-    border: solid 1px #DDD;
+    /* border: solid 1px #DDD; */
+    border: solid 4px transparent;
     color: #111111;
+}
+
+.masonry-item:hover {
+    border: solid 4px #87C38F;
+}
+
+.masonry-item img {
+    width: 100%;
 }
 .masonry.visible {
     opacity: 1;
