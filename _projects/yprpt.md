@@ -61,7 +61,8 @@ Teams should expect to commit a minimum of 5 hrs/week from **January 2021 - June
 ## Who is this program open to & how can my community organization apply? 
 
 **Deadline: December 1st**
-This program is open to youth-serving community organizations in Chicago & surrounding areas. We are currently accepting applications for community-organizations to participate in YPRPT, which launches virtually in Winter 2021. To participate, community-orgs are required to submit a “youth team.” Each team will consist of 1-2 adult mentors representing the community organization, and 2-5 middle or high school aged youth. 
+This program is open to youth-serving community organizations in Chicago & surrounding areas. We are currently accepting applications for community-organizations to participate in YPRPT, which launches virtually in Winter 2021. To participate, community-orgs will form a “youth team” consisting of 1-2 adult mentors representing the community organization, and 2-5 middle or high school aged youth. 
+
 Applications are due by December 1st 2020 using <a href="https://forms.gle/ktpok5VMYRcfcS3N9" target="_blank">this application</a>.
 
 
