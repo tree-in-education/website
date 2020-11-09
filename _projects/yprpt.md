@@ -33,7 +33,14 @@ The Young People’s Race Power and Technology project (YPRPT) is an out of scho
 ## Who are we? 
 We are a team of educators, activists, researchers, and students from the TREE lab at Northwestern University. We work closely with community-organizations and schools across the Chicago area to create learning opportunities for youth to examine the interconnections between technology, racism, and power. Last year, we collaborated with the [Lucy Parsons Labs](/partners/#lucy-parsons-labs) and [Family Matters](/partners/#family-matters) in Rogers Park to launch the first YPRPT (Young People’s Race Power and Technology) cohort. 
 
-Over the course of 9 months, we empowered high school students to create and produce their own social justice documentaries culminating in a special screening at the Block Museum. Documentaries can be viewed here: <a href="https://vimeo.com/showcase/7260847" target="_blank">https://vimeo.com/showcase/7260847</a>. In January 2021 YPRPT will launch its second cohort, using lessons learned from the pilot year and re-tooling in the context of COVID and emerging opportunities to expand the reach of the program. We’re expanding the program to include a select number of community orgs and schools from across the Chicago area.
+Over the course of 9 months, we empowered high school students to create and produce their own social justice documentaries culminating in a special screening at the Block Museum. Documentaries from the 2019-2020 cohort can be viewed here:
+
+<!-- <div class="vimeo"> -->
+<a href="https://vimeo.com/showcase/7260847" target="_blank"><img style="width:100%;" src="/assets/images/yprpt/film_festival_1.png" /></a>
+<!-- </div> -->
+<a href="https://vimeo.com/showcase/7260847" target="_blank">https://vimeo.com/showcase/7260847</a>
+
+In January 2021 YPRPT will launch its second cohort, using lessons learned from the pilot year and re-tooling in the context of COVID and emerging opportunities to expand the reach of the program. We’re expanding the program to include a select number of community orgs and schools from across the Chicago area.
 
 ## How will the program work during COVID-19?
 Teams will be connected to an online community of youth, activists, artists, and Northwestern student mentors; get access to a research-based curriculum hosted on an online platform; participate in monthly virtual meet-ups, and create an original documentary film exploring critical technology and social justice issues in their neighborhood. Students and community organizations will be able to be part of the program using technology they already have. Access to computers/laptops is also preferred but not required. If there are questions or concerns about technology access, you can contact us. 
@@ -64,7 +71,6 @@ Community organizations, team leaders, and students do not need to participate i
 ## Links
 * [Documentaries from 2020](/news/2020-06-17-documentary-screenings)
 * <a href="https://forms.gle/ktpok5VMYRcfcS3N9" target="_blank">Application Link</a>
-* <a href="https://drive.google.com/file/d/1YMw0rWzmhUZ0jwxI235WRDOtdRXvrlBB/view?usp=sharing" target="_blank">Student Info</a>
 
 
 {:.callout}
