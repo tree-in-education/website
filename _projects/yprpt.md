@@ -57,21 +57,18 @@ Teams should expect to commit a minimum of 5 hrs/week from **January 2021 - June
 This program is open to youth-serving community organizations in Chicago & surrounding areas. We are currently accepting applications for community-organizations to participate in YPRPT, which launches virtually in Winter 2021. To participate, community-orgs are required to submit a “youth team.” Each team will consist of 1-2 adult mentors representing the community organization, and 2-5 middle or high school aged youth. 
 Applications are due by December 1st 2020 using <a href="https://forms.gle/ktpok5VMYRcfcS3N9" target="_blank">this application</a>.
 
-We also require that you submit a completed spreadsheet or google doc with a list of all the students who will be participating in the program. You may use <a href="https://drive.google.com/file/d/1YMw0rWzmhUZ0jwxI235WRDOtdRXvrlBB/view?usp=sharing" target="_blank">this template</a> as an example.
 
 ## What does the research part of YPRPT look like? 
-Community organizations, team leaders, and students do not need to participate in the research to choose to implement this program or be part of the program. However, those who choose to participate will be compensated for their participation and allowing us to record the program for research purposes. The recordings will help us understand how to best support student learning of complex technical and societal issues. Compensation is as follows: 
-* $750 for high school students
-* $750 for team leaders/point person in community organization
-* $1500 to the community organization for housing the program
-
-## YPRPT Project Contact Information
-* The TREE Lab & YPRPT Project Team: treelab@u.northwestern.edu 
-* Professor Sepehr Vakil: sepehr.vakil@northwestern.edu 
-* Professor Raphael Nash: rnash3@depaul.edu
+Community organizations, team leaders, and students do not need to participate in the research to choose to implement this program or be part of the program. However, those who choose to participate will be compensated for their participation and allowing us to record the program for research purposes. The recordings will help us understand how to best support student learning of complex technical and societal issues.
 
 ## Links
 * [Documentaries from 2020](/news/2020-06-17-documentary-screenings)
-* <a href="https://forms.gle/ktpok5VMYRcfcS3N9
-Student Info: https://drive.google.com/file/d/1YMw0rWzmhUZ0jwxI235WRDOtdRXvrlBB/view?usp=sharing" target="_blank">Application Link</a>
+* <a href="https://forms.gle/ktpok5VMYRcfcS3N9" target="_blank">Application Link</a>
 * <a href="https://drive.google.com/file/d/1YMw0rWzmhUZ0jwxI235WRDOtdRXvrlBB/view?usp=sharing" target="_blank">Student Info</a>
+
+
+{:.callout}
+> ## YPRPT Project Contact Information
+> * The TREE Lab & YPRPT Project Team: treelab@u.northwestern.edu 
+> * Professor Sepehr Vakil: sepehr.vakil@northwestern.edu 
+> * Professor Raphael Nash: rnash3@depaul.edu
