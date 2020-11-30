@@ -3,41 +3,46 @@ layout: default
 extra_stylesheets:
     - landing-alt.css
 ---
-
-<section class="intro-text">
-    <div class="block">
-        {{ content }}
-    </div>
-</section>
-
-<section class="banner">
-    <h2>Announcements</h2>
-    {% for post in site.posts %}
-        <span>
-            {{ post.date | date: '%B %-d, %Y' }}
-        </span>
-        <div>
-            {{ post.snippet_landing }}
-        </div>
-    {% endfor %}
-</section>
-
-{% assign featured_posts = site.posts | where: "featured", 1 %}
-{% for post in featured_posts %}
-    {% assign className = "parallax-one" %}
-    {% assign mod2 = forloop.index | modulo: 2 %}
-    {% if mod2 == 1 %}
-        {% assign className = "parallax-two" %}
-    {% endif %}
-    <section>
-        <div class="{{ className }}" id="{{ post.slug }}" style="background-image: url({{post.featured_image}})">
-            <div class="content">
-                <h2><a href="{{ post.url }}" target="_blank">{{post.title }}</a></h2>
-                <h3>{{ post.date | date: '%B %-d, %Y' }}</h3>
-                {{ post.excerpt }}  
-                <a class="button" href="{{ post.url }}">Read more</a>
-            </div>
+<div class="landing">
+    <section class="intro-text">
+        <div class="block">
+            {{ content }}
         </div>
     </section>
-{% endfor %}
 
+    <section class="banner">
+        <h2>Announcements</h2>
+        {% for post in site.posts limit:2 %}
+            <span>
+                {{ post.date | date: '%b %-d, %Y' }}
+            </span>
+            <div>
+                <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                <p>
+                    {{ post.snippet_landing }} 
+                    <a href="{{ post.url }}">More</a>.
+                </p>
+            </div>
+        {% endfor %}
+    </section>
+
+    {% assign featured_posts = site.posts | where: "featured", 1 %}
+    {% for post in featured_posts %}
+        {% assign className = "parallax-one" %}
+        {% assign mod2 = forloop.index | modulo: 2 %}
+        {% if mod2 == 1 %}
+            {% assign className = "parallax-two" %}
+        {% endif %}
+        <section>
+            <div class="{{ className }}" id="{{ post.slug }}" style="background-image: url({{post.featured_image}})">
+                <div class="content">
+                    <h2><a href="{{ post.url }}" target="_blank">{{post.title }}</a></h2>
+                    <h3>{{ post.date | date: '%B %-d, %Y' }}</h3>
+                    {{ post.excerpt }}  
+                    <a class="button" href="{{ post.url }}">Read more</a>
+                </div>
+            </div>
+        </section>
+    {% endfor %}
+
+</div>

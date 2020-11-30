@@ -1,3 +1,7 @@
+$lightGreen: #87C38F;
+$darkGreen: #47a253;
+$veryDarkGreen: #1d6526;
+
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
 
 body {
@@ -10,7 +14,7 @@ body * {
 
 footer a, main a {
     text-decoration: none;
-    color: #87C38F;
+    color: $lightGreen;
 }
 
 footer a:hover, main a:hover {
@@ -37,20 +41,30 @@ blockquote {
         background: #F0F0F0;
         margin: 0px;
         padding: 5px 5px 5px 50px;
-        border-left: solid 10px #87C38F;
+        border-left: solid 10px $lightGreen;
         margin-top: 40px;
     }
 
     &.banner {
         font-family: "Source Sans Pro", sans-serif;
         font-size: 1.0em;
-        background-color: #EEE;
+        background-color: #F7F7F7;
         color: #FFF;
+        border: solid 1px #000;
         border-radius: 4px;
         margin: -5px 0px 0px 0px;
 
         background-repeat: no-repeat;
-        padding: 10px;
+        padding: 10px 20px 20px 20px;
+
+        a {
+            color: $darkGreen;
+        }
+
+        li, p {
+            font-size: 1.0rem;
+            line-height: 1.0rem;
+        }
 
         img {
             width: 100%;
@@ -135,7 +149,7 @@ hr:after {
     background: white;
     text-align: center;
     /* color: #407946; */
-    color: #87C38F;
+    color: $lightGreen;
 }
 
 canvas {
@@ -177,7 +191,7 @@ canvas {
 .button {
     margin-top: 0px;
     color: #FFF;
-    background-color: #87C38F;
+    background-color: $lightGreen;
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -192,14 +206,14 @@ span.news {
     color: #FFF;
     font-size: 0.95em;
     text-transform: uppercase;
-    background-color: #87C38F;
+    background-color: $lightGreen;
     padding: 3px 5px 3px 5px;
     border-radius: 5px;
 }
 
 .button:hover {
     text-decoration: none;
-    background-color: #87c38fb9;
+    background-color: $lightGreen;
 }
 p.video {
     display: flex;
@@ -230,7 +244,7 @@ a.tag {
 }
 a.tag:hover {
     color: #FFF;
-    background-color: #87C38F;
+    background-color: $lightGreen;
     text-decoration: none;
 }
 
@@ -264,7 +278,7 @@ a.tag:hover {
 }
 .title h2 {
     text-transform: none;
-    color: #87C38F;
+    color: $lightGreen;
     /* padding: 8px; */
     margin-top: 12px;
 }
@@ -282,7 +296,7 @@ a.tag:hover {
     padding-right: 8px;
     padding-left: 3px;
     font-family: "Source Sans Pro", sans-serif;
-    color: #87C38F;
+    color: $lightGreen;
 }
 
 .alums h3 {

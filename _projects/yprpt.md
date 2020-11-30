@@ -29,10 +29,12 @@ description: |
 <a href="/assets/docs/yprpt/YPRPT_Northwestern_Flyer.pdf"><img src="/assets/images/yprpt/tell-your-story.png" /></a>
 
 {:.banner }
-> **YPRPT Applications Now Open: Tell Your Story!**
-> * Applications due **Tuesday, December 8th, 2020**
-> * <a href="/assets/docs/yprpt/YPRPT_Northwestern_Flyer.pdf">Flyer</a> 
-> * Scroll down to learn more about the program!
+> **[YPRPT Applications Now Open](https://forms.gle/ktpok5VMYRcfcS3N9)** (due Tuesday, December 8th, 2020)
+> * <a href="/assets/docs/yprpt/YPRPT_Northwestern_Flyer.pdf">Flyer</a>
+> * <a href="https://forms.gle/ktpok5VMYRcfcS3N9">Application</a>
+> * Check out the [2020 documentaries](/news/2020-06-17-documentary-screenings)!
+> 
+> To learn more about YPRPT, scroll down!
 
 
 ## What is YPRPT? 

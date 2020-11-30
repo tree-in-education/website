@@ -4,9 +4,9 @@ title:  "Become an Undergraduate Collaborator for the 2020-2021 School Year!"
 slug: undergraduate-Collaborator-20-21
 featured_image: /assets/images/announcements/2020-person-camera.png
 snippet_landing: |
-    The TREE Lab is looking for undergraduate collaborators for the 2020-2021 school year to work on the <a href="/news/2020-09-18-ucs-wanted">YPRPT documentary film initiative</a>. 
+    The TREE Lab is looking for undergraduate collaborators for the 2020-2021 school year to work on the YPRPT documentary film initiative. 
 snippet: |
-    The TREE Lab is looking for undergraduate collaborators for the 2020-2021 school year to work on the <a href="/news/2020-09-18-ucs-wanted">YPRPT documentary film initiative</a>. The project will explore how new technologies shape the experiences of communities of color
+    The TREE Lab is looking for undergraduate collaborators for the 2020-2021 school year to work on the YPRPT documentary film initiative. The project will explore how new technologies shape the experiences of communities of color.
 excerpt_separator: <!--more-->
 ---
 
