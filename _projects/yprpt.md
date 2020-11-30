@@ -25,6 +25,15 @@ description: |
     YPRPT (Young People’s Race Power and Tech Project), the flagship project of the TREE lab, is an afterschool program co-designed with community partners including Evanston Township High School, and three Chicago community-based organizations - Family Matters, Endangered Peace, and the Lucy Parsons Labs. Through the bridging of civics, computing, and the arts, YPRPT aims to contribute to a reimagining of what “technology learning” is and could be in an era of ubiquitous computing.
 
 ---
+{:.banner }
+<a href="/assets/docs/yprpt/YPRPT_Northwestern_Flyer.pdf"><img src="/assets/images/yprpt/tell-your-story.png" /></a>
+
+{:.banner }
+> **YPRPT Applications Now Open: Tell Your Story!**
+> * Applications due **Tuesday, December 8th, 2020**
+> * <a href="/assets/docs/yprpt/YPRPT_Northwestern_Flyer.pdf">Flyer</a> 
+> * Scroll down to learn more about the program!
+
 
 ## What is YPRPT? 
 <img class="img-right" src="/{{ page.filename }}" />
@@ -60,11 +69,13 @@ Teams should expect to commit a minimum of 5 hrs/week from **January 2021 - June
 
 ## Who is this program open to & how can my community organization apply? 
 
-**Deadline: December 1st**
-This program is open to youth-serving community organizations in Chicago & surrounding areas. We are currently accepting applications for community-organizations to participate in YPRPT, which launches virtually in Winter 2021. To participate, community-orgs will form a “youth team” consisting of 1-2 adult mentors representing the community organization, and 2-5 middle or high school aged youth. 
+<span class="news">DEADLINE EXTENDED!</span> **Tuesday, December 8th, 2020** 
 
-Applications are due by December 1st 2020 using <a href="https://forms.gle/ktpok5VMYRcfcS3N9" target="_blank">this application</a>.
+This program is open to youth-serving community organizations in Chicago & surrounding areas. We are currently accepting applications for community-organizations to participate in YPRPT, which launches virtually in Winter 2021. To participate, community-orgs are required to submit a “youth team.” Each team will consist of 1-2 adult mentors representing the community organization, and 2-5 high school aged youth. 
 
+Applications are due by **Tuesday, December 8th 2020** using <a href="https://forms.gle/ktpok5VMYRcfcS3N9" target="_blank">this application</a>. We also require that you have a list of students in mind for a team since we will be asking you to distribute consent forms among the students. 
+
+**Note**: If teams are not part of a formal community organization, they may still submit an application but there should be an adult mentor who can serve as the Team Lead. For example, an adult mentor can be a teacher or other adult that is willing to serve as the Team Lead for the duration of the program. 
 
 ## What does the research part of YPRPT look like? 
 Community organizations, team leaders, and students do not need to participate in the research to choose to implement this program or be part of the program. However, those who choose to participate will be compensated for their participation and allowing us to record the program for research purposes. The recordings will help us understand how to best support student learning of complex technical and societal issues.

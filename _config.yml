@@ -44,6 +44,10 @@ collections:
     output: true
     permalink: /news/:name
 
+sass:
+  style: compact
+  sass_dir: _sass
+
 
 
 # Exclude from processing.

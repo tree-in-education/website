@@ -1,7 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
-/* html {
-    scroll-behavior: smooth;
-} */
 
 body {
     font-family: "Source Sans Pro", sans-serif;
@@ -34,15 +31,41 @@ blockquote {
     letter-spacing: 1px;
     color: #999;
     font-weight: 400;
+
+    &.callout {
+        font-size: 1.0em;
+        background: #F0F0F0;
+        margin: 0px;
+        padding: 5px 5px 5px 50px;
+        border-left: solid 10px #87C38F;
+        margin-top: 40px;
+    }
+
+    &.banner {
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 1.0em;
+        background-color: #EEE;
+        color: #FFF;
+        border-radius: 4px;
+        margin: -5px 0px 0px 0px;
+
+        background-repeat: no-repeat;
+        padding: 10px;
+
+        img {
+            width: 100%;
+        }
+    }
 }
 
-blockquote.callout {
-    font-size: 1.0em;
-    background: #F0F0F0;
+
+p.banner {
+    img {
+        margin-top: 20px;
+        width: 100%;
+    }
+    line-height: 1em;
     margin: 0px;
-    padding: 5px 5px 5px 50px;
-    border-left: solid 10px #87C38F;
-    margin-top: 40px;
 }
 
 h1 {
@@ -164,6 +187,16 @@ canvas {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+span.news {
+    color: #FFF;
+    font-size: 0.95em;
+    text-transform: uppercase;
+    background-color: #87C38F;
+    padding: 3px 5px 3px 5px;
+    border-radius: 5px;
+}
+
 .button:hover {
     text-decoration: none;
     background-color: #87c38fb9;
