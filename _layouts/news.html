@@ -8,11 +8,11 @@ layout: default
     {% for post in site.posts %}
         <div class="left">
             {% if post.featured_image %}
-                <img src="{{ post.featured_image }}" />
+                <a href="{{ post.url }}"><img src="{{ post.featured_image }}" /></a>
             {% else %}
-                <span class="featured-text">
+                <a class="featured-text" href="{{ post.url }}">
                     <h3>{{ post.featured_text }}</h3>
-                </span>
+                </a>
             {% endif %}
         </div>
         <div class="right">
