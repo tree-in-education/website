@@ -18,4 +18,4 @@ excerpt_separator: <!--more-->
 > * <a href="https://forms.gle/ktpok5VMYRcfcS3N9">Application</a>
 > * Check out the [2020 documentaries](/news/2020-06-17-documentary-screenings)!
 > 
-> [Learn more about YPRPT here](/projects/yprpt/)
+> [Learn more about YPRPT here](/projects/yprpt)
