@@ -4,7 +4,7 @@ title: |
     YPRPT: Team TODO List
 shortname: YPRPT TODO List
 parentlink: /projects/yprpt
-permalink: /projects/yprpt/teams
+permalink: /projects/yprpt/current-teams
 ordering: 1
 
 ---
