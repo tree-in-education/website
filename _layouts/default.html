@@ -31,9 +31,9 @@
             {% include header.html %}
             <main>
                 {% if page.layout == 'post' %}
-                    <h1><a href="../news/">News</a> <span class="breadcrumb"> // </span> {{ page.title }}</h1>
+                    <h1><a href="/news/">News</a> <span class="breadcrumb"> // </span> {{ page.title }}</h1>
                 {% elsif page.layout == 'project-detail' %}
-                    <h1><a href="../projects/">Projects</a> <span class="breadcrumb"> // </span> {{ page.title }}</h1>
+                    <h1><a href="{{page.parentlink | default: '/projects/' }}">Projects</a> <span class="breadcrumb"> // </span> {{ page.title }}</h1>
                 {% else %}
                     <h1>{{ page.title }}</h1>
                 {% endif %}

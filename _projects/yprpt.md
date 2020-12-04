@@ -61,11 +61,12 @@ Students will work with their team to learn documentary filmmaking skills. They 
 
 
 ## Time/Work Commitment
-Teams should expect to commit a minimum of 5 hrs/week from **January 2021 - June 2021**. Below are some expectations as being part of the program: 
-* Teams will participate consistently in an online YPRPT curriculum which will include required modules to be completed and submitted to program directors at the end of each month. 
+Teams should expect to commit 2-5 hrs/week from **January 2021 - June 2021**. Below are some expectations as being part of the program: 
+* Teams will participate consistently in a self-guided, online YPRPT curriculum which will include required modules to be completed and submitted to program directors at the end of each month. 
+* Each organization should have a plan to meet weekly with their teams. For example, your organization should plan a regular date & time (1-2 hours/week) to meet with your student team(s). Mentors will be available to meet with teams at their regular weekly meetings to support with program content & video editing. 
 * Teams will have access to office-hours for assistance with the program content and video editing
-* Participate in monthly, city-wide virtual meet-ups to learn and connect with other teams 
-* Teams will work with their UC Northwestern mentor, along with support from award-winning artists, technologists, and activists, to create an original short documentary exploring the intersections of tech and racial justice. Teams will have access to virtual office-hours with local filmmaker & weekly virtual meetings with their Northwestern Undergraduate Collaborato
+* Teams will participate in monthly, city-wide virtual meet-ups to learn and connect with other teams 
+* Teams will work with their UC Northwestern mentor, along with support from award-winning artists, technologists, and activists, to create an original short documentary exploring the intersections of tech and racial justice. Teams will have access to virtual office-hours with local filmmaker & weekly virtual meetings with their Northwestern Undergraduate Collaborator
 * Teams will compete with other teams across the city in a documentary film festival. Best films will be featured in a special screening hosted by the Block Museum at Northwestern University in Summer 2021. 
 
 
