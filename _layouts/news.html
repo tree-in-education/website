@@ -7,7 +7,9 @@ layout: default
 <section class="news">
     {% for post in site.posts %}
         <div class="left">
-            {% if post.featured_image %}
+            {% if post.featured_image_news %}
+                <a href="{{ post.url }}"><img src="{{ post.featured_image_news }}" /></a>
+            {% elsif post.featured_image %}
                 <a href="{{ post.url }}"><img src="{{ post.featured_image }}" /></a>
             {% else %}
                 <a class="featured-text" href="{{ post.url }}">

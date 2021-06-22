@@ -11,8 +11,10 @@ extra_stylesheets:
     </section>
 
     <section class="banner">
+        {% assign posts = site.posts | sort: 'date' | reverse %}
+        
         <h2>Announcements</h2>
-        {% for post in site.posts limit:2 %}
+        {% for post in posts limit:3 %}
             <span>
                 {{ post.date | date: '%b %-d, %Y' }}
             </span>
