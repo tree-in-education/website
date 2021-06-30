@@ -1,4 +1,3 @@
-
 ---
 slug: cortez-watson-jr
 title: cortez-watson-jr
