@@ -1,0 +1,28 @@
+header {
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    height: 38px;
+    z-index: 100;
+}
+
+main {
+  margin-top: 40px;
+  min-height: calc(100vh - 38px);
+}
+
+.copyright{
+  color: #888888;
+}
+
+.nextFilm {
+    padding: 100px;
+}
+
+.nextFilm a {
+  width: 20rem;
+  height: 5rem;
+  font-size: 2em;
+  font-weight: 400;
+  max-height: none;
+}

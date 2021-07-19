@@ -1,0 +1,142 @@
+body {
+  /* background-image: url(https://i.imgur.com/FWHIFUU.jpeg);
+  background-size: cover; */
+  background-color: white;
+  text-align: center;
+  font-weight: 200;
+  font-style: normal;
+  border: 0px;
+}
+
+.bigTitle {
+  font-size: 3.5em;
+}
+
+.crew {
+    padding: 50px 50px;
+}
+
+.title, .poster, .crew, .statement, .bts, .links, .credits {
+    background-color: white;
+    color: #222222;
+}
+
+.credits {
+    padding: 25px 0px 50px;
+    line-height: 7px;
+}
+
+.org-name{
+  font-size: 1.3em;
+}
+
+.logline {
+    /* font-style: italic; */
+    padding: 75px 8% 0px;
+    color: white;
+}
+
+.logline-size{
+  font-size: 1.5em;
+}
+
+.divider {
+    color: white;
+    font-size: 1.5em;
+    display: inline;
+}
+
+.specs li {
+    display: inline;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+.specs {
+  padding: 0px 0px 75px;
+}
+
+.warning {
+    padding: 0px 0px 75px;
+    font-size: 1em;
+    font-style: italic;
+    color: white;
+}
+
+.students {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.student {
+    margin: 0px 25px;
+    width: 28%;
+}
+
+.student img {
+    width:  70%;
+    height: 50%;
+    object-fit: cover;
+    /* border-radius: 0%; */
+}
+
+.student-name {
+    font-size: 1.25em;
+    font-family: nobel, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0px;
+    padding: 15px;
+}
+
+.role {
+    font-size: 1em;
+    font-style: italic;
+    color: #999999;
+    padding: 0px;
+    margin: 5px;
+}
+
+.bio {
+    text-align: justify;
+}
+
+.tab {
+    padding-left: 30px;
+}
+
+.links > p, .quotes > p, .crew > p, .fullcredits > p {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 0px 0px 20px;
+}
+
+.film {
+  padding: 75px 10%;
+  color: white;
+}
+
+.film-title-sizing {
+  font-size: 2em;
+}
+
+.quotes {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+  .student{
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .students{
+    display: flex;
+    flex-direction: column;
+  }
+}

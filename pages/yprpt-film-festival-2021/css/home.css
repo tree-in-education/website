@@ -1,0 +1,67 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#008081;
+}
+
+main {
+    background: url(../img/desktop-icons/yprpt21.png) no-repeat center;
+    background-size: contain;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.desktop-icon, .desktop-icon * {
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.desktop-icon {
+  width: 200px;
+  text-align: center;
+  padding: 5px;
+}
+
+.desktop-icon a{
+  text-decoration: none;
+  color: black;
+}
+
+.image-sizing{
+    height:180px;
+}
+
+.desktop-icon-text{
+  width: 50px;
+  background: #C2FFFF;
+  border-color: rgb(191, 233, 233);
+  text-align: center;
+}
+
+.section-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+
+@media screen and (max-width: 600px) {
+    .desktop-icon {
+        width: 120px;
+        text-align: center;
+        user-select: none; 
+        padding: 10px;
+    }
+    .image-sizing{
+        height: 90px;
+    }
+}

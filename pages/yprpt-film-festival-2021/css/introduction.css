@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  font-weight: 200;
+  font-style: normal;
+  border: 0px;
+}
+
+.navbar{
+  background-color: #eae6e5;
+}
+
+.navbar .navbar-nav .nav-link {
+  background: #F6EAC2;
+}
+
+.film {
+  padding: 75px 10%;
+  background-color: #F5E9E2;
+}
+
+.title {
+    color: #222222;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.description {
+    padding: 25px 0px 50px;
+    line-height: 7px;
+}
+.description-text-size {
+    font-size: 1em;
+}
+
+.nextFilm {
+    background-color: #F6EAC2;
+}

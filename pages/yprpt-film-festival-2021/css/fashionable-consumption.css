@@ -1,0 +1,34 @@
+.navbar{
+  background-color: #ffbf69;
+}
+.navbar .navbar-nav .nav-link {
+  background: #f4a261;
+}
+.nextFilm {
+    background-color: #03071e;
+}
+
+.film-details {
+    background: #ffbf69;
+}
+.specs li{
+  color: #ff9f1c;
+}
+.student img{
+  border: 8px solid #ff9f1c;
+}
+.links > p, .quotes > p, .crew > p, .fullcredits > p {
+  color: #9d0208;
+}
+.film {
+  background-color: #ffbf69;
+}
+
+.bg {
+    background-image: url(../img/fashionable/bg1.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}

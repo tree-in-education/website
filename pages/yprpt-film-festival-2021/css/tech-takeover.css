@@ -1,0 +1,25 @@
+.navbar{
+  background-color: lightcoral;
+}
+.navbar .navbar-nav .nav-link {
+  background: lavender;
+}
+.nextFilm {
+    background-color: #E1CCEA;
+}
+
+.film-details {
+    background: lightcoral;
+}
+.specs li{
+  color: #F5B7B1;
+}
+.student img{
+  border: 8px solid #F5B7B1;
+}
+.links > p, .quotes > p, .crew > p, .fullcredits > p {
+  color: #D7BDE2;
+}
+.film {
+  background-color: lightcoral;
+}

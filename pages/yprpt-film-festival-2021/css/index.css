@@ -1,0 +1,34 @@
+body{
+  background-color:#008081;
+}
+#boot-ready{
+    width: 100%;
+    z-index: 98;
+    position: fixed;
+    height: 100vh;
+    background: #000;
+}
+
+#boot{
+    width: 100%;
+    z-index: 99;
+    position: fixed;
+    height: 100vh;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4989c596-7ba0-4e17-8b98-7c338208ab64/daobodr-7dc4c4b1-7bd3-4b50-87bb-c987e2c4dfb7.jpg/v1/fill/w_1231,h_649,q_70,strp/windows_98_remastered_startup_screen__4k_wallpaper_by_archi_techi_daobodr-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzQ5ODljNTk2LTdiYTAtNGUxNy04Yjk4LTdjMzM4MjA4YWI2NFwvZGFvYm9kci03ZGM0YzRiMS03YmQzLTRiNTAtODdiYi1jOTg3ZTJjNGRmYjcuanBnIiwid2lkdGgiOiI8PTQwOTYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.79KQdANpp8aaMRj99IcG2XE63yJ8608uZ9IfgP2yYrY) no-repeat center -25px / cover;
+}
+
+.loading-bar{
+    position: absolute;
+    width: 100%;
+    height: 25px;
+    background: linear-gradient(220deg, rgba(85,132,187,1), rgba(202,232,251,1), rgba(85,132,187,1));
+    background-size: 200% 100%;
+    bottom: 0;
+    left: 0;
+    animation: loading 3s ease forwards infinite;
+}
+
+@keyframes loading {
+   0%{background-position:0% 51%}
+   100%{background-position:-200% 51%}
+}
