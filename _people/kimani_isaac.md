@@ -2,7 +2,7 @@
 slug: kimani-isaac
 title: Kimani Isaac
 name: Kimani Isaac
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/kimaniisaac.jpg
 ---

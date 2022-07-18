@@ -2,8 +2,9 @@
 slug: raphael-nash
 title: Raphael Nash
 name: Raphael Nash
-type: community
+type: leadership
 role: YPRPT Co-Founder
+ordering: 1
 filename: assets/images/people_images/raphael_nash.jpg
 ---
 

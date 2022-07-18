@@ -2,7 +2,7 @@
 slug: akansha-raj
 title: Akansha Raj
 name: Akansha Raj
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/akansharaj.jpg
 ---

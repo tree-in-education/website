@@ -2,7 +2,7 @@
 slug: rhea-ramaiya
 title: Rhea Ramaiya
 name: Rhea Ramaiya
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/rhearamaiya.jpg
 ---

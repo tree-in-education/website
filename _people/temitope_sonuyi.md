@@ -3,7 +3,7 @@ slug: temitope-sonuyi
 title: Temitope Sonuyi
 name: Temitope Sonuyi
 type: community
-ordering: 1
+ordering: 4
 role: Senior Tech Advisor
 filename: assets/images/people_images/temitope.jpg
 ---

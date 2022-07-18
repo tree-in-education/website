@@ -2,7 +2,7 @@
 slug: bijal-mehta
 title: Bijal Mehta
 name: Bijal Mehta
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/bijal_mehta.jpg
 ---

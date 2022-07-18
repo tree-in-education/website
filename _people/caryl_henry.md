@@ -2,7 +2,7 @@
 slug: caryl-henry
 title: Caryl Henry
 name: Caryl Henry
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/carylhenry.jpg
 ---

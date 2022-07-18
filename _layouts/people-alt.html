@@ -9,12 +9,13 @@ extra_scripts:
 {{ content }}
 
 {% assign faculty = site.people | where: 'type', "faculty" | sort: 'ordering' %}
+{% assign leadership = site.people | where: 'type', "leadership" | sort: 'ordering' %}
 {% assign community = site.people | where: 'type', "community" | sort: 'ordering' %}
 {% assign phds = site.people | where: 'type', "phd" | sort: 'ordering' %}
 {% assign undergrads = site.people | where: 'type', "undergraduate" | sort: 'ordering' %}
 {% assign alums = site.people | where: 'type', "alum" | sort: 'ordering' %}
 
-{% assign people = faculty | concat: community | concat: phds | concat: undergrads %}
+{% assign people = faculty | concat: leadership | concat: phds | concat: community | concat: undergrads %}
 
 <div class="masonry three" id="people-grid">
     {% for person in people %}
@@ -56,7 +57,7 @@ extra_scripts:
     <div id="{{ person.slug }}">
         <h3>{{ person.name }}</h3>
         <ul>
-            <li>{{ person.role }} ({{ person.years }})</li>
+            <li>{{ person.role }}</li>
             <li>Worked on: 
                 {% assign counter = 0 %}
                 {% for project in site.projects %}

@@ -2,7 +2,7 @@
 slug: olivia-gallager
 title: Olivia Gallager
 name: Olivia Gallager
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/olivia_gallager.jpg
 ---

@@ -2,8 +2,8 @@
 slug: cortez-watson-jr
 title: cortez-watson-jr
 name: Cortez Watson
-type: phd
-ordering: 3
+type: community
+ordering: 2
 role: PhD Student Researcher
 filename: assets/images/people_images/cortez_watson_jr.jpg
 ---

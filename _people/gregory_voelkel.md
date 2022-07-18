@@ -2,7 +2,7 @@
 slug: gregory-voelkel
 title: Gregory Voelkel
 name: Gregory Voelkel
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/gregoryvoelkel.jpg
 ---

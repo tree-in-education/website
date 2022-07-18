@@ -2,7 +2,7 @@
 slug: titobi-williams
 title: Titobi Williams
 name: Titobi Williams
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/titobiwilliams.jpg
 ---

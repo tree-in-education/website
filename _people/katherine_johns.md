@@ -2,7 +2,7 @@
 slug: katherine-johns
 title: Katherine Johns
 name: Katherine Johns
-type: undergraduate
+type: alum
 role: Undergraduate Student Researcher
 filename: assets/images/people_images/katherinejohns.jpg
 ---
