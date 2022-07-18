@@ -10,13 +10,16 @@ collaborators:
   - slug: sepehr-vakil
   - slug: raphael-nash
   - slug: natalie-melo
-  - slug: gregory-voelkel
-  - slug: jessie-marshall
+  - slug: shai-moore
+  - slug: ally-reith
+  - slug: charles-logan
   - slug: lucy-parsons-labs
-  - slug: endangered-peace
   - slug: family-matters
+  - slug: endangered-peace
 
 former_collaborators:
+  - slug: jessie-marshall
+  - slug: gregory-voelkel
   - slug: jessica-rodriguez
   - slug: rhea-ramaiya
   - slug: thomas-young

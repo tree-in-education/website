@@ -9,12 +9,12 @@ ordering: 2
 show_members: 1
 slug: breakpoint
 website: https://tree-in-education.github.io/BreakPointNU/
-collaborators:
+
+former_collaborators:
   - slug: akansha-raj
   - slug: katherine-johns
   - slug: kimani-isaac
   - slug: titobi-williams
-former_collaborators:
   - slug: mary-truong
 description: |
     With all its perks, technology is normally touted as our path to that more equitable, shining future, a boon to save us from ourselves. But what if it’s not? We have evidence to believe that often, technology does the opposite, re-entrenching us in our inequities, even without malicious intent. 

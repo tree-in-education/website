@@ -24,17 +24,19 @@ extra_scripts:
                         {{ project.content }}
                     {% endif %}
                 
-                    <h4>Team Members</h4>
-                    {% for pc in project.collaborators %}
-                        {% assign collaborator = all_collaborators | where:"slug", pc.slug | first %}
-                        {% if collaborator.type != "alum" %}
-                            {% if collaborator.role %}
-                                <a class="tag" href="../people#{{collaborator.slug}}">{{ collaborator.title }}</a>
-                            {% else %}
-                            <a class="tag" href="../partners#{{collaborator.slug}}">{{ collaborator.title }}</a>
+                    {% if project.collaborators %}
+                        <h4>Current Team Members</h4>
+                        {% for pc in project.collaborators %}
+                            {% assign collaborator = all_collaborators | where:"slug", pc.slug | first %}
+                            {% if collaborator.type != "alum" %}
+                                {% if collaborator.role %}
+                                    <a class="tag" href="../people#{{collaborator.slug}}">{{ collaborator.title }}</a>
+                                {% else %}
+                                <a class="tag" href="../partners#{{collaborator.slug}}">{{ collaborator.title }}</a>
+                                {% endif %}
                             {% endif %}
-                        {% endif %}
-                    {% endfor %}
+                        {% endfor %}
+                    {% endif %}
                 </div>
             </div>
         </div>

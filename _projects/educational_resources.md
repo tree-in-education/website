@@ -17,6 +17,8 @@ collaborators:
   - slug: natalie-melo
   - slug: sepehr-vakil
   - slug: sarah-van-wart
+  
+former_collaborators:
   - slug: titobi-williams
   - slug: bijal-mehta
   - slug: olivia-gallager
