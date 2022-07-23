@@ -6,7 +6,7 @@ extra_stylesheets:
     - contacts.css
 ---
 
-We'd love to hear from you! If your an undergraduate or graduate student, contact us and tell us about yourself and your interests. If you're an organization who would like to collaborate with us, we'd love to hear from you. More info below.
+Interested in working with us? We'd love to hear from you! 
 
 <div class="contact-info">
   <!-- <div class="card">
@@ -15,7 +15,7 @@ We'd love to hear from you! If your an undergraduate or graduate student, contac
       <p>Stay in touch! Keep up with all TREE Lab's news.</p>
       <button onclick="window.location.href='https://twitter.com/dailypuppy?lang=en'">FOLLOW</button>
     </div>
-  </div> -->
+  </div>
     <div class="card">
         <div class="card-text">
             <h3>For Students</h3>
@@ -33,13 +33,13 @@ We'd love to hear from you! If your an undergraduate or graduate student, contac
                 <a class="button" href="../partners">Collaborate</a>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="card">
         <div class="card-text">
-            <h3>Additional Questions?</h3>
-            <p>Please reach out! Expect a response in 2-3 business days.</p>
+            <h3>Looking to collaborate?</h3>
+            <p>Please reach out!</p>
             <div>
-                <a class="button" href="mailto:sepehr.vakil@northwestern.edu" target="blank">Email</a>
+                <a class="button" href="mailto:tree@northwestern.edu" target="blank">Email</a>
             </div>
         </div>
     </div>
