@@ -36,7 +36,7 @@ YPRPT is an NSF-funded learning initiative designed specifically for middle scho
 Starting in 2019, we have worked alongside community partners across Chicagoland to co-design learning experiences for young people to examine the interconnections between technology, racism, and power. Since the first iteration of YPRPT, we have collaborated and built deep relationships with the [Lucy Parsons Labs](/partners/#lucy-parsons-labs) and [Family Matters](/partners/#family-matters) in Chicago's Rogers Park neighborhood. 
 
 ## YPRPT x Kapor Center pilot 2022
-In 2022, we piloted a new iteration of YPRPT in collaboration with our partners the [Lucy Parsons Labs](/partners/#lucy-parsons-labs) and [Family Matters](/partners/#family-matters), with support from the [Kapor Center](/parters/#kapor-center). A cohort of six high schoolers investigated and co-designed curricular units exploring the ethical complexities of a technology of their choice. 
+In 2022, we piloted a new iteration of YPRPT in collaboration with our partners the [Lucy Parsons Labs](/partners/#lucy-parsons-labs) and [Family Matters](/partners/#family-matters), with support from the <a href = "https://www.kaporcenter.org/" target="_blank">Kapor Center </a>. A cohort of six high schoolers investigated and co-designed curricular units exploring the ethical complexities of a technology of their choice. 
 
 Check out the first drafts of the 2022 cohort's 5 curricular units below:
 * <a href = "https://docs.google.com/document/d/e/2PACX-1vShJ1lAyzibi5TrlC5tMopMOlEuf3PRccE-P-QivWa5y8G4dKqpSfDV7a9HlCWNauduPpTLnS9vj7_c/pub" target="_blank">NFTs</a>
