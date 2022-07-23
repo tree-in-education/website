@@ -10,7 +10,9 @@ extra_stylesheets:
         </div>
     </section>
 
-    <section class="banner">
+    <!-- hiding (july 2022) until we have long term management plan 
+
+    <section class="banner"> 
         {% assign posts = site.posts | sort: 'date' | reverse %}
         
         <h2>Announcements</h2>
@@ -26,7 +28,7 @@ extra_stylesheets:
                 </p>
             </div>
         {% endfor %}
-    </section>
+    </section> -->
 
     {% assign featured_posts = site.posts | where: "featured", 1 %}
     {% for post in featured_posts %}
