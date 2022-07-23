@@ -1,7 +1,7 @@
 ---
 title: Evanston Township High School
 slug: eths
-ordering: 4
+ordering: 6
 filename: assets/images/community_partners_images/eths_400x400.png
 website: https://www.eths.k12.il.us/
 ---
