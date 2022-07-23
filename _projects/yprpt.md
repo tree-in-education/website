@@ -25,36 +25,39 @@ former_collaborators:
   - slug: thomas-young
 
 description: |
-    YPRPT (Young People’s Race Power and Tech Project), the flagship project of the TREE lab, is an afterschool program co-designed with community partners including Evanston Township High School, and three Chicago community-based organizations - Family Matters, Endangered Peace, and the Lucy Parsons Labs. Through the bridging of civics, computing, and the arts, YPRPT aims to contribute to a reimagining of what “technology learning” is and could be in an era of ubiquitous computing.
+    YPRPT (Young People’s Race Power and Tech Project) is an afterschool program co-designed with community partners to engage Chicago youth in critical inquiry around around the complex ethical and political dimensions of technologies. Bringing together civics, computing, and the arts, YPRPT aims to contribute to a reimagining of what “technology learning” is and could be in an era of ubiquitous computing.
 
 ---
-{:.banner }
-<a href="/assets/docs/yprpt/YPRPT_Northwestern_Flyer.pdf"><img src="/assets/images/yprpt/tell-your-story.png" /></a>
 
-{:.banner }
-> **[YPRPT Applications Now Open](https://forms.gle/ktpok5VMYRcfcS3N9)** (due Tuesday, December 8th, 2020)
-> * <a href="/assets/docs/yprpt/YPRPT_Northwestern_Flyer.pdf">Flyer</a>
-> * <a href="https://forms.gle/ktpok5VMYRcfcS3N9">Application</a>
-> * Check out the [2020 documentaries](/news/2020-06-17-documentary-screenings)!
-> 
-> To learn more about YPRPT, scroll down!
+## The Young People's Race, Power, and Technology Project (YPRPT)
+
+YPRPT is an NSF-funded learning initiative designed specifically for middle school and high school students. The program offers an innovative research-based curriculum that empowers youth to explore, engage, critique, and reimagine the role of technology in their neighborhoods, schools, and communities. YPRPT brings together high school and undergraduate students from Northwestern University, educators, community workers, and university researchers to understand the impact, limitations, harms, and possibilities that new technologies offer, particularly for historically marginalized communities of color. The program integrates “under the hood” investigations of technologies with documentary film-making, and a focus on building and sustaining community among all collaborators and participants.
+
+Starting in 2019, we have worked alongside community partners across Chicagoland to co-design learning experiences for young people to examine the interconnections between technology, racism, and power. Since the first iteration of YPRPT, we have collaborated and built deep relationships with the [Lucy Parsons Labs](/partners/#lucy-parsons-labs) and [Family Matters](/partners/#family-matters) in Chicago's Rogers Park neighborhood. 
+
+## YPRPT x Kapor Center pilot 2022
+In 2022, we piloted a new iteration of YPRPT in collaboration with our partners the [Lucy Parsons Labs](/partners/#lucy-parsons-labs) and [Family Matters](/partners/#family-matters), with support from the [Kapor Center](/parters/#kapor-center). A cohort of six high schoolers investigated and co-designed curricular units exploring the ethical complexities of a technology of their choice. 
+
+Check out the first drafts of the 2022 cohort's 5 curricular units below:
+* <a href = "https://docs.google.com/document/d/e/2PACX-1vShJ1lAyzibi5TrlC5tMopMOlEuf3PRccE-P-QivWa5y8G4dKqpSfDV7a9HlCWNauduPpTLnS9vj7_c/pub" target="_blank">NFTs</a>
+* <a href = "https://docs.google.com/document/d/e/2PACX-1vR31xRArHC5o2AT5Vke4rE07JG_4kwZSzBf_Ck7rW54KU8R3ZznQCc0EtX2JPUAQQCeemxEsN7noUiR/pub" target="_blank">Social Media and Young People's Mental Health</a>
+* <a href = "https://docs.google.com/document/d/e/2PACX-1vSkC4WpBO-7k4FtdBYC6zCpKTlrnMIb5tZapf5z2WI18z-fmrXkurjpyoE8JsnetSPuB8ZnDiTZlRXl/pub" target="_blank">3D Printing and Fashion Design</a>
+* <a href = "https://docs.google.com/document/d/e/2PACX-1vSplvJLCfY3XtqZM81xkPXkMIC2EeXPpHXOdjW-kIWI-BhDvRCckb8rkqveFxsxS6hZ-3khWIRuLv-C/pub" target="_blank">Video Games and Computers</a>
+* <a href = "https://docs.google.com/document/d/e/2PACX-1vTRjThuZ_Tyo9WmyD5EJX94IaHvF_wzM1-HNnrSfuMTlc51WHcbNUeiKcjzN4sGrrUBvREOV9C2rSYw/pub" target="_blank">Cybersecurity</a>
 
 
-## What is YPRPT? 
-<img class="img-right" src="/{{ page.filename }}" />
-The Young People’s Race Power and Technology project (YPRPT) is an out of school learning initiative designed specifically for middle school and high school students in the Chicago-area. The program offers an innovative research-based curriculum that empowers youth to explore, engage, critique, and reimagine the role of technology in their neighborhoods, schools, and communities. YPRPT is part of an NSF-funded initiative that brings together high school and undergraduate students from Northwestern University, educators, community workers, and university researchers to better understand the impact, limitations, harms, and possibilities that new technologies offer, particularly for historically marginalized communities of color.  The program integrates technology “under the hood” investigations with racial and social justice topics, documentary film-making, and a focus on building and sustaining community among all participants.
+## YPRPT 2021
+The COVID-19 pandemic shaped the second year of YPRPT–we shifted to a fully-remote format and expanded to include a larger number of organizations and young people. Twelve teams–comprised of high schoolers, undergraduates, and representatives from community groups like arts organizations, churches, and afterschool programs–were guided through a 4-month curriculum co-designed to encourage  exploration of technology and its impacts, as well as documentary filmmaking and production. Ten final documentary films were premiered at an online film festival, hosted by our partner, [The Block Museum of Art + Block Cinema](/partners/#block-museum).  
 
-## Who are we? 
-We are a team of educators, activists, researchers, and students from the TREE lab at Northwestern University. We work closely with community-organizations and schools across the Chicago area to create learning opportunities for youth to examine the interconnections between technology, racism, and power. Last year, we collaborated with the [Lucy Parsons Labs](/partners/#lucy-parsons-labs) and [Family Matters](/partners/#family-matters) in Rogers Park to launch the first YPRPT (Young People’s Race Power and Technology) cohort. 
+Visit the 2021 YPRPT Film Festival portal [here](/pages/#yprpt-film-festival-2021), where you can watch all of the youth-produced documentaries!
 
-Over the course of 9 months, we empowered high school students to create and produce their own social justice documentaries culminating in a special screening at the Block Museum. Documentaries from the 2019-2020 cohort can be viewed here:
+## YPRPT 2019-2020
+During the first pilot of YPRPT, high schoolers created and produced their own documentary films probing the intersections of particular technologies, bringing forth questions of justice and ethics that emerged during their exploration. The program culimnated in a special film screening hosted by our partner, [The Block Museum of Art + Block Cinema](/partners/#block-museum). 
 
-<!-- <div class="vimeo"> -->
-<a href="https://vimeo.com/showcase/7260847" target="_blank"><img style="width:100%;" src="/assets/images/yprpt/film_festival_1.png" /></a>
-<!-- </div> -->
-<a href="https://vimeo.com/showcase/7260847" target="_blank">https://vimeo.com/showcase/7260847</a>
+Watch the documentaries from YPRPT's 2019-2020 cohort <a href="https://vimeo.com/showcase/7260847" target="_blank">here.</a>
 
-In January 2021 YPRPT will launch its second cohort, using lessons learned from the pilot year and re-tooling in the context of COVID and emerging opportunities to expand the reach of the program. We’re expanding the program to include a select number of community orgs and schools from across the Chicago area.
+
+<!-- In January 2021 YPRPT will launch its second cohort, using lessons learned from the pilot year and re-tooling in the context of COVID and emerging opportunities to expand the reach of the program. We’re expanding the program to include a select number of community orgs and schools from across the Chicago area.
 
 ## How will the program work during COVID-19?
 Teams will be connected to an online community of youth, activists, artists, and Northwestern student mentors; get access to a research-based curriculum hosted on an online platform; participate in monthly virtual meet-ups, and create an original documentary film exploring critical technology and social justice issues in their neighborhood. Students and community organizations will be able to be part of the program using technology they already have. Access to computers/laptops is also preferred but not required. If there are questions or concerns about technology access, you can contact us. 
@@ -90,9 +93,12 @@ Community organizations, team leaders, and students do not need to participate i
 * [Documentaries from 2020](/news/2020-06-17-documentary-screenings)
 * <a href="https://forms.gle/ktpok5VMYRcfcS3N9" target="_blank">Application Link</a>
 
-
+ 
 {:.callout}
-> ## YPRPT Project Contact Information
-> * The TREE Lab & YPRPT Project Team: treelab@u.northwestern.edu 
+> ## YPRPT Project Contacts
+> * The TREE Lab & YPRPT Project Team: treelab@northwestern.edu 
 > * Professor Sepehr Vakil: sepehr.vakil@northwestern.edu 
 > * Professor Raphael Nash: rnash3@depaul.edu
+
+
+ -->
