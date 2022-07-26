@@ -4,7 +4,7 @@ title: Jessica Marshall
 name: Jessica Marshall 
 type: alum
 ordering: 4
-role: Alum
+role: PhD Student Researcher
 filename: assets/images/people_images/jessie_marshall.jpg
 ---
 
