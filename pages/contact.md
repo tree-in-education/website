@@ -39,7 +39,7 @@ Interested in working with us? We'd love to hear from you!
             <h3>Looking to collaborate?</h3>
             <p>Please reach out!</p>
             <div>
-                <a class="button" href="mailto:tree@northwestern.edu" target="blank">Email</a>
+                <a class="button" href="mailto:sepehr.vakil@northwestern.edu" target="blank">Email</a>
             </div>
         </div>
     </div>
