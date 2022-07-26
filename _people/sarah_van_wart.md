@@ -4,11 +4,11 @@ title: Sarah Van Wart
 name: Sarah Van Wart
 ordering: 2
 type: faculty
-role: Principal Investigator
+role: Senior Research Associate
 filename: assets/images/people_images/sarahvanwart.jpg
 ---
 
-Dr. Sarah Van Wart is a Co-Director / Co-PI (alongside Dr. Sepehr Vakil) of the TREE Lab. She is an Assistant Professor of Instruction in the Department of Computer Science at Northwestern University, where she teaches courses in HCI, web design / development, introductory programming, and ethics (forthcoming). 
+Dr. Sarah Van Wart is a Senior Research Associate of the TREE Lab. She is an Assistant Professor of Instruction in the Department of Computer Science at Northwestern University, where she teaches courses in HCI, web design / development, introductory programming, and ethics. 
 
 Prior to academia, she spent about a decade developing and maintaining data and communication infrastructures to support public accountability and transparency within city and regional planning efforts. She later pursued her PhD in Information Science at UC Berkeley, where she studied the role of data and computing in supporting civic participation and advocacy among young people. 
 
