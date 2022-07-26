@@ -2,9 +2,9 @@
 slug: jessie-marshall
 title: Jessica Marshall 
 name: Jessica Marshall 
-type: phd
+type: alum
 ordering: 4
-role: PhD Student Researcher
+role: Alum
 filename: assets/images/people_images/jessie_marshall.jpg
 ---
 
