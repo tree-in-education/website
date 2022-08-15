@@ -7,8 +7,7 @@ slug: sesp-summer-2022-article
 snippet_landing: |
     Questioning the tech that shapes our lives
 snippet: |
-    YPRPT 2021 <a href="/pages/yprpt-film-festival-2021/">Film Festival Website</a> Launched! <br> 
-        It's about Power <a href="https://www.sesp.northwestern.edu/magazine/summer-2022/its-about-power.html">Questioning the tech that shapes our lives</a> 
+    It's about Power <a href="https://www.sesp.northwestern.edu/magazine/summer-2022/its-about-power.html">Questioning the tech that shapes our lives</a> 
 ---
 
 <img class="img-right badge" src="/assets/images/sesp-mag-2022.jpg" />
