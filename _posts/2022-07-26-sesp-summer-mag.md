@@ -8,10 +8,11 @@ snippet_landing: |
     Questioning the tech that shapes our lives
 snippet: |
     YPRPT 2021 <a href="/pages/yprpt-film-festival-2021/">Film Festival Website</a> Launched! <br> 
+        It's about Power <a href="https://www.sesp.northwestern.edu/magazine/summer-2022/its-about-power.html">Questioning the tech that shapes our lives</a> 
 ---
 
-<img class="img-right badge" src="/assets/images/film-festival-2021/image1.png" />
+<img class="img-right badge" src="/assets/images/sesp-mag-2022.jpg" />
 
-<span class="first-character">W</span>e have launched our Film Festival Website! <br>
+<span class="first-character">R</span>ead about the TREE Lab's work in the SESP magazine's summer 2022 issue <a href="https://www.sesp.northwestern.edu/magazine/summer-2022/its-about-power.html">here!</a>
 
-<a class="btn tag" href="/pages/yprpt-film-festival-2021/">Check it out!</a>
+
