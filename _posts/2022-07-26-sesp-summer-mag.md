@@ -7,7 +7,7 @@ slug: sesp-summer-2022-article
 snippet_landing: |
     Questioning the tech that shapes our lives
 snippet: |
-    It's about Power <a href="https://www.sesp.northwestern.edu/magazine/summer-2022/its-about-power.html">Questioning the tech that shapes our lives</a> 
+    It's about Power <a href="https://www.sesp.northwestern.edu/magazine/summer-2022/its-about-power.html">Questioning the tech that shapes our lives</a> <br>
 ---
 
 <img class="img-right badge" src="/assets/images/sesp-mag-2022.jpg" />
