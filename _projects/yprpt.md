@@ -49,7 +49,8 @@ Check out the first drafts of the 2022 cohort's 5 curricular units below:
 ## YPRPT 2021
 The COVID-19 pandemic shaped the second year of YPRPT–we shifted to a fully-remote format and expanded to include a larger number of organizations and young people. Twelve teams–comprised of high schoolers, undergraduates, and representatives from community groups like arts organizations, churches, and afterschool programs–were guided through a 4-month curriculum co-designed to encourage  exploration of technology and its impacts, as well as documentary filmmaking and production. Ten final documentary films were premiered at an online film festival, hosted by our partner, [The Block Museum of Art + Block Cinema](/partners/#block-museum).  
 
-Visit the 2021 YPRPT Film Festival portal [here](/pages/#yprpt-film-festival-2021), where you can watch all of the youth-produced documentaries!
+Visit the 2021 YPRPT Film Festival portal <a href = "https://tree.northwestern.edu/pages/yprpt-film-festival-2021/home.html" target="_blank">here</a>, where you can watch all of the youth-produced documentaries!
+
 
 ## YPRPT 2019-2020
 During the first pilot of YPRPT, high schoolers created and produced their own documentary films probing the intersections of particular technologies, bringing forth questions of justice and ethics that emerged during their exploration. The program culimnated in a special film screening hosted by our partner, [The Block Museum of Art + Block Cinema](/partners/#block-museum). 
