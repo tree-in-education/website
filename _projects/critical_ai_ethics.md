@@ -22,3 +22,5 @@ The resources will include lesson plans, syllabi, pedagogical essays, activity d
 
 **If you are interested in using these resources, please email Professor Sepehr Vakil at sepehr.vakil@northwestern.edu. We will be releasing a Critical AI Ethics K12 resource guide in Summer 2024. Please check back here for updates.** 
 
+![Coming Soon](/assets/images/project_images/ETHS_art02.png)
+
