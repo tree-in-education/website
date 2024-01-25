@@ -6,7 +6,7 @@ filename: assets/images/project_images/algorithm.png
 slug: critical-ai-ethics
 ordering: 1
 description: |
-    The Critical AI Ethics Curriculum working group is a collaboration with Northwestern University School of Education and Social Policy’s TREE Lab, Evanston Township High School, and Kapor Center. The working group consists of researchers, undergraduate students, and high school students and educators working together to create a set of educational resources to help students explore, understand, and question the social and ethical dimensions of AI. 
+    The Critical AI Ethics Curriculum working group is a collaboration with Northwestern University School of Education and Social Policy’s TREE Lab, Evanston Township High School, Responsible AI Student Organization (RAISO), and the Kapor Center. The working group consists of researchers, undergraduate students, and high school students and educators working together to create a set of educational resources to help students explore, understand, and question the social and ethical dimensions of AI. 
 
 collaborators:
   - slug: eths
@@ -14,7 +14,7 @@ collaborators:
   
 ---
 
-The Critical AI Ethics Curriculum working group is a collaboration with Northwestern University School of Education and Social Policy’s TREE Lab, Evanston Township High School, and Kapor Center. 
+The Critical AI Ethics Curriculum working group is a collaboration with Northwestern University School of Education and Social Policy’s TREE Lab, Evanston Township High School, Responsible AI Student Organization (RAISO), and the Kapor Center.  
 
 The working group consists of researchers, undergraduate students, and high school students and educators working together to create a set of educational resources to help students explore, understand, and question the social and ethical dimensions of AI. 
 
