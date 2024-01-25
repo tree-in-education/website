@@ -2,7 +2,7 @@
 layout: project-detail
 title: Critical AI Ethics Working Group
 shortname: Critical AI Ethics
-filename: assets/images/project_images/algorithm.png
+filename: assets/images/project_images/ETHS_art02.png
 slug: critical-ai-ethics
 ordering: 1
 description: |
@@ -22,6 +22,3 @@ The resources will include lesson plans, syllabi, pedagogical essays, activity d
 
 **If you are interested in using these resources, please email Professor Sepehr Vakil at sepehr.vakil@northwestern.edu. We will be releasing a Critical AI Ethics K12 resource guide in Summer 2024. Please check back here for updates.** 
 
-
-
-## Spring 2024
