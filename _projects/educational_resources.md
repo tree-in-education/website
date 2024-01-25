@@ -4,10 +4,9 @@ title: Educational Resources
 shortname: Educational Resources
 filename: assets/images/project_images/fac-detection1.png
 slug: educational-resources
-ordering: 4
+ordering: 5
 description: |
-    Overview of educational resources (a snippet that gets
-    shown on the "projects" page)...
+    Overview of educational resources 
 
 show_members: 1
 collaborators:
