@@ -4,7 +4,7 @@ title: Young People’s Race Power and Tech Project (YPRPT)
 shortname: YPRPT
 filename: assets/images/project_images/yprpt.jpg
 slug: yprpt
-ordering: 1
+ordering: 2
 show_members: 1
 collaborators:
   - slug: sepehr-vakil
