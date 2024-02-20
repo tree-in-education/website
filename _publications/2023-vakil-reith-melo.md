@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: publication
 title: Jamming power - Youth agency and community-driven science in a critical technology learning program
 featured: 0
 slug: vakil-reith-melo-2023
