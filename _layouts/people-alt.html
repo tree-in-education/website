@@ -21,8 +21,8 @@ extra_scripts:
     {% for person in people %}
         <div class="masonry-item" id="{{ person.slug }}">
             <div class="masonry-content">
-                <img src="{{site.baseurl}}/{{ person.filename }}" alt="photo of person" />
-                <h3 class="masonry-title">{{ person.name }}</h3>
+                <!-- Temp remove photos from People page <img src="{{site.baseurl}}/{{ person.filename }}" alt="photo of person" />
+-->                 <h3 class="masonry-title">{{ person.name }}</h3>
                 <h4>{{ person.role }}</h4>
                 <div class="masonry-description">
                     {{ person.content }}
