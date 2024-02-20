@@ -1,5 +1,5 @@
 ---
-layout: news
+layout: publications
 title: Research & Publications
 permalink: /publications/
 ---
