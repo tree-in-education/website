@@ -5,8 +5,8 @@ layout: default
 {{ content }}
 
 <section class="publications">
-    <!-- {% for publication in site.publications %}
-        <div class="left">
+    {% for publication in site.publications %}
+       <!-- <div class="left">
             {% if publication.featured_image_publications %}
                 <a href="{{ publication.url }}"><img src="{{ publication.featured_image_publications }}" /></a>
             {% elsif publication.featured_image %}
