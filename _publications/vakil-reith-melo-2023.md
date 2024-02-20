@@ -3,7 +3,6 @@ layout: post
 title: Jamming power - Youth agency and community-driven science in a critical technology learning program
 featured: 0
 slug: vakil-reith-melo-2023
-Teaching, 60(8), 1723-1754.
 snippet: Article in Journal of Research in Science Teaching
 ---
 
