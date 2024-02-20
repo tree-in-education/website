@@ -5,24 +5,24 @@ layout: default
 {{ content }}
 
 <section class="publications">
-    {% for post in site.posts %}
+    {% for publication in site.publications %}
         <div class="left">
-            {% if post.featured_image_news %}
-                <a href="{{ post.url }}"><img src="{{ post.featured_image_news }}" /></a>
-            {% elsif post.featured_image %}
-                <a href="{{ post.url }}"><img src="{{ post.featured_image }}" /></a>
+            {% if publication.featured_image_publications %}
+                <a href="{{ publication.url }}"><img src="{{ publication.featured_image_publications }}" /></a>
+            {% elsif publication.featured_image %}
+                <a href="{{ publication.url }}"><img src="{{ publication.featured_image }}" /></a>
             {% else %}
-                <a class="featured-text" href="{{ post.url }}">
-                    <h3>{{ post.featured_text }}</h3>
+                <a class="featured-text" href="{{ publication.url }}">
+                    <h3>{{ publication.featured_text }}</h3>
                 </a>
             {% endif %}
         </div>
         <div class="right">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <span class="date">{{ post.date | date: '%B %-d, %Y' }}</span>
+            <h2><a href="{{ publication.url }}">{{ publication.title }}</a></h2>
+            <span class="date">{{ publication.date | date: '%B %-d, %Y' }}</span>
             <p>
-                {{ post.snippet }}
-                <a href="{{ post.url }}">Read more</a>.
+                {{ publication.snippet }}
+                <a href="{{ publication.url }}">Read more</a>.
             </p>
         </div>
     {% endfor %}
