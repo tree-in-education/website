@@ -4,7 +4,7 @@ title: Ilma Lodhi
 name: Ilma Lodhi
 type: community
 ordering: 4
-role: 
+role: Teacher
 filename: assets/images/people_images/ilma_lodhi.JPG
 ---
 
