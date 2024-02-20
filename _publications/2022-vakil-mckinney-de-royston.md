@@ -3,6 +3,7 @@ layout: publication
 title: Youth as philosophers of technology
 featured: 0
 slug: vakil-mckinney-de-royston-2022
+snippet-landing: Article in Mind, Culture, and Activity
 snippet: Article in Mind, Culture, and Activity
 ---
 
