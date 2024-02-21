@@ -50,6 +50,35 @@ extra_scripts:
 
 <hr>
 
+<h2>Undergraduate Researchers</h2>
+{% assign undergrads = site.people | where: 'type', "undergraduate" | sort: 'ordering' %}
+<div class="undergrads">
+    {% for person in undergrad %}
+    <div id="{{ person.slug }}">
+        <h3>{{ person.name }}</h3>
+        <ul>
+            <li>{{ person.role }}</li>
+            <li>Worked on: 
+                {% assign counter = 0 %}
+                {% for project in site.projects %}
+                    {% assign collaborators = project.collaborators %}
+                    {% if project.former_collaborators %}
+                        {% assign collaborators = collaborators | concat: project.former_collaborators %}
+                    {% endif %}
+                    {% for collaborator in collaborators %}
+                        {% if collaborator.slug == person.slug %}
+                            {% if counter > 0 %} &bull; {% endif %}
+                            <a href="../projects#{{ project.slug}}">{{ project.shortname}}</a>
+                            {% assign counter = counter | plus: 1 %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </li>
+        </ul>
+
+    </div>
+    {% endfor %}
+    
 <h2>Alums</h2>
 {% assign alums = site.people | where: 'type', "alum" | sort: 'ordering' %}
 <div class="alums">
