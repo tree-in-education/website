@@ -4,15 +4,26 @@ layout: default
 
 {{ content }}
 
-{% list publications = site.publications %}
 <section class="publications">
-    {% for publication in publications %}
-    <div id="{{ publication.slug }}">
-        <h2>{{ publication.title }}</h2>
-        <ul>
-            <li>{{ publication.snippet }}</li>
-            </li>
-        </ul>
-
-    </div>
+    {% for publication in site.publications %}
+        <div class="left">
+            {% if publication.featured_image_publications %}
+                <a href="{{ publication.url }}"><img src="{{ publication.featured_image_publications }}" /></a>
+            {% elsif publication.featured_image %}
+                <a href="{{ publication.url }}"><img src="{{ publication.featured_image }}" /></a>
+            {% else %}
+                <a class="featured-text" href="{{ publication.url }}">
+                    <h3>{{ publication.featured_text }}</h3>
+                </a>
+            {% endif %}
+        </div>
+        <div class="right">
+            <h2><a href="{{ publication.url }}">{{ publication.title }}</a></h2>
+            <span class="date">{{ publication.date | date: '%B %-d, %Y' }}</span>
+            <p>
+                {{ publication.snippet }}
+                <a href="{{ publication.url }}">Read more</a>.
+            </p>
+        </div>
+    {% endfor %}
 </section>
