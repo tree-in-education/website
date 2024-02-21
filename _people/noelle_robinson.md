@@ -2,6 +2,6 @@
 slug: noelle-robinson
 title: Noelle Robinson
 name: Noelle Robinson
-type: alum
+type: undergraduate
 role: Undergraduate Student Researcher
 ---
