@@ -4,7 +4,7 @@ title: Ilma Lodhi
 name: Ilma Lodhi
 type: community
 ordering: 4
-role: 
+role: Teacher
 filename: assets/images/people_images/ilma_lodhi.JPG
 ---
 Ilma Lodhi is a desi math educator at Evanston Township High School, a former biomedical engineer, and an activist interested in reseraching what abolition can look like in formal education.
